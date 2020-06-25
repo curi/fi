@@ -24,9 +24,15 @@ description: >- # this means to ignore newlines until "baseurl:"
   Max's FI Tutorials, June 2020. Topics include: grammar, overreaching,
   and other things.
 baseurl: "/fi" # the subpath of your site, e.g. /blog
-url: "https://xertrov.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://xertrov.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: xertrov
 github_username:  xertrov
+
+
+aux_links:
+  "Public google docs folder":
+    - "https://drive.google.com/drive/u/0/folders/1_CXXYqdyV8FE5BWXMGChlhd76vL4gc--"
+
 
 # plugins:
 #   - jekyll-feed
