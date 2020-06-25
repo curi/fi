@@ -52,35 +52,6 @@ function diagonal(s, d) {
 }
 
 const runTree = input => {
-  const parsed = parseLisp(input);
-  console.log("parsed:", parsed[0][0], parsed[0], parsed);
-  const treeData2 = [toTreeData(parsed[0])];
-  console.log(treeData2);
-
-  const treeData3 = {
-      name: "sat",
-      children: [
-        { name: "dog" },
-        {
-          name: "on",
-          children: [{ name: "mat", children: [{ name: "the" }] }]
-        }
-      ]
-    };
-
-  const treeData1 = {
-    name: "Top Level",
-    children: [
-      {
-        name: "Level 2: A",
-        children: [{ name: "Son of A" }, { name: "Daughter of A" }]
-      },
-      { name: "Level 2: B" }
-    ]
-  };
-
-  const treeData = treeData3
-
   // ************** Generate the tree diagram	 *****************
   const margin = {
       top: 20,
@@ -108,10 +79,7 @@ const runTree = input => {
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
   }
 
-  const root = d3.hierarchy(treeData, d => d.children); //treeData[0];
-  root.x0 = height / 2;
-  root.y0 = 0;
-  console.log(root);
+  let root;
 
   function update(source) {
     // Assigns the x and y position for the nodes
@@ -412,9 +380,54 @@ const runTree = input => {
 
   */
 
-  update(root);
   console.log(`set up d3`);
   d3.select(self.frameElement).style("height", "600px");
+
+  const doUpdate = newCode => {
+    console.warn("doUpdate");
+    const parsed = parseLisp(newCode);
+    console.log("parsed:", parsed[0][0], parsed[0], parsed);
+    const treeData = [toTreeData(parsed[0])];
+    console.log(treeData);
+
+    const treeData3 = {
+      name: "sat",
+      children: [
+        { name: "dog" },
+        {
+          name: "on",
+          children: [{ name: "mat", children: [{ name: "the" }] }]
+        }
+      ]
+    };
+
+    const treeData1 = {
+      name: "Top Level",
+      children: [
+        {
+          name: "Level 2: A",
+          children: [{ name: "Son of A" }, { name: "Daughter of A" }]
+        },
+        { name: "Level 2: B" }
+      ]
+    };
+
+    // const treeData = treeData2
+
+    if (!root) {
+      root = d3.hierarchy(treeData, d => d.children); //treeData[0];
+      root.x0 = height / 2;
+      root.y0 = 0;
+    } else {
+      root.children = d3.hierarchy(treeData, d => d.children).children;
+    }
+    console.log(root);
+    update(root);
+  };
+
+  doUpdate(input);
+
+  return doUpdate;
 };
 
 export default runTree;

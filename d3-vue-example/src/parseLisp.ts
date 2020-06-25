@@ -22,6 +22,10 @@ const tokenizer = (rules: Rules) => (input: string): {token: string, type: strin
             };
         }
     }
+    if (JSON.stringify(input) === "[]") {
+        // do nothing
+        return parse(rest, ast, parents);
+    }
 
     throw new Error(`no matching tokenize rule for ${JSON.stringify(input)}`);
 };
@@ -30,39 +34,46 @@ const tokenizer = (rules: Rules) => (input: string): {token: string, type: strin
 type LispAstM<T> = (string | T)[]
 
 
-const parser = (tokenize: Tokenizer) => function parse(input: string, ast: string[] = [], parents: any[] = []): string[] {
-    if (input === '') {
-        return ast;
-    }
-
-    const { token, type, rest } = tokenize(input);
-
-    if (type === 'space') {
-        // do nothing
-        return parse(rest, ast, parents);
-    } else if (type === 'variable') {
-        ast.push(token);
-        return parse(rest, ast, parents);
-    } else if (type === 'number') {
-        // ast.push(Number(token));
-        ast.push(token);
-        return parse(rest, ast, parents);
-    } else if (type === 'string') {
-        ast.push(token.replace(/(^"|"$)/g, "'"));
-        return parse(rest, ast, parents);
-    } else if (type === 'lParen') {
-        parents.push(ast)
-        return parse(rest, [], parents)
-    } else if (type === 'rParen') {
-        const parentAst = parents.pop();
-        if (parentAst) {
-            parentAst.push(ast);
-            return parse(rest, parentAst, parents);
+const parser = (tokenize: Tokenizer) => {
+    const parse = (input: string, ast: string[] = [], parents: any[] = []): string[] => {
+        if (input === '') {
+            return ast;
         }
-        return parse(rest, ast, parents);
-    }
 
-    throw new Error(`Missing parse logic for rule ${JSON.stringify(type)}`);
+        const { token, type, rest } = tokenize(input);
+
+        console.warn(`Token: ${JSON.stringify(token)}`)
+        if (type === 'space') {
+            // do nothing
+            return parse(rest, ast, parents);
+        } else if (type === 'variable') {
+            ast.push(token);
+            return parse(rest, ast, parents);
+        } else if (type === 'number') {
+            // ast.push(Number(token));
+            ast.push(token);
+            return parse(rest, ast, parents);
+        } else if (type === 'string') {
+            ast.push(token.replace(/(^"|"$)/g, "'"));
+            return parse(rest, ast, parents);
+        } else if (type === 'lParen') {
+            parents.push(ast)
+            return parse(rest, [], parents)
+        } else if (type === 'rParen') {
+            const parentAst = parents.pop();
+            if (parentAst) {
+                parentAst.push(ast);
+                return parse(rest, parentAst, parents);
+            }
+            return parse(rest, ast, parents);
+        } else if (JSON.stringify(type) === '[]') {
+            // do nothing
+            return parse(rest, ast, parents);
+        }
+
+        throw new Error(`Missing parse logic for rule ${JSON.stringify(type)}. ${JSON.stringify({input, ast, parents})}`);
+    }
+    return parse
 };
 
 
