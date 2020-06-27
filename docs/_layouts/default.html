@@ -78,6 +78,10 @@ layout: table_wrappers
             {% else %}
               {{ content }}
             {% endif %}
+            
+            <hr>
+            
+            {% include talkyard-comments.html %}
 
           {% if page.has_children == true and page.has_toc != false %}
             <hr>
@@ -95,8 +99,6 @@ layout: table_wrappers
           {% endif %}
 
           {% if site.footer_content != nil or site.last_edit_timestamp or site.gh_edit_link %}
-            <hr>
-            {% include talkyard-comments.html %}
             <hr>
             <footer>
               {% if site.back_to_top %}
