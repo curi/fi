@@ -96,6 +96,8 @@ layout: table_wrappers
 
           {% if site.footer_content != nil or site.last_edit_timestamp or site.gh_edit_link %}
             <hr>
+            {% include talkyard-comments.html %}
+            <hr>
             <footer>
               {% if site.back_to_top %}
               <p><a href="#top">{{ site.back_to_top_text }}</a></p>
