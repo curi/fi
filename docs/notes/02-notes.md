@@ -45,3 +45,31 @@ writing without subordinating conjunctions sucks. elephants and zoo example.
 ## Practice
 
 See [exercises](../ex/02-ex.md)
+
+# Part 3: Verbals, References and Implied Words
+
+## Verbals
+
+based on a verb, but not a verb. like "fooling", "to eat", "broken". they share features of verbs like having an object or complement (no subject)
+
+* **gerund**: *noun* based on verb; ends in `-ing`. "fooling"
+* **participle**: *adj* based on verb; can be suffixed `-ing` too, but also `-ed` and maybe others.
+* **infinitive**: verbs with 'to' in front: 'to sit', 'to be'. *I want to sit* -> 'to sit' -> noun infinitive (want is the verb, 'to sit' the object). verbs don't end in -ing or have `to` in front
+
+## References:
+
+* pronouns: always nouns
+* reference adjectives: 'my', 'your'
+* abbreviations
+* explanatory refs: e.g. *the thing you said yesterday about cats* -- often unclear. more info better than less
+
+## implied words
+
+happens often, somewhat ambiguous
+
+"that" is often omitted; full form of "I think Ayn Rand was wise" is "I think that Ayn Rand was wise". 
+
+* *indirect object*: shortcut to involving an implied word. they're nouns that come after verbs. *I threw her the ball* -> *I threw to her the ball*; 'her' is an indirect object, 'to her' is prepositional phrase moding 'threw'
+* common with conjs -> avoids repetition
+* confused? -> look for implied words
+* formal writing often doesn't leave them -> less ambiguous
