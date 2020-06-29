@@ -165,5 +165,19 @@ layout: table_wrappers
       <div class="search-overlay"></div>
     {% endif %}
   </div>
+
+  <script>
+    var config = {
+      startOnLoad:true,
+      theme: 'forest',
+      flowchart:{
+              useMaxWidth:false,
+              htmlLabels:true
+          }
+    };
+    mermaid.initialize(config);
+    window.mermaid.init(undefined, document.querySelectorAll('.mmd'));
+  </script>
+  
 </body>
 </html>

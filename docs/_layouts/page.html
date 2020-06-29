@@ -2,10 +2,15 @@
 layout: default
 ---
 
+{% if page.date %}
+<em>{{ page.date }}</em>
+{% endif %}
+
 {{ content }}
 
 <hr>
 
+{% include talkyard-comments.html %}
+
 {% comment %}
-{% include %}
 {% endcomment %}
