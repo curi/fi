@@ -51,6 +51,10 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 
+talkyard_server_url: https://comments-for-xk-io.talkyard.net
+talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
+
+
 # plugins:
 #   - jekyll-feed
 # plugins:
