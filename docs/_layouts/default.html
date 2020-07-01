@@ -234,7 +234,14 @@ const parseWhitespaceTree = (input) => {
 }
 
 
+const prettyPrintTree = (tree) => {
+  const inner = (tree) => {
+    const {n, cs} = tree;
+    return {n, cs: cs.map(inner)}
+  }
 
+  return JSON.stringify(inner(tree), null, 2)
+}
 
 
 console.log(`getting highlighted pre tags`)
@@ -248,6 +255,7 @@ mdFenced.forEach(el => {
     console.log(`raw grammar src:`, grammarTreeSrc)
     const grammarTree = parseWhitespaceTree(grammarTreeSrc);
     console.log(`grammar tree:`, grammarTree);
+    console.log(prettyPrintTree(grammarTree));
   }
 })
 
