@@ -2,4 +2,10 @@
 layout: page
 ---
 
+{% if page.author %}
+<em>By {{ page.author }}</em>
+{% endif %}
+
+{% comment %} The page layout includes the date at the top already. {% endcomment %}
+
 {{ content }}
