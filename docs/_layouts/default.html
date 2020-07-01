@@ -172,11 +172,12 @@ layout: table_wrappers
 console.log(`define parseWhitespaceTree`);
 
 const parseWhitespaceTree = (input) => {
-  const _lines = input.split('\n').filter(v => v.replace(/ /g, '').length > 0);
+  const _lines = input.split('\n').map(l => l.split('--')[0]).filter(v => v.replace(/ /g, '').length > 0);
   const _depths = _lines.map(v => v.length - v.replace(/^ */, '').length)
   
   if (_depths[0] !== 0) {
-    return {n: "Error: first line (root) cannot be indented"}
+    console.error("Error: first line (root) cannot be indented")
+    throw Error("Error: first line (root) cannot be indented")
   }
 
   const root = _lines[0];
@@ -184,7 +185,7 @@ const parseWhitespaceTree = (input) => {
 
   // make depths integer multiple of first depth
   const depths = _depths.map(d => d / childDepth | 0);
-  const lines = _lines.map(l => l.replace(/^ */, ''));
+  const lines = _lines.map(l => l.replace(/^ */, '').split('--')[0]);
 
   const mkNode = (nodeName, parent) => {
     const newNode = { n: nodeName, cs: [], p: parent || null };
@@ -212,7 +213,7 @@ const parseWhitespaceTree = (input) => {
     else if (depths[i] > lastDepth) {
       // error -- descending too fast
       console.error(`descending too fast`, lines, depths, input)
-      return mkNode('error: descended too fast')
+      throw Error('error: descended too fast')
     }
     // ascending -- can do more than 1 level at once
     else if (depths[i] < lastDepth) {
@@ -224,6 +225,7 @@ const parseWhitespaceTree = (input) => {
     else {
       // error
       console.error(`got here, not sure how`, lines, depths, input)
+      throw Error('not sure how i got here')
     }
 
     lastDepth = depths[i];
@@ -244,6 +246,24 @@ const prettyPrintTree = (tree) => {
 }
 
 
+const treeToMmd = (tree) => {
+  const inner = (t, nName) => {
+    const _nodeName = (nName || 'r');
+
+    const childLinks = t.cs.map((child, i) => {
+      return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
+    })
+
+    return `${_nodeName}[${t.n}]
+${childLinks.join('\n')}`
+  }
+
+  return `graph TD
+${inner(tree)}
+`
+}
+
+
 console.log(`getting highlighted pre tags`)
 const mdFenced = document.querySelectorAll("pre.highlight");
 console.log(mdFenced);
@@ -256,6 +276,11 @@ mdFenced.forEach(el => {
     const grammarTree = parseWhitespaceTree(grammarTreeSrc);
     console.log(`grammar tree:`, grammarTree);
     console.log(prettyPrintTree(grammarTree));
+
+    mmdEl = document.createElement("pre")
+    mmdEl.classList.add("mmd")
+    mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree)))
+    el.parentNode.appendChild(mmdEl)
   }
 })
 
