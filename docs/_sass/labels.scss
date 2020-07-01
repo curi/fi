@@ -19,6 +19,10 @@
   border-radius: 12px;
 }
 
+g.label {
+  text-transform: none;
+}
+
 .label-green {
   background-color: $green-200;
 }

@@ -167,16 +167,100 @@ layout: table_wrappers
   </div>
 
   <script>
-    var config = {
-      startOnLoad:true,
-      theme: 'forest',
-      flowchart:{
-              useMaxWidth:false,
-              htmlLabels:true
-          }
-    };
-    mermaid.initialize(config);
-    window.mermaid.init(undefined, document.querySelectorAll('.mmd'));
+// <pre>
+// ^^ dirty hack for compress.html
+console.log(`define parseWhitespaceTree`);
+
+const parseWhitespaceTree = (input) => {
+  const _lines = input.split('\n').filter(v => v.replace(/ /g, '').length > 0);
+  const _depths = _lines.map(v => v.length - v.replace(/^ */, '').length)
+  
+  if (_depths[0] !== 0) {
+    return {n: "Error: first line (root) cannot be indented"}
+  }
+
+  const root = _lines[0];
+  const childDepth = _depths[1];
+
+  // make depths integer multiple of first depth
+  const depths = _depths.map(d => d / childDepth | 0);
+  const lines = _lines.map(l => l.replace(/^ */, ''));
+
+  const mkNode = (nodeName, parent) => {
+    const newNode = { n: nodeName, cs: [], p: parent || null };
+    if (!!parent) {
+      parent.cs.push(newNode)
+    }
+    return newNode
+  }
+  const tree = mkNode(root)
+
+  let lastDepth = 0;
+  let currNode = tree;
+  let i = 1;
+  while (i < depths.length) {
+    // sibling
+    if (depths[i] === lastDepth) {
+      currNode = mkNode(lines[i], currNode.p)
+    }
+    // descending; cant do more than 1 step at a time while descending
+    else if (depths[i] === lastDepth + 1) {
+      currNode = mkNode(lines[i], currNode)
+      lastDepth = depths[i]
+    }
+    // descending too fast
+    else if (depths[i] > lastDepth) {
+      // error -- descending too fast
+      console.error(`descending too fast`, lines, depths, input)
+      return mkNode('error: descended too fast')
+    }
+    // ascending -- can do more than 1 level at once
+    else if (depths[i] < lastDepth) {
+      currNode = currNode.p;
+      lastDepth--;
+      // don't increment i, just ascend till we find a sibling
+      continue;
+    }
+    else {
+      // error
+      console.error(`got here, not sure how`, lines, depths, input)
+    }
+
+    lastDepth = depths[i];
+    i++;
+  }
+
+  return tree;
+}
+
+
+
+
+
+console.log(`getting highlighted pre tags`)
+const mdFenced = document.querySelectorAll("pre.highlight");
+console.log(mdFenced);
+
+mdFenced.forEach(el => {
+  const child1 = el.childNodes[0];
+  if (child1.nodeName === "CODE") {
+    const grammarTreeSrc = child1.innerHTML.replace(/[()]/g, '');
+    console.log(`raw grammar src:`, grammarTreeSrc)
+    const grammarTree = parseWhitespaceTree(grammarTreeSrc);
+    console.log(`grammar tree:`, grammarTree);
+  }
+})
+
+var config = {
+  startOnLoad:true,
+  flowchart:{
+          useMaxWidth:true,
+          htmlLabels:false
+      }
+};
+mermaid.initialize(config);
+window.mermaid.init(undefined, document.querySelectorAll('.mmd'));
+// </pre>
   </script>
   
 </body>
