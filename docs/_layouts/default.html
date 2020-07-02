@@ -279,7 +279,8 @@ mdFenced.forEach(el => {
 
     mmdEl = document.createElement("pre")
     mmdEl.classList.add("mmd")
-    mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree)))
+    mmdEl.innerHTML = treeToMmd(grammarTree);
+    /* mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree))) */
     el.parentNode.appendChild(mmdEl)
   }
 })
