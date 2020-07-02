@@ -1,10 +1,12 @@
 ---
 layout: page
-title: Parsing Exercises | Parts 1, 2, 3, and 4
+title: Parsing Exercises
 date: 2020-06-22 to 2020-07-01
+has_children: true
 ---
 
-
+1. TOC
+{:toc}
 
 [Tutorial 1]: https://www.youtube.com/watch?v=-nUP-Xqh_Dw
 [Tutorial 2]: https://www.youtube.com/watch?v=ZOeWo2v3nhA

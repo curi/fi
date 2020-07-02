@@ -257,7 +257,7 @@ const treeToMmd = (tree) => {
       return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
     })
 
-    const subGraphInfo = t.groupInfo ? `subgraph ${t.groupInfo}` : '';
+    const subGraphInfo = t.groupInfo ? `subgraph sg.${_nodeName} [${t.groupInfo}]` : '';
 
     return `${_nodeName}["${t.n}"]
 ${subGraphInfo}

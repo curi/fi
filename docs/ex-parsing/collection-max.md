@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Parsing Exercises | Max's Collection
+parent: Parsing Exercises
 date: 2020-06-29
 ---
 
 1. TOC
 {:toc}
-
 
 ## He was waiting for the rain to stop.
 
@@ -15,9 +15,10 @@ date: 2020-06-29
     he :: pronoun
     (waiting :: gerund
         (for :: preposition
-            (rain :: noun
-                the :: det
-                (to stop) :: infinitive ?unsure?
+            ((to stop) :: infinitive 
+                (rain :: noun
+                    the :: det
+                ) :: object
             )
         )
     )
@@ -31,16 +32,17 @@ date: 2020-06-29
 implied => Nobody [has] ever been bothered by being dead
 
 ```
-(bothered :: verb
+(bothered :: verb, linking
     (has :: aux verb
         been :: aux verb
-        ever :: adverb)
+        ever :: adverb
+    ) :: adverbial
     nobody :: pronoun
     (by :: preposition
         (being :: gerund
-            dead :: adjective <br /> object of being?
+            dead :: adjective / object of 'being'
         )
-    ) :: adverb
+    ) :: adverbial
 )
 ```
 
@@ -51,7 +53,7 @@ implied => Nobody [has] ever been bothered by being dead
 bothered as root
 nobody under bothered
 
-
+* bothered becomes a linking verb bc
 
 
 relative pronoun -> clause function as modifier 
