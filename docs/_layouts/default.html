@@ -257,7 +257,6 @@ const treeToMmd = (tree) => {
       return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
     })
 
-    console.log('')
     if (t.n.replace(/ /g, '') === '') {
       return ''
     }
@@ -296,7 +295,8 @@ mdFenced.forEach(el => {
     mmdEl = document.createElement("pre")
     mmdEl.classList.add("mmd")
     mmdEl.innerHTML = treeToMmd(grammarTree);
-    console.log(`mermaid render: ${JSON.stringify(mmdEl.innerHTML)}`)
+    console.log(`mermaid render:`)
+    console.log(mmdEl.innerHTML)
     /* mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree))) */
     el.parentNode.appendChild(mmdEl)
   }
