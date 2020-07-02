@@ -31,24 +31,27 @@ date: 2020-06-29
 implied => Nobody [has] ever been bothered by being dead
 
 ```
-(been :: verb
+(bothered :: verb
     (has :: aux verb
+        been :: aux verb
         ever :: adverb)
-
     nobody :: pronoun
-
-    (bothered :: adjective
-        (by being dead :: adverb<br />complete phrase
-            (by :: preposition
-                (being :: gerund
-                    dead :: adjective <br /> object of being?
-                )
-            )
+    (by :: preposition
+        (being :: gerund
+            dead :: adjective <br /> object of being?
         )
-    )
+    ) :: adverb
 )
 ```
 
 * 'ever' adverb on 'has' 
   * -> usage: can remove 'ever', 'has ever', but not just 'has'
   * -> 'ever been to the moon?' -> implied 'have you'
+
+bothered as root
+nobody under bothered
+
+
+
+
+relative pronoun -> clause function as modifier 

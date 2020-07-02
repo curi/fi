@@ -172,7 +172,7 @@ layout: table_wrappers
 console.log(`define parseWhitespaceTree`);
 
 const parseWhitespaceTree = (input) => {
-  const _lines = input.split('\n').map(l => l.split('--')[0]).filter(v => v.replace(/ /g, '').length > 0);
+  const _lines = input.split('\n').map(l => l.split('--')[0]).filter(v => v.replace(/[ \(\)]/g, '').length > 0);
   const _depths = _lines.map(v => v.length - v.replace(/^ */, '').length)
   
   if (_depths[0] !== 0) {
@@ -180,12 +180,12 @@ const parseWhitespaceTree = (input) => {
     throw Error("Error: first line (root) cannot be indented")
   }
 
-  const root = _lines[0];
   const childDepth = _depths[1];
 
   // make depths integer multiple of first depth
   const depths = _depths.map(d => d / childDepth | 0);
-  const lines = _lines.map(l => l.replace(/^ */, '').split('--')[0]);
+  const lines = _lines.map(l => l.replace(/^ */, '').split('--')[0].replace(') ::', '::').replace(/[\()]/g, ''));
+  const root = lines[0];
 
   const mkNode = (nodeName, parent) => {
     const newNode = { n: nodeName, cs: [], p: parent || null };
@@ -202,7 +202,12 @@ const parseWhitespaceTree = (input) => {
   while (i < depths.length) {
     // sibling
     if (depths[i] === lastDepth) {
-      currNode = mkNode(lines[i], currNode.p)
+      if (lines[i].slice(0, 3) === ":: ") {
+        // then we have type info for a group (the previous child)
+        currNode.groupInfo = lines[i].slice(3);
+      } else {
+        currNode = mkNode(lines[i], currNode.p)
+      }
     }
     // descending; cant do more than 1 step at a time while descending
     else if (depths[i] === lastDepth + 1) {
@@ -238,11 +243,9 @@ const parseWhitespaceTree = (input) => {
 
 const prettyPrintTree = (tree) => {
   const inner = (tree) => {
-    const {n, cs} = tree;
-    return {n, cs: cs.map(inner)}
+    return {...tree, cs: tree.cs.map(inner), p: undefined}
   }
-
-  return JSON.stringify(inner(tree), null, 2)
+  return JSON.stringify(inner(tree), null, 2);
 }
 
 
@@ -254,8 +257,12 @@ const treeToMmd = (tree) => {
       return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
     })
 
-    return `${_nodeName}[${t.n}]
-${childLinks.join('\n')}`
+    const subGraphInfo = t.groupInfo ? `subgraph ${t.groupInfo}` : '';
+
+    return `${_nodeName}["${t.n}"]
+${subGraphInfo}
+${childLinks.join('\n')}
+${subGraphInfo.length > 0 ? 'end' : ''}`
   }
 
   return `graph TD
@@ -271,7 +278,7 @@ console.log(mdFenced);
 mdFenced.forEach(el => {
   const child1 = el.childNodes[0];
   if (child1.nodeName === "CODE") {
-    const grammarTreeSrc = child1.innerHTML.replace(/[()]/g, '');
+    const grammarTreeSrc = child1.innerHTML;
     console.log(`raw grammar src:`, grammarTreeSrc)
     const grammarTree = parseWhitespaceTree(grammarTreeSrc);
     console.log(`grammar tree:`, grammarTree);
