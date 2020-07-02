@@ -257,12 +257,21 @@ const treeToMmd = (tree) => {
       return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
     })
 
-    const subGraphInfo = t.groupInfo ? `subgraph sg.${_nodeName} [${t.groupInfo}]` : '';
+    console.log('')
+    if (t.n.replace(/ /g, '') === '') {
+      return ''
+    }
+
+    /* hack to draw lots of subgraphs to maintain ordering of children */
+    t.groupInfo = t.groupInfo ? t.groupInfo : '#nbsp;';
+    const subGraphInfo = `subgraph sg.${_nodeName} ["${t.groupInfo}"]`;
+
+    const afterNodeData = t.cs.length > 0 ? `${subGraphInfo}
+${childLinks.join('\n')}
+${subGraphInfo.length > 0 ? 'end' : ''}` : '';
 
     return `${_nodeName}["${t.n}"]
-${subGraphInfo}
-${childLinks.join('\n')}
-${subGraphInfo.length > 0 ? 'end' : ''}`
+${afterNodeData}`
   }
 
   return `graph TD
@@ -287,6 +296,7 @@ mdFenced.forEach(el => {
     mmdEl = document.createElement("pre")
     mmdEl.classList.add("mmd")
     mmdEl.innerHTML = treeToMmd(grammarTree);
+    console.log(`mermaid render: ${JSON.stringify(mmdEl.innerHTML)}`)
     /* mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree))) */
     el.parentNode.appendChild(mmdEl)
   }
