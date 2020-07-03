@@ -19,7 +19,12 @@
   }
 
   @include mq(lg) {
-    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    width: calc((100% - #{$nav-width + $content-width-lg}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
+
+  @include mq(xl) {
+    width: calc((100% - #{$nav-width + $content-width-wide}) / 2 + #{$nav-width});
     min-width: $nav-width;
   }
 }
@@ -32,8 +37,17 @@
   }
 
   @include mq(lg) {
+    max-width: $content-width-lg;
+    margin-left: $nav-width;
+    // calc(
+    //   (100% - #{$nav-width + $content-width-lg}) / 2 + #{$nav-width}
+    // ));
+  }
+
+  @include mq(xl) {
+    max-width: $content-width-wide;
     margin-left: calc(
-      (100% - #{$nav-width + $content-width}) / 2 + #{$nav-width}
+      (100% - #{$nav-width + $content-width-wide}) / 2 + #{$nav-width}
     );
   }
 }

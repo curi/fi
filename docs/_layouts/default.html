@@ -254,7 +254,7 @@ const treeToMmd = (tree) => {
     const _nodeName = (nName || 'r');
 
     const childLinks = t.cs.map((child, i) => {
-      return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('.'))}`
+      return `${_nodeName} --- ${inner(child, [_nodeName, i.toString()].join('-'))}`
     })
 
     if (t.n.replace(/ /g, '') === '') {
@@ -263,7 +263,7 @@ const treeToMmd = (tree) => {
 
     /* hack to draw lots of subgraphs to maintain ordering of children */
     t.groupInfo = t.groupInfo ? t.groupInfo : '#nbsp;';
-    const subGraphInfo = `subgraph sg.${_nodeName} ["${t.groupInfo}"]`;
+    const subGraphInfo = `subgraph sg-${_nodeName} ["${t.groupInfo}"]`;
 
     const afterNodeData = t.cs.length > 0 ? `${subGraphInfo}
 ${childLinks.join('\n')}

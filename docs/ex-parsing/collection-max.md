@@ -18,7 +18,7 @@ date: 2020-06-29
             ((to stop) :: infinitive 
                 (rain :: noun
                     the :: det
-                ) :: object
+                ) :: subject
             )
         )
     )
