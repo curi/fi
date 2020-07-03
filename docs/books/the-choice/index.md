@@ -48,7 +48,7 @@ A side effect of the *typical* way people deal with these problems (where they a
 
 Finally, she concludes a good perception of reality is effective and powerful. The implications of this are not acknowledged at this point, but this is epistemically significant in a way Efrat has not yet realised.
 
-**Parallels to BoI**: elegance in hard-to-vary explanations; theory-laden results (forecast is bad => shortages and surpluses); new knowledge proves some element of existing knowledge wrong ("The more I think about it, the more I'm convinced that I would never say, "Away with using a forecast,"); one's perception of reality impacts and directs one's life.
+**Parallels to BoI**: elegance in hard-to-vary explanations; theory-laden results (forecast is bad => shortages and surpluses); new knowledge proves some element of existing knowledge wrong ("The more I think about it, the more I'm convinced that I would never say, "Away with using a forecast,""); one's perception of reality impacts and directs one's life.
 
 ## Chapter 4
 
