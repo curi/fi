@@ -285,7 +285,7 @@ console.log(mdFenced);
 
 mdFenced.forEach(el => {
   const child1 = el.childNodes[0];
-  if (child1.nodeName === "CODE") {
+  if (child1.nodeName === "CODE" && el.parentElement.parentElement.classList.contains("language-plaintext")) {
     const grammarTreeSrc = child1.innerHTML;
     console.log(`raw grammar src:`, grammarTreeSrc)
     const grammarTree = parseWhitespaceTree(grammarTreeSrc);
@@ -299,6 +299,14 @@ mdFenced.forEach(el => {
     console.log(mmdEl.innerHTML)
     /* mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree))) */
     el.parentNode.appendChild(mmdEl)
+
+    linkToImage = document.createElement("a");
+    const formattingOptions = "IEVbMV1cblxuQyAtLT4gRlsyXSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9";
+    const diagramEncoded = btoa(mmdEl.innerHTML);
+    linkToImage.href = `https://mermaid.ink/img/${diagramEncoded}-${formattingOptions}`;
+    linkToImage.target = "_blank";
+    linkToImage.innerHTML = "View diagram as image (jpeg) in new tab"
+    el.parentNode.appendChild(linkToImage)
   }
 })
 
