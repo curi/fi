@@ -2,6 +2,7 @@
 layout: post
 title:  "The Choice: Chapter 1"
 date:   2020-06-27 19:41 +1000
+parent: The Choice - Outline
 ---
 
 *Copied verbatim from post to FI google group*
