@@ -300,13 +300,26 @@ mdFenced.forEach(el => {
     /* mmdEl.appendChild(document.createTextNode(treeToMmd(grammarTree))) */
     el.parentNode.appendChild(mmdEl)
 
-    linkToImage = document.createElement("a");
+    // note: seems like there were multiple ways to get images rendered via mermaid.ink, formattingOptions used in the less-good-way
     const formattingOptions = "IEVbMV1cblxuQyAtLT4gRlsyXSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9";
-    const diagramEncoded = btoa(mmdEl.innerHTML);
-    linkToImage.href = `https://mermaid.ink/img/${diagramEncoded}-${formattingOptions}`;
-    linkToImage.target = "_blank";
-    linkToImage.innerHTML = "View diagram as image (jpeg) in new tab"
-    el.parentNode.appendChild(linkToImage)
+    const diagramEncoded = btoa(JSON.stringify({code: mmdEl.innerHTML, mermaid: {}, updateEditor: true}));
+
+    const mkLink = (url, innerHTML) => {
+      const newLink = document.createElement("a");
+      newLink.href = url;
+      newLink.target = "_blank";
+      newLink.innerHTML = innerHTML
+      return newLink
+    }
+
+    const linkToImage = mkLink(`https://mermaid.ink/img/${diagramEncoded}`, "View JPEG")
+    const linkToSVG = mkLink(`https://mermaid.ink/svg/${diagramEncoded}`, "View SVG")
+    const linkToEdit = mkLink(`https://mermaid-js.github.io/mermaid-live-editor/#/edit/${diagramEncoded}`, "Edit (Mermaid)")
+
+    // el.parentNode.appendChild(linkToImage)
+    const mkSep = () => document.createTextNode(" | ")
+    const links = [linkToImage, linkToSVG, linkToEdit].map(v => [mkSep(), v]).flat().slice(1)
+    el.parentNode.append(...links);
   }
 })
 
