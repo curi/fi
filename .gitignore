@@ -13,3 +13,4 @@ proj/idea-trees
 /broken-trees/
 /.vscode/
 /d3-vue-example/
+.jekyll-cache
