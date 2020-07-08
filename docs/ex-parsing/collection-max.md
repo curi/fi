@@ -59,4 +59,4 @@ relative pronoun -> clause function as modifier
 
 # I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
 
-Note: I can definitely write this better (it's from [early learning: objectivism]({{ ../../pub-drafts/early-learning-objectivism.md | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
+Note: I can definitely write this better (it's from [early learning: objectivism]({{ "../../pub-drafts/early-learning-objectivism.md" | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
