@@ -2,13 +2,18 @@
   "name": "fi-trees",
   "version": "0.1.0",
   "description": "",
-  "main": "fi-trees.js",
+  "main": "fi-conv-trees.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mermaid-cli": "^0.2.4"
+    "mermaid": "github:xertrov/mermaid-cli#max-fi",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^8.5.3"
   }
 }

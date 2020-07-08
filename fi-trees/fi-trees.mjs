@@ -1,9 +1,15 @@
+import winston from 'winston';
+
+const l = winston;
+winston.configure({transports: [new winston.transports.Console()]})
+
 export const parseWhitespaceTree = (input) => {
+  l.debug(`Input type: ${typeof input}`)
   const _lines = input.split('\n').map(l => l.split('--')[0]).filter(v => v.replace(/[ \(\)]/g, '').length > 0);
   const _depths = _lines.map(v => v.length - v.replace(/^ */, '').length)
 
   if (_depths[0] !== 0) {
-    console.error("Error: first line (root) cannot be indented")
+    l.error("Error: first line (root) cannot be indented")
     throw Error("Error: first line (root) cannot be indented")
   }
 
@@ -44,7 +50,7 @@ export const parseWhitespaceTree = (input) => {
     // descending too fast
     else if (depths[i] > lastDepth) {
       // error -- descending too fast
-      console.error(`descending too fast`, lines, depths, input)
+      l.error(`descending too fast`, lines, depths, input)
       throw Error('error: descended too fast')
     }
     // ascending -- can do more than 1 level at once
@@ -56,7 +62,7 @@ export const parseWhitespaceTree = (input) => {
     }
     else {
       // error
-      console.error(`got here, not sure how`, lines, depths, input)
+      l.error(`got here, not sure how`, lines, depths, input)
       throw Error('not sure how i got here')
     }
 
@@ -75,7 +81,7 @@ export const prettyPrintTree = (tree, justReturnStr=false) => {
   }
   const ppTree = JSON.stringify(inner(tree), null, 2);
   if (!justReturnStr) {
-    console.log(ppTree);
+    l.info(ppTree);
   }
   return ppTree;
 }
