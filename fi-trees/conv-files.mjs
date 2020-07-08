@@ -39,8 +39,8 @@ export const convertMmdInDir = async (dirPath) => {
         return Promise.all(mermaidFileTypes.map(outputType => new Promise((res, rej) => {
             const outFile = `${outputNameNoExt}.${outputType}`
             const p = spawn("npx", ["mmdc", "-i", fpath, "-o", outFile, "-t", "fi", "-s", "2"], {shell: true})
-            p.stdout.on('data', d => winston.info(d))
-            p.stderr.on('data', d => winston.error(d))
+            p.stdout.on('data', d => winston.info(d.toString('utf8')))
+            p.stderr.on('data', d => winston.error(d.toString('utf8')))
 
             p.on("exit", (c, s) => {
                 if (c !== 0) {
