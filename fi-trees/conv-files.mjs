@@ -3,7 +3,7 @@
 import * as path from 'path';
 import * as fs from 'fs';
 
-import {parseWhitespaceTree, treeToMmd} from "./fi-trees.mjs";
+import {parseWhitespaceTree, treeToMmd} from "./fi-parse-trees.mjs";
 import { spawn } from 'child_process';
 import { stderr } from 'process';
 import { isFunction } from 'util';

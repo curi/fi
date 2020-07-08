@@ -10,10 +10,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "mermaid": "github:xertrov/mermaid-cli#max-fi",
+    "mermaid-cli": "github:xertrov/mermaid-cli#max-fi",
     "winston": "^3.3.3"
   },
-  "devDependencies": {
-    "@mermaid-js/mermaid-cli": "^8.5.3"
+  "bin": {
+    "fi-convert-trees": "fi-conv-trees.js",
+    "fi-sfi-to-mmd": "fi-sfi-to-mmd.js",
+    "fi-compile-mmd": "fi-compile-mmd.js"
   }
 }
