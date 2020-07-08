@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "mermaid-cli": "github:xertrov/mermaid-cli#max-fi",
+    "mermaid": "github:xertrov/mermaid#max-fi",
     "winston": "^3.3.3"
   },
   "bin": {
