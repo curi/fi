@@ -11,3 +11,7 @@ layout: home
 * <https://curi.us/> - Elliot Temple's blog/forum hybrid
 * <http://fallibleliving.com/> - Maintained by Justin Mallone
 * <https://conjecturesandrefutations.com/> - Alan Forrester's blog
+
+### TCS
+
+* <https://curi.us/2289-the-history-of-taking-children-seriously> - Elliot Temple's post on the history of TCS
