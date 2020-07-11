@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notes | Tutorial 2
+parent: Notes
 ---
 
 # Part 2: Complex Sentence Grammar
