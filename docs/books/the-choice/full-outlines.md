@@ -2,6 +2,7 @@
 title: The Choice - Outline
 has_children: true
 layout: page
+permalink: books/the-choice/
 ---
 
 1. TOC
@@ -107,6 +108,6 @@ Eli claims an important component is still missing from their conversation thus 
 
 ## Chapter 7
 
-
+Ch 7 is about harmony/elegance in nature and good explanations.
 
 ## Chapter 8
