@@ -48,7 +48,12 @@ A side effect of the *typical* way people deal with these problems (where they a
 
 Finally, she concludes a good perception of reality is effective and powerful. The implications of this are not acknowledged at this point, but this is epistemically significant in a way Efrat has not yet realised.
 
-**Parallels to BoI**: elegance in hard-to-vary explanations; theory-laden results (forecast is bad => shortages and surpluses); new knowledge proves some element of existing knowledge wrong ("The more I think about it, the more I'm convinced that I would never say, "Away with using a forecast,""); one's perception of reality impacts and directs one's life.
+### Parallels to BoI:
+
+* elegance in hard-to-vary explanations
+* theory-laden results (forecast is bad => shortages and surpluses)
+* new knowledge proves some element of existing knowledge wrong ('The more I think about it, the more I'm convinced that I would never say, "Away with using a forecast,"')
+* one's perception of reality impacts and directs one's life
 
 ## Chapter 4
 
@@ -56,8 +61,52 @@ Main idea: problems are less complex than people typically assume, we can come u
 
 Eli suggests that the idea of "Inherent Simplicity" has a deeper connection to reality than people usually entertain. Efrat has made this mistake: "I've treated your teaching as a collection of excellent methods. Not as a way to reach a full life." Eli notes that he doesn't see a difference between methods of analysing reality and methods of living a full life; he takes reality seriously and is not an instrumentalist. Eli explains these ideas via Newton's view, expanding on it slightly to make it more obvious that all reality is included, not just "nature" (physics, chemistry, etc).
 
-He explains most ppl think asking 'why' leads to greater complexity, but the nature of reality is such that we can find good explanations.
+He explains most ppl think asking 'why' leads to greater complexity, but the nature of reality is such that we can find good explanations. "Common causes appear as we dive down." The reality is that asking 'why' over and over leads to simplicity, not complexity. Common causes.
 
-Todo: finish
+Efrat claims this doesn't hold for social sciences / psychology. Eli insists cause and effect reasoning can still be applied, pointing out a few reasons, and that if people *were* unpredictable we would be able to sustain a society. Efrat insists people are more complex than organisations, and Eli points out she didn't think this "yesterday".
 
-**Parallels to BoI**: reality is objective and consistent;
+complexity of systems: degrees of freedom vs information required to describe system. former is complex and hard to predict, the latter is easy to predict, and only has one degree of freedom (in the example). So for the latter system, one strategic choice can remove a problem provided you understand the causes and effects. Big Brand is the second type of system: 'complex' at first glance but interconnected, such that touching just one thing could solve a big problem.
+
+one problem covered so far: the perception reality is complex.
+
+### Parallels to BoI:
+
+* reality is objective and consistent
+* power and reach of explanations
+* convergence (to a small extent)
+
+## Chapter 5
+
+"As long as it's just a philosophical speculation I really don't care." - Efrat not taking things as seriously as she should. She's still somewhat open to be convinced, tho.
+
+No contradictions in nature ("harmonious with itself"). Conflicts and contradictions are different. A conflict is an apparent contradiction in goals (e.g. wings of aeroplanes should be both light and strong). Goldratt: "it will lead in good situations to some acceptable compromise, and in bad situations to a stone wall"; I prefer: a solution exists which satisfies all goals; strength and weight have breakpoints and we know that many solutions exist which satisfy both goals (with different solutions for different configurations of the goals; e.g. model plane vs 747).
+
+Undesirable effects are due to bad compromises (which in turn means we don't have good enough solutions or don't understand things well enough). Often there's an underlying assumption that's wrong.
+
+Second obstacle is the belief that: when we have conflicts the best we can do is compromise.
+
+Inherent simplicity => parts of reality we care about governed by only a few elements => find the incorrect assumption => eliminate conflicts.
+
+### Parallels to BoI:
+
+* bad explanations lead to unpredictable outcomes
+* new knowledge proves something wrong about what it replaces (e.g. gravity as a force false according to general relativity, but not newtonian gravity)
+* objective reality; no contradictions in nature
+
+## Chapter 6
+
+Goldratt didn't bother with a full analysis of Big Brand because he didn't need to. Believing that there was a way to deal with the problem ("the undesirable effects") meant he could look at just the components that were a part of that, and via cause and effect logic to find the root cause and deal with that directly. Also: "I took for granted that the root cause is a conflict that doesn't have an acceptable compromise." Bad effects are due to a bad compromise.
+
+Smaller problems can be isolated from that compromise so they can be handled without handling the root problem (common in business). Investigating small problems don't necessarily lead to finding the root cause. Focusing on big problems has a higher return on time/effort.
+
+> Part of the belief in Inherent Simplicity is that any conflict, including root conflicts, can be removed by removing one of the underlying false assumptions.
+
+Efrat asks why Eli kept looking for "better and better solutions", and Eli responds that he didn't, but after changing a deep assumption the situation changes. Looking into the consequences of that change lead to a new 'big picture' and many of the other improvements 'dropped out', as such.
+
+Eli claims an important component is still missing from their conversation thus far.
+
+## Chapter 7
+
+
+
+## Chapter 8
