@@ -18,8 +18,8 @@ come up and how to solve them. (though it's not expressed in The Choice like thi
 use that language here.) The way to do this is the scientist's approach: we can know about and prepare for the world in
 such a way that failures become opportunities to learn, and we can find that energising. Common perceptions of reality
 have two problems: avoiding using brain power because we think we don't have it, problems & solutions must be super
-complex, so we dont have the right tools; and an unwillingness to see reality for what it is, and applying the wrong
-knowledge in search of the soln. The chapter ends with the conjecture that complex reality is actually simple, and Eli
+complex, so we don't have the right tools; and an unwillingness to see reality for what it is, and applying the wrong
+knowledge in search of the solution. The chapter ends with the conjecture that complex reality is actually simple, and Eli
 and Efrat agree to analyse a big apparel company to figure it out, next time on The Choice.
 
 ## Chapters 2 and 3
@@ -33,7 +33,7 @@ details the chain of reasoning by which executives of Big Brand come to realise 
 their problems are addressable with changes to the way they deal with supply and
 manufacture of their goods. 
 
-Chapter 3 is Efrats reflection on the idea of common-sense logic from ch1, the report from ch2, and on what that means
+Chapter 3 is Efrat's reflection on the idea of common-sense logic from ch1, the report from ch2, and on what that means
 for herself and one's life and approach to life. She agrees the reasoning in ch2 is logical
 and common sense, but doesn't see how she could do that herself. 
 
@@ -48,7 +48,7 @@ A side effect of the *typical* way people deal with these problems (where they a
 
 Finally, she concludes a good perception of reality is effective and powerful. The implications of this are not acknowledged at this point, but this is epistemically significant in a way Efrat has not yet realised.
 
-### Parallels to BoI:
+### Parallels to BoI
 
 * elegance in hard-to-vary explanations
 * theory-laden results (forecast is bad => shortages and surpluses)
@@ -69,7 +69,7 @@ complexity of systems: degrees of freedom vs information required to describe sy
 
 one problem covered so far: the perception reality is complex.
 
-### Parallels to BoI:
+### Parallels to BoI
 
 * reality is objective and consistent
 * power and reach of explanations
@@ -87,7 +87,7 @@ Second obstacle is the belief that: when we have conflicts the best we can do is
 
 Inherent simplicity => parts of reality we care about governed by only a few elements => find the incorrect assumption => eliminate conflicts.
 
-### Parallels to BoI:
+### Parallels to BoI
 
 * bad explanations lead to unpredictable outcomes
 * new knowledge proves something wrong about what it replaces (e.g. gravity as a force false according to general relativity, but not newtonian gravity)
@@ -99,7 +99,7 @@ Goldratt didn't bother with a full analysis of Big Brand because he didn't need 
 
 Smaller problems can be isolated from that compromise so they can be handled without handling the root problem (common in business). Investigating small problems don't necessarily lead to finding the root cause. Focusing on big problems has a higher return on time/effort.
 
-> Part of the belief in Inherent Simplicity is that any conflict, including root conflicts, can be removed by removing one of the underlying false assumptions.
+"Part of the belief in Inherent Simplicity is that any conflict, including root conflicts, can be removed by removing one of the underlying false assumptions."
 
 Efrat asks why Eli kept looking for "better and better solutions", and Eli responds that he didn't, but after changing a deep assumption the situation changes. Looking into the consequences of that change lead to a new 'big picture' and many of the other improvements 'dropped out', as such.
 
