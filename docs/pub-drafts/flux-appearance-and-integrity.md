@@ -12,9 +12,9 @@ Appearance matters because it is taken as a *honest indicator*. This works well 
 
 The best thinkers know appearance is often misleading. They also have and have more skill judging ideas; one important factor is judging an idea's content above it's source.
 
-Democracy is an old idea. The stable systems of democracy that exist today have traditions and knowledge which enable their stability and persistence. The claim that Flux and IBDD are able to outgrow the stable systems of today requires we claim we have made a breakthrough where centuries of thinkers have failed. That means we must have some *exceptionally* high quality ideas.
+Democracy is an old idea. The stable systems of democracy that exist today have traditions and knowledge which enable their stability and persistence. To claim that Flux and IBDD are able to outgrow the stable systems of today requires us to also claim we have made a breakthrough where centuries of thinkers have failed. That means we must have some *exceptionally* high quality ideas.
 
-Lots of our ideas don't have to be *exceptionally* high quality, like our ability to do social media well. In fact, most of our ideas, like what to say in this newsletter, or how to try pitching the party in the next interview; those ideas don't need to be *exceptionally* high quality. However, when we catch the eye of an exceptional thinker, they will look for substance. We need to be ready for that.
+Lots of our ideas don't have to be *exceptionally* high quality, like our ability to do social media well. In fact, most of our ideas, like what to say in this newsletter, or how to try pitching the party in the next interview; those ideas don't need to be *exceptionally* high quality all the time. However, *when* we catch the eye of an exceptional thinker, they will look for substance. We need to be ready for that.
 
 There is a much better honest indicator than appearance: integrity. For us, as a party, to have integrity means we **must** be *principled*. Those principles must stand above all else, for to compromise them is to acknowledge their inadequacy, which is to admit our ideas are not of exceptional quality.
 
@@ -26,5 +26,6 @@ To put out appearance above our integrity is to put short-term reward above long
 
 Some future post topics:
 
+* principles of Flux
 * initial limits on IBDD: criminal code (sans single-party crimes), electoral law
 * electoral cycles reward the dishonest because they are carrots on short sticks, but good democracy seeks the bigger carrots on longer sticks.
