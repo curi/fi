@@ -10,7 +10,7 @@ parent: Public Drafts
 
 Appearance matters because it is taken as a *honest indicator*. This works well for other animals because looking good is hard. To some extent this is true for humans too, but people are creative and know how to subvert this.
 
-The best thinkers know appearance is often misleading. They also have and have more skill judging ideas; by the idea's content, rather than it's source.
+The best thinkers know appearance is often misleading. They also have and have more skill judging ideas; one important factor is judging an idea's content above it's source.
 
 Democracy is an old idea. The stable systems of democracy that exist today have traditions and knowledge which enable their stability and persistence. The claim that Flux and IBDD are able to outgrow the stable systems of today requires we claim we have made a breakthrough where centuries of thinkers have failed. That means we must have some *exceptionally* high quality ideas.
 
