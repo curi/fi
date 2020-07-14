@@ -1,10 +1,12 @@
 ---
-title: Appearance is never worth sacrificing one's integrity for.
+title: 2020-07-15 Appearance is never worth sacrificing one's integrity for.
 author: Max Kaye
 date: 2020-07-15
 layout: post
 parent: Public Drafts
 ---
+
+# Appearance is never worth sacrificing one's integrity for.
 
 Appearance matters because it is taken as a *honest indicator*. This works well for other animals because looking good is hard. To some extent this is true for humans too, but people are creative and know how to subvert this.
 
