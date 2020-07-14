@@ -16,9 +16,9 @@ Lots of our ideas don't have to be *exceptionally* high quality, like our abilit
 
 There is a much better honest indicator than appearance: integrity. For us, as a party, to have integrity means we **must** be *principled*. Those principles must stand above all else, for to compromise them is to acknowledge their inadequacy, which is to admit our ideas are not of exceptional quality.
 
-We (Flux: the party, the movement, the people) claim to bring a serious alternative to representative democracy in the form of *ideas*. The only guarantee we can give is our word. The only way we can expect people to trust us is through honesty. To betray honesty, is to betray integrity.
+We (Flux: the party, the movement, the people) claim to bring a serious alternative to representative democracy in the form of *ideas*. The only guarantee we can give is our word. The only way we can expect people to trust us is through deliberate and consistent honesty. To betray our honesty, is to betray our integrity.
 
-To put appearance above integrity is to put short-term reward above honesty. If we claim our ideas are enduring, then our integrity must be enduring. Our honesty must be enduring. And that is why integrity should never be sacrificed for the sake of appearance.
+To put out appearance above our integrity is to put short-term reward above long-term honesty. If we claim our ideas are enduring, then our integrity must be enduring. Our honesty must be enduring. And that is why our integrity should never be sacrificed for the sake of our appearance.
 
 ------
 
