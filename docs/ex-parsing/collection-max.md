@@ -57,6 +57,38 @@ nobody under bothered
 
 relative pronoun -> clause function as modifier 
 
+# The main difference between object and complement in English grammar is that the object is what is affected to the action of the subject while the complement is a part of a clause that usually follows the verb and adds more information about the subject or object.
+
+The main difference between object and complement in English grammar is that the object is what is affected to the action of the subject while the complement is a part of a clause that usually follows the verb and adds more information about the subject or object.
+
+{<[difference] between [x and y]>} is that {[x is [what is [affected to [action of [subject]]]]]} while {[y is [a part of [a clause that [usually follows the verb]]] that [follows the verb] and [adds info about [subject]]]}.
+
+### prelim structure
+
+```
+is that
+    The main difference between object and complement
+        in English grammar
+    while
+        the object is
+            what is affected to
+                the action
+                    of the subject
+        the complement is
+            a part of a clause
+                that
+                    and
+                        usually follows the verb
+                        adds more information
+                            about 
+                                the subject or object
+```
+
+Note: who the hell was paid to write that?
+
+```
+```
+
 # I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
 
 Note: I can definitely write this better (it's from [early learning: objectivism]({{ "../../pub-drafts/early-learning-objectivism.md" | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
