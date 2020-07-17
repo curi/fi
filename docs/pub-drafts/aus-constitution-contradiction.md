@@ -21,7 +21,7 @@ Links:
 
 ---
 
-### Australia has had an illegal and unconstitutional government for 119 years, and no citizen is eligible to sit in HoR or the Senate, even if they wanted to.
+## Australia has had an illegal and unconstitutional government for 119 years, and no citizen is eligible to sit in HoR or the Senate, even if they wanted to.
 
 Australia's constitution is not very well written and has some problems like being internally inconsistent. It also has grammatical oddities (if not errors), and includes the implication any elected parliamentarian passing through foreign airports is automatically ineligible to hold office.
 
@@ -34,3 +34,17 @@ A person can be disqualified from being elected to parliament in five cases unde
 > [Any person who] is under any acknowledgment of allegiance, obedience, or adherence to a foreign power, or [any person who] is a subject or a citizen or entitled to the rights or privileges of a subject or a citizen of a foreign power [shall be incapable of being chosen or of sitting as a senator or a member of the House of Representatives].
 >
 > &mdash; *[The Australian Constitution - Section 44](https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/chapter1/Part_IV_-_Both_Houses_of_the_Parliament)*
+
+I created an outline of this sentence to make it easier to understand: (where `{...}` denotes a clause and `[...]` is replacing words with rough equivalents)
+
+> {[anyone who] is [under X to Z]} or {[anyone who] is [Y or entitled to rights of Y] of [Z]}, {shall be [disqualified]}
+
+* X: `any acknowledgment of allegiance, obedience, or adherence`
+* Y: `a subject or a citizen`
+* Z: `a foreign power`
+
+### Analysing `s44.i`
+
+Let's note a few things:
+
+* s44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power". This is pretty broad
