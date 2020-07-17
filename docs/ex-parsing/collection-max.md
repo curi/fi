@@ -57,9 +57,9 @@ nobody under bothered
 
 relative pronoun -> clause function as modifier 
 
-# The main difference between object and complement in English grammar is that the object is what is affected to the action of the subject while the complement is a part of a clause that usually follows the verb and adds more information about the subject or object.
+## The main difference between object and complement in English grammar is that the object is what is affected to the action of the subject while the complement is a part of a clause that usually follows the verb and adds more information about the subject or object.
 
-The main difference between object and complement in English grammar is that the object is what is affected to the action of the subject while the complement is a part of a clause that usually follows the verb and adds more information about the subject or object.
+I found this on a grammar website.
 
 {<[difference] between [x and y]>} is that {[x is [what is [affected to [action of [subject]]]]]} while {[y is [a part of [a clause that [usually follows the verb]]] that [follows the verb] and [adds info about [subject]]]}.
 
@@ -87,6 +87,7 @@ is that
 Note: who the hell was paid to write that?
 
 ```
+main grammar tree goes here if I ever do this
 ```
 
 # I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
