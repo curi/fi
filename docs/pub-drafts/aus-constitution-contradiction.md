@@ -33,7 +33,7 @@ A person can be disqualified from being elected to parliament in five cases unde
 
 > [Any person who] is under any acknowledgment of allegiance, obedience, or adherence to a foreign power, or [any person who] is a subject or a citizen or entitled to the rights or privileges of a subject or a citizen of a foreign power [shall be incapable of being chosen or of sitting as a senator or a member of the House of Representatives].
 >
-> &mdash; *[The Australian Constitution - Section 44](https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/chapter1/Part_IV_-_Both_Houses_of_the_Parliament)*
+> &mdash; *[The Australian Constitution &ndash; Section 44](https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/chapter1/Part_IV_-_Both_Houses_of_the_Parliament)*
 
 I created an outline of this sentence to make it easier to understand: (where `{...}` denotes a clause and `[...]` is replacing words with rough equivalents)
 
@@ -45,12 +45,44 @@ I created an outline of this sentence to make it easier to understand: (where `{
 
 ### Analysing `s44.i`
 
-Let's note a few things:
+Let's note a few things regarding the first part:
 
 S44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for a foreign power, and complying with their instructions is showing obedience^1 to a foreign power.
 
 S44.i also means that *claiming ignorance* is an acceptable 'get out of jail' card. I suspect the authors wanted to include some idea like *mens rea*, but they've introduced some odd side effects with their choice of phrasing.
 
+This is not the extent of unintended consequences when it comes to the first part of S44.i, though.
+
+### The Oath and Affirmation
+
+Parliamentarians must take an oath or affirmation before sitting in parliament. They are included in the constitution and they are as follows:
+
+> Oath: I, A.B., do swear that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law. SO HELP ME GOD!
+> 
+> Affirmation: I, A.B., do solemnly and sincerely affirm and declare that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law.
+> 
+> (NOTE – The name of the King or Queen of the United Kingdom of Great Britain and Ireland for the time being is to be substituted from time to time.)
+>
+> &mdash; *[The Australian Constitution &ndash; Schedule](https://www.aph.gov.au/About_Parliament/Senate/Powers_practice_n_procedures/Constitution/schedule)*
+
+It is explicitly noted in the Constitution that the head of state of the United Kingdom of Great Britain and Ireland. This makes her the head of state of at least one foreign power, from the perspective of the Constitution.
+
+### The Monarchy
+
+Citizens of a monarchy are known as *subjects* of the monarch; some non-citizens might also be subjects depending on the monarchy in question and the date. For example, before 1949 all Australians were British subjects^2.
+
+Australia is a type of monarchy, and Queen Elizabeth II is our current head-of-state. She's represented by the *Governor General*, but all the minutia is boring and not relevant anyway.
+
+It's common knowledge that Queen Elizabeth II is Australia's head-of-state. If someone were elected to parliament and they didn't know this, they would find out pretty quick because she's explicitly mentioned as part of the oath one takes before assuming their seat in Parliament.
+
+It's common knowledge that Queen Elizabeth II is the head of other states, too, such as the UK and Canada.
+
+The head of state of a foreign power is a foreign power.
+
+### What then, for elected officials in Australia?
+
 
 
 [1]: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
+
+[2]: well, at least according to [this wikipedia page](https://en.wikipedia.org/wiki/Australian_nationality_law#:~:text=A%20person%20born%20in%20Australia,also%20acquired%20citizenship%20by%20birth.).
