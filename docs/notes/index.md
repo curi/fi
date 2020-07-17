@@ -1,8 +1,9 @@
 ---
 title: Notes
-has_children: true
-parent: Tutorials
+parent: Tutorial Notes
 ---
+
+intentionally blank
 
 {% comment %}
 'will of the people'

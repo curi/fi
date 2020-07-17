@@ -1,5 +1,5 @@
 ---
-title: Tutorials
+title: Tutorial Notes
 layout: page
 has_children: true
 ---
