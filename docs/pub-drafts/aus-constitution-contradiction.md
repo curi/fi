@@ -47,4 +47,4 @@ I created an outline of this sentence to make it easier to understand: (where `{
 
 Let's note a few things:
 
-* s44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power". This is pretty broad
+* s44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for 
