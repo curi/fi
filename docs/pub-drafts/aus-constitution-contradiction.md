@@ -47,4 +47,9 @@ I created an outline of this sentence to make it easier to understand: (where `{
 
 Let's note a few things:
 
-* s44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for 
+S44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for a foreign power, and complying with their instructions is showing obedience^1 to a foreign power.
+
+
+
+
+[1]: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
