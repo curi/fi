@@ -49,6 +49,7 @@ Let's note a few things:
 
 S44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for a foreign power, and complying with their instructions is showing obedience^1 to a foreign power.
 
+S44.i also means that *claiming ignorance* is an acceptable 'get out of jail' card. I suspect the authors wanted to include some idea like *mens rea*, but they've introduced some odd side effects with their choice of phrasing.
 
 
 
