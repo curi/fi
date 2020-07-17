@@ -10,3 +10,4 @@ Currently every session has been streamed via YouTube. [playlist]()
 
 * [flux constitution amendment PR](https://github.com/voteflux/flux/pull/41)
 * [3 min into podcast - dawkins and memes](https://curi.us/podcast/meme-misconceptions)
+* [motivation / feeling bad]()

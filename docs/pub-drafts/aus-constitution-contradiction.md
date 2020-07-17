@@ -100,3 +100,7 @@ Since deciding the matter of citizenship is a sovereign right of *nations themse
 [1]: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
 
 [2]: well, at least according to [this wikipedia page](https://en.wikipedia.org/wiki/Australian_nationality_law#:~:text=A%20person%20born%20in%20Australia,also%20acquired%20citizenship%20by%20birth.).
+
+---
+
+## Notes from Tutorial 2020-07-17
