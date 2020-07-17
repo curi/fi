@@ -31,3 +31,57 @@ Some future post topics:
 * principles of Flux
 * initial limits on IBDD: criminal code (sans single-party crimes), electoral law
 * electoral cycles reward the dishonest because they are carrots on short sticks, but good democracy needs bigger carrots on longer sticks.
+
+---
+
+- appearance is ambiguous
+- animals and evolution introduced, but why and not connected to topic
+- decent number of dishonest indicators
+  - peacocks tail, waste of resources
+
+* so paragraph 1 is unclear, what was better to say?
+* indicator for what?
+  * social skill dishonest indicator of financial success
+  * indicators can be honest/dishonest based on perspective
+* appearance is data - need explanation about person - so it is part of judging part of ideas, esp depending on goal of the judging; "above" sounds like weighting factors
+  * theory laden; explanation must say why it's relevant
+* contradictory to later
+* claiming exceptional - proof of work ; something easier to start with, 12:57pm
+* prior to politics: political philosophy
+
+* integrity means more than principles
+* controversial or unclear idea for ppl generally so should talk about principles more explicitly even tho they're mentioned in the definition of integrity
+* clash between both not explained, why would we sacrifice one to the other
+  * unexplained appearance (1:04pm)
+
+seemed incomplete, unstructured, exploratory, not good at communicating core idea
+
+next time: 
+- for every para I write, make a tree for paragraph (after an editing pass)
+  - satisfy by normal methods
+  - use tree to look for issues / opportunities
+- 
+
+- what rule about good writing am i violating and how to fix, did I succeed
+- write out 2+ ways in case of intuition, can compare, then do I have explicit crits at that stage?
+
+- leave alone if there isn't a clear problem
+  - fast and loose, don't sweat details
+- more structured writing has more explicit goals so easier to know if it meets goals / violates goals
+
+- why not getting attention for the things we do want to say (1:17pm)
+
+maybe audience has bigger problems - no one paying attention
+- isn't this like life and EC in general?
+- 
+- more of a role for political commentators etc?
+  - their goal is social climbing or similar things, EC not appealing
+- better EC in govt against interest of ppl in power
+
+
+- less relevant who's in power -- better systems do this; less arbitrary control; better ideas win on their own as opposed to needing political support
+  - ppl lose motivation to become the leader
+
+- no specific goal -> intuition based writing -> based on generic audience -> harder to optimise because goals aren't explicit
+
+- 
