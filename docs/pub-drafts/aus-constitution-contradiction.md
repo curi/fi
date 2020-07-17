@@ -23,11 +23,11 @@ Links:
 
 ## Australia has had an illegal and unconstitutional government for 119 years, and no citizen is eligible to sit in HoR or the Senate, even if they wanted to.
 
-Australia's constitution is not very well written and has some problems like being internally inconsistent. It also has grammatical oddities (if not errors), and includes the implication any elected parliamentarian passing through foreign airports is automatically ineligible to hold office.
+Australia's constitution is not well written and has problems like being internally inconsistent. It has grammatical oddities (if not errors), and includes the implication that any elected parliamentarian passing through foreign airports is automatically ineligible to hold office. Elected officials are also required to swear allegiance to a foreign power (Queen Elizabeth II), which disqualifies them from holding office.
 
-Obviously some (maybe all) of the following interpretations are outside *the spirit of the law*. The problem with this is that whether rules are enforced or not must be based on *potentially inexplicit* knowledge in judges' or magistrates' heads, which weakens the law because it becomes *less clear* when and how to apply it. This lack of consistency also means the *boundaries* between times we should or shouldn't apply aspects of the law are blurred. Thus people in Australian society who interact with these laws put themselves in a higher-risk situation than the original authors intended.
+The relevant section of the constitution is Section 44 (s44). After the 2016 election numerous parliamentarians resigned due to s44. This triggered by-elections, but bought some MPs (members of parliament) enough time to fix the issues, allowing some of them to win the by-election.
 
-The section of the constitution that is relevant to this article is Section 44 (s44). After the 2016 election there were numerous parliamentarians who resigned due to falling afoul of s44. This triggered by-elections, but bought some MPs (members of parliament) enough time to fix the various issues, allowing some of them to win the by-election.
+My interpretations could be considered as outside *the spirit of the law*. The problem with this is that whether rules are enforced or not must be based on *potentially inexplicit* knowledge in judges' or magistrates' heads, which weakens the law because it becomes *less clear* when and how to apply it. This lack of consistency also means the scenarios we should or shouldn't apply aspects of the law are blurred (unpredictability, etc, see 15m-20m). Thus people in Australian society who interact with these laws put themselves in a higher-risk situation than the original authors intended.
 
 A person can be disqualified from being elected to parliament in five cases under s44, but we're only interested the first case (s44.i):
 
@@ -43,19 +43,17 @@ I created an outline of this sentence to make it easier to understand: (where `{
 * Y: `a subject or a citizen`
 * Z: `a foreign power`
 
-### Analysing `s44.i`
+(Note: use descriptive names, not single letter variables; easier for ppl to understand)
 
-Let's note a few things regarding the first part:
+### Analysing `s44.i`
 
 S44.i can disqualify people if they *acknowledge* "allegiance, obedience, or adherence to a foreign power", which is very broad. For example, if I am passing through an airport and given an instruction by local officials (e.g. TSA officers), I'm likely to comply. Those staff work for a foreign power, and complying with their instructions is showing obedience^1 to a foreign power.
 
 S44.i also means that *claiming ignorance* is an acceptable 'get out of jail' card. I suspect the authors wanted to include some idea like *mens rea*, but they've introduced some odd side effects with their choice of phrasing.
 
-This is not the extent of unintended consequences when it comes to the first part of S44.i, though.
-
 ### The Oath and Affirmation
 
-Parliamentarians must take an oath or affirmation before sitting in parliament. They are included in the constitution and they are as follows:
+Parliamentarians must take an oath or affirmation before sitting in parliament:
 
 > Oath: I, A.B., do swear that I will be faithful and bear true allegiance to Her Majesty Queen Victoria, Her heirs and successors according to law. SO HELP ME GOD!
 > 
@@ -71,13 +69,13 @@ It is explicitly noted in the Constitution that the head of state of the United 
 
 Citizens of a monarchy are known as *subjects* of the monarch; some non-citizens might also be subjects depending on the monarchy in question and the date. For example, before 1949 all Australians were British subjects^2.
 
-Australia is a type of monarchy, and Queen Elizabeth II is our current head-of-state. She's represented by the *Governor General*, but all the minutia is boring and not relevant anyway.
+Australia is a type of monarchy, and Queen Elizabeth II is our current head-of-state.
 
-It's common knowledge that Queen Elizabeth II is Australia's head-of-state. If someone were elected to parliament and they didn't know this, they would find out pretty quick because she's explicitly mentioned as part of the oath one takes before assuming their seat in Parliament.
+Queen Elizabeth II is uncontroversially and universally recognised as Australia's head-of-state. If someone were elected to parliament and they didn't know this, they would find out pretty quick because she's explicitly mentioned as part of the oath one takes before assuming their seat in Parliament.
 
-It's common knowledge that Queen Elizabeth II is the head of other states, too, such as the UK and Canada.
+Queen Elizabeth II is the head of other states, too, such as the UK and Canada.
 
-The head of state of a foreign power is a foreign power.
+The head of state of a foreign power is a foreign power, which clashes with `s44.i`.
 
 ### What then, for elected officials in Australia?
 
@@ -87,9 +85,9 @@ Queen Elizabeth II is a foreign power, as she is the head of state of nations ot
 
 Australia has had the same oath since independence in 1901. Thus every person who has taken the oath since 1901 has knowingly been allied to the King or Queen of a foreign power. 
 
-Every sitting parliamentarian of Australia since 1901 has acknowledged an allegiance to said foreign power. Those people are therefore "incapable of being chosen or of sitting as a senator or a member of the House of Representatives".
+Every sitting parliamentarian of Australia since 1901 has acknowledged an allegiance to said foreign power; as forbidden for parliamentarians by s44. Those people are therefore "incapable of being chosen or of sitting as a senator or a member of the House of Representatives".
 
-Therefore, no sitting member of parliament has ever done so legally.
+Therefore, no member of parliament has ever held office legally.
 
 ### Final notes
 
@@ -97,10 +95,19 @@ If there had been some ruling on this by the high court, there might be preceden
 
 Since deciding the matter of citizenship is a sovereign right of *nations themselves*, they are free to decide their own criteria for citizenship. Furthermore, citizenship does no need to be *acknowledged* by either party for it to be in effect; it is simply *unrecognised* at that point. Any nation (as long as it is recognised as a nation by Australia) could introduce a new class of citizenship defined as something like "any sitting member of Australian parliament is automatically granted citizenship for their full sitting period". Doing so would mean there would be no person capable of holding office in Australia, as to do so would immediately disqualify them.
 
-[1]: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
+1: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
 
-[2]: well, at least according to [this wikipedia page](https://en.wikipedia.org/wiki/Australian_nationality_law#:~:text=A%20person%20born%20in%20Australia,also%20acquired%20citizenship%20by%20birth.).
+2: well, at least according to [this wikipedia page](https://en.wikipedia.org/wiki/Australian_nationality_law#:~:text=A%20person%20born%20in%20Australia,also%20acquired%20citizenship%20by%20birth.).
 
 ---
 
 ## Notes from Tutorial 2020-07-17
+
+- decent focus, not trying to say too much
+- lots of info, mostly clear
+- issues as covered
+- has casued issues
+- level for ppl who want political battles
+  - excuse to attack
+  - good to remove technicalities
+- 
