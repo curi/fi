@@ -90,6 +90,10 @@ Note: who the hell was paid to write that?
 main grammar tree goes here if I ever do this
 ```
 
-# I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
+## I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
 
 Note: I can definitely write this better (it's from [early learning: objectivism]({{ "../../pub-drafts/early-learning-objectivism.md" | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
+
+## I can explain the acronyms if need be.
+
+## It is a poor argument of my superior reason, that I am unable to make justice be apprehended and felt in the most necessary cases, without the intervention of blows.

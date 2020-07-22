@@ -83,17 +83,17 @@ An elected official in Australia must acknowledge, explicitly, their allegiance 
 
 Queen Elizabeth II is a foreign power, as she is the head of state of nations other than Australia.
 
-Australia has had the same oath since independence in 1901. Thus every person who has taken the oath since 1901 has knowingly been allied to the King or Queen of a foreign power. 
+Australia has had the same oath since independence in 1901. Thus every person who has taken the oath since 1901 has knowingly been allied to the King or Queen of a foreign power.
 
-Every sitting parliamentarian of Australia since 1901 has acknowledged an allegiance to said foreign power; as forbidden for parliamentarians by s44. Those people are therefore "incapable of being chosen or of sitting as a senator or a member of the House of Representatives".
+Every sitting parliamentarian of Australia since 1901 has acknowledged an allegiance to said foreign power; which disqualifies them under s44. Those people are therefore "incapable of being chosen or of sitting as a senator or a member of the House of Representatives".
 
 Therefore, no member of parliament has ever held office legally.
 
 ### Final notes
 
-If there had been some ruling on this by the high court, there might be precedent for sitting members to have done so legally, but I'm not aware of such a ruling.
+If there had been some ruling on these arguments by the high court, there might be precedent for sitting members to have done so legally. I'm not aware of such a ruling.
 
-Since deciding the matter of citizenship is a sovereign right of *nations themselves*, they are free to decide their own criteria for citizenship. Furthermore, citizenship does no need to be *acknowledged* by either party for it to be in effect; it is simply *unrecognised* at that point. Any nation (as long as it is recognised as a nation by Australia) could introduce a new class of citizenship defined as something like "any sitting member of Australian parliament is automatically granted citizenship for their full sitting period". Doing so would mean there would be no person capable of holding office in Australia, as to do so would immediately disqualify them.
+Since deciding the matter of citizenship is a sovereign right of *nations themselves*, they are free to decide their own criteria for citizenship. Furthermore, citizenship does not need to be *acknowledged* by either party to be in effect; it is simply *unrecognised* at that point. Any nation (as long as it is recognised as a nation by Australia) could introduce a new class of citizenship defined like "any sitting member of Australian parliament is automatically granted citizenship for their full sitting period". Doing so would mean there would be no Australian capable of sitting in the HoR or senate, as to do so would immediately disqualify them.
 
 1: There's a suitable definition of 'adherence' which fits this pattern, too, but the other two definitions in Webster's 1913 are more appropriate.
 
