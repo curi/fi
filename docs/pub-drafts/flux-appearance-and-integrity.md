@@ -32,7 +32,7 @@ Some future post topics:
 * initial limits on IBDD: criminal code (sans single-party crimes), electoral law
 * electoral cycles reward the dishonest because they are carrots on short sticks, but good democracy needs bigger carrots on longer sticks.
 
----
+----
 
 - appearance is ambiguous
 - animals and evolution introduced, but why and not connected to topic
