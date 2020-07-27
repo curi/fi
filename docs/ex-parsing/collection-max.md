@@ -90,9 +90,11 @@ Note: who the hell was paid to write that?
 main grammar tree goes here if I ever do this
 ```
 
-## I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
+## (TODO) I know about it (Objectivism) in name only (and only since learning about FI, and because of FI)
 
 Note: I can definitely write this better (it's from [early learning: objectivism]({{ "../../pub-drafts/early-learning-objectivism.md" | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
+
+# 2020-07-27
 
 ## I can explain.
 
@@ -104,6 +106,14 @@ TODO: check aux verb tree structure
 explain :: verb
   can :: aux verb
     i :: pronoun
+```
+
+or is it
+
+```
+explain :: verb
+  can :: aux verb
+  i :: pronoun
 ```
 
 ## I can explain the acronyms if need be.
@@ -146,15 +156,19 @@ that :: subordinating conjunction
         I :: pronoun
         unable :: adj
             to make :: adverb infinitive
-                be :: verb
-                    justice :: noun
-                    apprehended :: adj
-                    without :: prep
-                        intervention :: noun
-                            the :: det
-                            of :: prep
-                                blows :: noun
+                justice :: noun
+                be :: aux verb
+                    and :: conj
+                        apprehended :: adj
+                        felt :: verb
+                without :: prep
+                    intervention :: noun
+                        the :: det
+                        of :: prep
+                            blows :: noun
 ```
+
+note: ~it's optional to put a `[be]` in front of `felt`, but apprehended needs one.~ not true, justice could be felt and apprehended.
 
 from <https://www.websters1913.com/words/That>
 
@@ -205,17 +219,25 @@ version that's a better demonstration?
 
 > it is a thought shared by many, that school is boring
 
+> it is a versatile word, that which clarifies the dependency of a pronoun on the other side of the sentence.
+
 ----
 
-At the end of all that, I think I'm happy with the tree above.
+~At the end of all that, I think I'm happy with the tree above.~
 
-## So Alice, I just wanted to add, this sentence would have a parenthetical if the point wasn't to be an example of a sentence with a parenthetical.
+is the structure basically the same as `it's good, that you came`?
 
-Note: I 
+TODO: come back to this later and think about other ways of doing the tree
 
-## you are done whether you fight or run.
+## So Alice, I just wanted to add, this sentence would have a parenthetical if the point wasn't to be an example of a sentence with a parenthetical
+
+Note: I actually wrote this sentence recently
+
+## you are done whether you fight or run
 
 (is this a correlative conjunction?)
+
+(TODO)
 
 ```
 are
@@ -223,3 +245,21 @@ are
     done
 
 ```
+
+## to be or not to be, that is the question
+
+## i'm going to steal that kid's lollypop whether you like it or not
+
+## you will find uninvited family in the drawing room; not only your 'long lost' brother, but also his new (and insufferable) wife
+
+outline: `{you will find family}; {not only [your bother], but also [that same brother's wife]}
+
+## so you see, Mr. Bond, neither the British Secret Service nor God can save you now
+
+## we should be persuaded by neither eloquence nor vitriol, but instead by those arguments for which, despite detractors' best efforts, there are no unanswered criticisms
+
+## no sooner had he written the eighth example than he began to reconsider adding more
+
+## learning is not a one-off exercise, but an unbounded journey
+
+## we could either stop at ten exercises or write more
