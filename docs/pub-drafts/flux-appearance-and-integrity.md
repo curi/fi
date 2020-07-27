@@ -34,6 +34,8 @@ Some future post topics:
 
 ----
 
+## notes from tutorial #15 (2020-07-17)
+
 - appearance is ambiguous
 - animals and evolution introduced, but why and not connected to topic
 - decent number of dishonest indicators
