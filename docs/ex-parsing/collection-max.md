@@ -94,7 +94,7 @@ main grammar tree goes here if I ever do this
 
 Note: I can definitely write this better (it's from [early learning: objectivism]({{ "../../pub-drafts/early-learning-objectivism.md" | relative_url }})). Left it like this for purposes of analysis, partly because I said 'and because'
 
-# 2020-07-27
+## Exercises done on 2020-07-27
 
 ## I can explain.
 
@@ -112,16 +112,18 @@ or is it
 
 ```
 explain :: verb
-  can :: aux verb
   i :: pronoun
+  can :: aux verb
 ```
+
+option 2 is better; `can` changes `explain`, but `I` is the subject of explain
 
 ## I can explain the acronyms if need be.
 
 ```
 explain :: verb
+    i :: pronoun
     can :: aux verb
-        i :: pronoun
     acronyms :: noun
         the :: det
         if :: prep
@@ -139,7 +141,7 @@ Could be reordered to: 'That I am unable to make justice be apprehended and felt
 
 The sentence is interesting because it's about a hypothetical but doesn't explicitly mention it.
 
-'that' doesn't relate an adverb clause b/c ...
+### alt structure 1
 
 ```
 that :: subordinating conjunction
@@ -159,7 +161,7 @@ that :: subordinating conjunction
                 justice :: noun
                 be :: aux verb
                     and :: conj
-                        apprehended :: adj
+                        apprehended :: verb
                         felt :: verb
                 without :: prep
                     intervention :: noun
@@ -168,7 +170,7 @@ that :: subordinating conjunction
                             blows :: noun
 ```
 
-note: ~it's optional to put a `[be]` in front of `felt`, but apprehended needs one.~ not true, justice could be felt and apprehended.
+note: ~it's optional to put a `[be]` in front of `felt`, but apprehended needs one.~ not true, justice could be felt and apprehended. well, could you say `make justice felt and apprehended`? `make justice felt` feels fine.
 
 from <https://www.websters1913.com/words/That>
 
@@ -188,23 +190,27 @@ the purpose of the sentence is to focus on the _quality of the argument_, not on
 
 I *think* `I am unable ... of blows` is the predicate nominative of `It` via `is`
 
-----
-
-#### similar sort of sentences:
+### similar sort of sentences
 
 > you'd be a bad king, Michael
 
 `You` is a pronoun and forward reference to the noun `Michael`
 
+----
+
 > it is a smooth bird, the A380.
+
+----
 
 > it is a bad omen for his career, that he hasn't had a job since highschool.
 
 `it` refers to the subordinate clause `he hasn't had a job since highschool`
 
+----
+
 > it is a thought I had, that school is boring
 
-this has basically the same meaning (or, at least, a very similar meaning) as the past tense of "i think that school is boring".
+this has basically the same meaning (or, at least, a very similar meaning) as the past tense of "i think that school is boring". (edit: `i thought that school is boring` is obviously closer to that past tense)
 
 some curious slightly different sentences:
 
@@ -219,40 +225,248 @@ version that's a better demonstration?
 
 > it is a thought shared by many, that school is boring
 
-> it is a versatile word, that which clarifies the dependency of a pronoun on the other side of the sentence.
-
 ----
 
-~At the end of all that, I think I'm happy with the tree above.~
+> it is a versatile word, that which clarifies the dependency of a pronoun on the other side of the sentence.
+
+### back to the main sentence
+
+~At the end of all that, I think I'm happy with the tree above.~ wait, nope, not yet
 
 is the structure basically the same as `it's good, that you came`?
 
 TODO: come back to this later and think about other ways of doing the tree
 
+hmm, the quote is from Godwin's *Political Justice* I think (can't remember where I picked it). that was published in 1793, but websters 1828 doesn't have a definition of `that` as a conjunction!
+
+### alternate structure 2
+
+idea: `that` is two-way link with `it`
+
+```
+is
+    it :: pronoun relative pronoun (linked to 'that')
+        that :: relative pronoun / pro-sentence (linked to 'it')
+            am :: verb
+                I :: pronoun
+                unable :: adj
+                    to make :: adverb infinitive
+                        justice :: noun
+                        be :: aux verb
+                            and :: conj
+                                apprehended :: adj
+                                felt :: verb
+                        without :: prep
+                            intervention :: noun
+                                the :: det
+                                of :: prep
+                                    blows :: noun
+    argument :: noun
+        a :: det
+        poor :: adj
+        of :: prep
+            reason :: noun
+                my :: det
+                superior :: adj
+```
+
+### alt structure 3
+
+```
+[;] or [and] :: conj
+    is :: verb
+        it :: pronoun, referring to the clause marked by 'that'
+        argument :: noun
+            a :: det
+            poor :: adj
+            of :: prep
+                reason :: noun
+                    my :: det
+                    superior :: adj
+    that :: pronoun labelling the clause
+        am :: verb
+            I :: pronoun
+            unable :: adj
+                to make :: adverb infinitive
+                    justice :: noun
+                    be :: aux verb
+                        and :: conj
+                            apprehended :: adj
+                            felt :: verb
+                    without :: prep
+                        intervention :: noun
+                            the :: det
+                            of :: prep
+                                blows :: noun
+```
+
 ## So Alice, I just wanted to add, this sentence would have a parenthetical if the point wasn't to be an example of a sentence with a parenthetical
 
 Note: I actually wrote this sentence recently
+
+```
+[root]
+    Alice :: pronoun
+    [] :: parenthetical, relative to entire sentence
+        wanted :: verb
+            I :: pronoun
+            just :: adverb
+            to add :: noun infinitive
+    so :: conjunction, primary clause omitted, introduces concluding statement
+        have :: verb
+            would :: modal verb (helper)
+            sentence :: noun
+                this :: determiner
+            parenthetical :: noun
+                a :: det
+                if :: prep
+                    was :: verb
+                        point :: noun
+                            the :: det
+                        not :: adverb
+                        example :: noun
+                            to be :: adjective infinitive
+                            an :: determiner
+                            of :: prep
+                                sentence :: noun
+                                    a :: det
+                                    with :: prep
+                                        parenthetical :: noun
+                                            a :: det
+```
+
+alt:
+
+```
+so :: conj
+    [primary clause omitted]
+    [node/sub-root]
+        Alice :: pronoun
+        I just wanted to add :: parenthetical
+        this sentence [...] :: clause
+```
 
 ## you are done whether you fight or run
 
 (is this a correlative conjunction?)
 
-(TODO)
+```
+whether :: conj
+    are :: linking verb
+        you :: pronoun
+        done :: adjective
+    you :: pronoun
+        or :: conj
+            fight :: verb
+            run :: verb
+```
+
+alt:
 
 ```
-are
-    you
-    done
+whether :: conj
+    are :: linking verb
+        you :: pronoun
+        done :: adjective
+    or :: conj
+        fight :: verb
+            you :: pronoun
+        run :: verb
+            [you] :: pronoun
+```
 
+alt treating correlative conjunction as one unit:
+
+```
+... whether ... or ... :: correlative conj
+    are :: linking verb
+        you :: pronoun
+        done :: adjective
+    fight :: verb
+        you :: pronoun
+    run :: verb
+        [you] :: pronoun
 ```
 
 ## to be or not to be, that is the question
 
-## i'm going to steal that kid's lollypop whether you like it or not
+```
+[;] or [and] :: conjunction
+    or :: conj
+        to be :: noun infinitive
+        to be :: noun infinitive
+            not :: adverb
+    is :: verb
+        that :: pronoun / pro-sentence
+        question :: noun
+            the :: determiner
+```
+
+## i'm going to steal that kid's lollipop whether you like it or not
+
+```
+am :: verb
+    I :: pronoun
+    going :: aux/helper verb (modal?)
+    to steal :: noun infinitive
+        lollipop :: noun
+            kid's :: adjective
+                that :: determiner
+    whether :: conj
+        or :: conj
+            like :: verb
+                you :: pronoun
+                it :: pronoun, indirect ref to stealing
+            not :: adverb
+                [you don't like it] :: implied replacement for 'not'
+```
 
 ## you will find uninvited family in the drawing room; not only your 'long lost' brother, but also his new (and insufferable) wife
 
 outline: `{you will find family}; {not only [your bother], but also [that same brother's wife]}
+
+```
+[;] :: conjunction
+    find :: verb
+        you :: pronoun
+        will :: modal verb
+        family :: noun
+    but :: conj
+        brother :: noun
+            your :: determiner
+            only :: adjective
+                not :: adverb
+            'long lost' :: adjective, quotes imply hidden implications
+                lost :: adjective
+                    long :: adverb
+        also :: adverb
+        wife :: noun
+            his :: determiner
+            [and] :: conjunction, parenthetical, produces adjective phrase
+                new :: adjective
+                insufferable :: adjective
+```
+
+alt:
+
+```
+[;] :: conjunction
+    find :: verb
+        you :: pronoun
+        will :: modal verb
+        family :: noun
+    not only ... but also ... :: correlative conj
+        brother :: noun
+            your :: determiner
+            'long lost' :: adjective, quotes imply hidden implications
+                lost :: adjective
+                    long :: adverb
+        wife :: noun
+            his :: determiner
+            [and] :: conjunction, parenthetical, produces adjective phrase
+                new :: adjective
+                insufferable :: adjective
+```
 
 ## so you see, Mr. Bond, neither the British Secret Service nor God can save you now
 
