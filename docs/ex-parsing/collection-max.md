@@ -121,14 +121,14 @@ option 2 is better; `can` changes `explain`, but `I` is the subject of explain
 ## I can explain the acronyms if need be.
 
 ```
-explain :: verb
-    i :: pronoun
-    can :: aux verb
-    acronyms :: noun
-        the :: det
-        if :: prep
-            need :: verb
-                be :: aux verb
+if :: conjunction
+    can :: verb
+        i :: pronoun
+        explain :: infinitive
+            acronyms :: noun (object)
+                the :: det
+    be :: verb
+        need :: noun
 ```
 
 ## It is a poor argument of my superior reason, that I am unable to make justice be apprehended and felt in the most necessary cases, without the intervention of blows.
@@ -300,6 +300,25 @@ is
                                 blows :: noun
 ```
 
+### issues identified in tutoring 20
+
+`apprehended` and `felt` are verbals
+
+```
+to make :: infinitive
+    be :: linking verb
+        justice :: n
+        and
+            apprehended :: participle, adj
+            felt :: participle, adj
+```
+
+note: `to` is a particle
+
+`be` is linking verb, objects are apprehended and felt so can't be finite verbs, they're participles (adjectives)
+
+linking verbs: big diff *must* have a complement, and complement can be an adjective (as well as a noun).
+
 ## So Alice, I just wanted to add, this sentence would have a parenthetical if the point wasn't to be an example of a sentence with a parenthetical
 
 Note: I actually wrote this sentence recently
@@ -346,6 +365,49 @@ so :: conj
         this sentence [...] :: clause
 ```
 
+### tut 20
+
+parenthetical can put under the verb -> modifies the sentence
+
+have is infinitive -- the 'having' isn't happening; it's the 'woulding'
+
+pretty much alwasy the first verb is finite verb, second verb is infinitive (often without the 'to')
+
+subject finite-verb non-finite-verb (as object of finite verb; particle, gerund, or infinitive)
+
+> So Alice, I just wanted to add, this sentence would have a parenthetical if the point wasn't to be an example of a sentence with a parenthetical
+
+```
+if :: conj
+    would :: modal verb (helper)
+        sentence :: noun
+            this :: determiner
+        have :: verb
+            parenthetical :: noun
+                a :: det
+        [] :: parenthetical, adverbial
+            so :: ??
+                Alice :: pronoun
+        [] :: parenthetical, adverbial
+            wanted :: verb
+                I :: pronoun
+                just :: adverb
+                to add :: noun infinitive
+    was :: verb
+        point :: noun
+            the :: det
+        not :: adverb
+        to be :: adjective infinitive
+            example :: noun, object of 'to be'
+                an :: determiner
+                of :: prep
+                    sentence :: noun
+                        a :: det
+                        with :: prep
+                            parenthetical :: noun
+                                a :: det
+```
+
 ## you are done whether you fight or run
 
 (is this a correlative conjunction?)
@@ -360,6 +422,10 @@ whether :: conj
             fight :: verb
             run :: verb
 ```
+
+> TUT20: mistake: fight/run as verb - must be verbals -- participles
+
+> TUT20: comment after the fact: can put `you` under `or`; `or` is making a group and playing a verb role (verb pharse), so noun under the group is okay. If we could group `(or fight run)` and have a child that might work but can't do that with these trees; putting under root node
 
 alt:
 
@@ -386,6 +452,43 @@ alt treating correlative conjunction as one unit:
         you :: pronoun
     run :: verb
         [you] :: pronoun
+```
+
+## both rugby and football are popular
+
+```
+are :: linking verb
+    and :: conj
+        both :: determiner
+        rugby
+        football
+    popular :: adjective
+```
+
+```
+are :: linking verb
+    both :: determiner
+        and :: conj
+            rugby
+            football
+    popular :: adjective
+```
+
+```
+are
+    both ... and ...
+        rugby
+        football
+    popular
+```
+
+```
+are
+    both :: pronoun
+        and
+            rugby
+            football
+    popular
 ```
 
 ## to be or not to be, that is the question
@@ -420,6 +523,11 @@ am :: verb
             not :: adverb
                 [you don't like it] :: implied replacement for 'not'
 ```
+
+* am - finite verb
+* going is complement of am
+* to steal modifying going
+* (that kid) is the noun being made possessive, but diagram is unclear
 
 ## you will find uninvited family in the drawing room; not only your 'long lost' brother, but also his new (and insufferable) wife
 
