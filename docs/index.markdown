@@ -8,8 +8,8 @@ layout: home
 ## All Posts (sorted by date)
 
 <ul>
-{% comment %}
 {% assign all_pages = site.pages | sort: 'date' | reverse %}
+{% comment %}
 {% for page in all_pages %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
