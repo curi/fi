@@ -8,7 +8,7 @@ layout: home
 ## All Posts (sorted by date)
 
 <ul>
-{% assign all_pages = site.pages %}
+{% assign all_pages = site.pages | sort:"date" %}
 {% for page in all_pages %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
