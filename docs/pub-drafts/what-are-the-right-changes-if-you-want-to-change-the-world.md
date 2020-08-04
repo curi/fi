@@ -3,7 +3,7 @@ parent: Public Drafts
 date: 2020-08-04 23:00
 author: Max Kaye
 layout: post
-title: What are the right changes to make if you want to change the world?
+title: "What are the right changes to make if you want to change the world?"
 ---
 
 from <https://curi.us/1994-goals-and-status-update>
