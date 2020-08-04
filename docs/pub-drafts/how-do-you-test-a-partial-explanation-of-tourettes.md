@@ -1,8 +1,9 @@
 ---
-title: How do you test a partial explanation of Tourette's?
+title: 2020-08-04 How do you test a partial explanation of Tourette's?
 date: 2020-08-04
 author: Max Kaye
 layout: post
+parent: Public Drafts
 ---
 
 In the early hours of the morning (12am - 1am) I had an idea about Tourette's (Tourette's Syndrome / TS) and wanted to figure out if it was useful.
@@ -23,7 +24,7 @@ the test is to _encourage_ tics - particularly in a way that translates to a "go
 
 ### audio recording
 
-anyway, two bits of audio and a transcript are below; the original recording and a cut down version where longer silences are shortened and repeated/filler words are cut out. there are two versions because i was experimenting with descript.com.
+anyway, two bits of audio and a transcript are below; the original recording and a cut down version where longer silences are shortened and repeated/filler words are cut out. there are two versions because i was experimenting with descript.com and there are some features to cut stuff out.
 
 cut down version:
 

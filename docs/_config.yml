@@ -21,7 +21,7 @@
 title: Max Learning FI
 email: fi@xk.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Max Learning FI, Tutorials with Curi: notes and things from June 2020. Topics include: grammar, overreaching, The Choice by Eli Goldratt,
+  Max Learning FI, Tutorials with Curi: notes and things from June 2020 onwards. Topics include: grammar, overreaching, The Choice by Eli Goldratt,
   and other things.
 baseurl: "/fi" # the subpath of your site, e.g. /blog
 url: "https://xertrov.github.io" # the base hostname & protocol for your site, e.g. http://example.com

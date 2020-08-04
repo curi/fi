@@ -5,6 +5,15 @@
 layout: home
 ---
 
+## All Posts (sorted by date)
+
+<ul>
+{% assign all_pages = site.pages | sort: 'date' | reverse %}
+{% for page in all_pages %}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{% endfor %}
+</ul>
+
 ## FI Links
 
 * <https://fallibleideas.com/> - Main FI site, maintained by Elliot Temple

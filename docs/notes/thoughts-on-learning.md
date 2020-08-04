@@ -1,3 +1,8 @@
+---
+date: 2020-07-31
+title: thoughts on learning
+---
+
 thoughts on learning
 
 - what is the benefit of sticking with hard problems? e.g. maths challenge qs at end of chapter
