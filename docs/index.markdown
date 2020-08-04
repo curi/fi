@@ -5,10 +5,9 @@
 layout: home
 ---
 
-{% comment %}
-
 ## All Posts (sorted by date)
 
+{% comment %}
 <ul>
 {% assign all_pages = site.pages | sort: 'date' | reverse %}
 {% for page in all_pages %}
