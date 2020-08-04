@@ -189,3 +189,31 @@ This matches Anne's structure, i.e.:
 * Why are the called the same thing as adverbs that don't take one?
 * idea: where is on second 'are', which transforms 'you are confident, ...' into an adjective clause
   * what was it before that? noun clause? can you have a clause/phrase without a type (a type being noun, verb, adjective, adverb, etc)
+
+## More precisely, if n ever fails the Fermat test, we can be certain that n is not prime.
+
+discussed in the post `[FI] [grammar] Grammar analysis: More precisely, if n ever fails the Fermat test, we can be certain that n is not prime.`
+
+```
+if
+    can :: aux v
+        we :: pronoun
+        be :: v
+            certain :: n
+                that :: pronoun
+                    is :: v (linking)
+                        n :: noun, subject
+                        not :: adverb
+                        prime :: adjective, complement
+    fails :: verb
+        n :: noun
+        ever :: adverb
+        Fermat test :: noun
+            the :: determiner
+    precisely :: adverb, modifying the rest of the sentence
+        more :: adverb
+```
+
+questions:
+
+* the `if` conjunction is split; we could rewrite it "we can be certain that n is not prime if n ever fails the fermat test", so it sounds like "we can be certain ... not prime" is the coordinating clause. should we put that first in the tree even though the sentence orders it the other way?
