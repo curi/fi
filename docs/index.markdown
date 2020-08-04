@@ -7,15 +7,15 @@ layout: home
 
 ## All Posts (sorted by date)
 
-{% comment %}
 <ul>
+{% comment %}
 {% assign all_pages = site.pages | sort: 'date' | reverse %}
 {% for page in all_pages %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
+{% endcomment %}
 </ul>
 
-{% endcomment %}
 
 ## FI Links
 
