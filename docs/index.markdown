@@ -9,11 +9,9 @@ layout: home
 
 <ul>
 {% assign all_pages = site.pages %}
-{% comment %}
 {% for page in all_pages %}
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
-{% endcomment %}
 </ul>
 
 
