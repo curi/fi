@@ -20,7 +20,7 @@ but how could i not be overreaching and (probably?) wasting my own time?
 
 I ask this with the benefit of hindsight (I'm writing this intro section just before sending): is there anything more to do than just writing it down?
 
-to answer my titular question:
+to sorta answer my titular question:
 
 * first thing I've done is start to write this email b/c I didn't know what to do.
 * But the next thing was writing out the idea as an example.
@@ -31,11 +31,11 @@ am I being reasonable spending any time on this at all? Like if this stuff is *~
 
 ## example
 
-consider conformal cyclic cosmology (CCC) and everette's many worlds (as put forward by DD in BoI). i (attempt to) give a short overview of CCC below.
+consider conformal cyclic cosmology (CCC) and everette's many worlds (as put forward by DD in BoI). i (attempt to) give a short overview of CCC in the next section.
 
 in EMW / MWI, the idea that universes are fungible is really important; it's the reason for interference.
 fungible universes aren't 'located' anywhere relative to eachother, they sort of exist 'on top of' eachother or something; at the very least they *coexist*.
-do we have a reason to believe anything in particular WRT 'the location' of these universes?
+*do we have a reason to believe anything in particular WRT 'the location' of these universes?*
 
 I ask because I don't know why this would be wrong:
 
@@ -52,7 +52,7 @@ some bits of space-time are bits we can't observe.
 some bits of space-time we can't observe are the size of the observable universe.
 for an infinite space-time there must be infinitely many such bits.
 so, by the same logic<sup>1</sup> with which we get fungible universe in MWI, we get fungible regions of space-time in an infinite universe.
-regions of space-time outside of any causal connection to use are indistinguishable from *different universe*<sup>2</sup>.
+regions of space-time outside of any causal connection to us are indistinguishable from *different universes*<sup>2</sup>.
 
 why wouldn't fungible regions of space-time act like fungible universes?
 
