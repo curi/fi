@@ -1,5 +1,5 @@
 ---
-title: 2020-08-04 How do you test a partial explanation of Tourette's?
+title: "2020-08-04 How do you test a partial explanation of Tourette's?"
 date: 2020-08-04
 author: Max Kaye
 layout: post
