@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Parsing Exercises
-date: 2020-06-22 to 2020-07-01
+date: 2020-06-22
 has_children: true
 ---
 

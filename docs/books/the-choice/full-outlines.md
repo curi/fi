@@ -3,6 +3,7 @@ title: The Choice - Outline
 has_children: true
 layout: page
 permalink: books/the-choice/
+date: 2020-07-14
 ---
 
 1. TOC
@@ -32,7 +33,7 @@ chapter 1 via an analysis of "Big Brand" and possible improvements to their oper
 exposes several ways Big Brand fool themselves with language and methodology. It also
 details the chain of reasoning by which executives of Big Brand come to realise many of
 their problems are addressable with changes to the way they deal with supply and
-manufacture of their goods. 
+manufacture of their goods.
 
 Chapter 3 is Efrat's reflection on the idea of common-sense logic from ch1, the report from ch2, and on what that means
 for herself and one's life and approach to life. She agrees the reasoning in ch2 is logical
