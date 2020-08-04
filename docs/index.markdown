@@ -5,6 +5,8 @@
 layout: home
 ---
 
+{% comment %}
+
 ## All Posts (sorted by date)
 
 <ul>
@@ -13,6 +15,8 @@ layout: home
   <li><a href="{{ page.url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
+
+{% endcomment %}
 
 ## FI Links
 
