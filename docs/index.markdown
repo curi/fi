@@ -34,6 +34,6 @@ layout: home
 
 <ul>
 {% for page in all_pages %}
-  <li><a href="{{ page.url }}">{% if page.date %}{{ page.date }} - {% endif %}{{ page.title }}</a></li>
+  <li><a href="{{ page.url | relative_url }}">{% if page.date %}{{ page.date }} - {% endif %}{{ page.title }}</a></li>
 {% endfor %}
 </ul>
