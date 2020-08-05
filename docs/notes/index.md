@@ -1,6 +1,7 @@
 ---
 title: Notes
-parent: Tutorial Notes
+layout: page
+has_children: true
 ---
 
 intentionally blank

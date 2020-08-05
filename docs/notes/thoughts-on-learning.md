@@ -1,6 +1,8 @@
 ---
 date: 2020-07-31
 title: thoughts on learning
+parent: Notes
+layout: page
 ---
 
 thoughts on learning
@@ -14,4 +16,3 @@ thoughts on learning
   - e.g. GISTE mentioned getting a PB of 2:06 (presumably 2hrs)
     - he mentioned not meeting some consistency goals: this points out places to focus practice
     - having the PB is motivating, i suspect ppl would stick with it, or progress faster (?), or at least that there'd be some qualitative differences between those who do complete runs vs those who practice "too much" on smaller / individual stuff
--

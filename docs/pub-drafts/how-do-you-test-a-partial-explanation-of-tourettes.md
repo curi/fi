@@ -1,9 +1,10 @@
 ---
-title: "2020-08-04 How do you test a partial explanation of Tourette's?"
+title: "(done) How do you test a partial explanation of Tourette's?"
 date: 2020-08-04
 author: Max Kaye
 layout: page
 parent: Public Drafts
+fi_link: https://groups.google.com/g/fallible-ideas/c/R0qGOHIgJQU
 ---
 
 In the early hours of the morning (12am - 1am) I had an idea about Tourette's (Tourette's Syndrome / TS) and wanted to figure out if it was useful.
@@ -22,7 +23,114 @@ i think there are other possible explanatory-mechanisms that would provide diffe
 one idea for treatment i came up with was based on the idea that feedback signals were inverted (something more complex might be going wrong but this is easier to test for).
 the test is to _encourage_ tics - particularly in a way that translates to a "good" feedback signal in the brain. I don't know how well behavioural feedback (like normal positive/negative reinforcement) translates to that deeper sort of feedback.
 
-### audio recording
+## FI Post (it's better expressed in this section and the 'idea' subsection than anywhere else)
+
+i'm making this post because
+
+* i used some epistemic ideas i'd learnt recently to help figure out the explanation and the experiment
+  * i actually came up with an experiment. if you listen to the audio that's my goal when i start recording, so i
+consider this experience a success regardless of how good the idea is (provided the experiment makes sense, ofc)
+
+* the idea uses other ideas from BoI and ET about how learning and ideas in the brain work
+  * FYI it also uses some preexisting knowledge i have about psychology / neurology
+
+* i think it's an idea most psychologists would reject
+
+* it doesn't seem to be contradicted by some cursory research
+
+* i think this is interesting and might be a good example of how to use philosophy practically. i mean particularly if
+this has any element of truth to it, that would be like a legit breakthrough AFAIK in TS research (i couldn't find
+anything close to an explanation for it besides "chemical imbalance" which AFICT is just academese for NFI).
+
+* i couldn't find any info on whether this had been thought of or tried before (it's a bit hard to search for, though)
+
+* maybe it (the post) leads to something ¯\_(ツ)_/¯
+
+i am interested in feedback on this idea (and anything/everything else in this post), but i don't expect it. this is
+definitely something where i don't have much preexisting knowledge so errors are likely but EC might be hard (for this
+topic). i'm mostly posting this because it can be useful even if i'm wrong (like i think i did a decent job of
+exploring the idea; i knew there was a tree, i descended various branches and tried to cycle through them, i
+successfully figured out a way to test the idea without a null hypothesis or a competing explanation (yay!), etc)
+
+(actually, I am *always* interested in feedback re: the quality / style / form / purpose / etc of my posts to FI, so
+that's like a general *background* thing i do want. that said, i also don't expect it)
+
+as a general comment: i can't really take it too much further and i'm not interested in doing so (like, that would
+likely mean becoming a full time researcher or something), so i probably won't work on it much more unless something
+important occurs to me.
+
+nomenclature: tourette's = tourette's syndrome = TS
+
+the rest of this post is the idea itself, any other notes i wanted to add, and a link to the post on my fi site
+
+i recorded about 45 min of audio of me talking through this idea the other night; audio and transcript available:
+https://xertrov.github.io/fi/pub-drafts/how-do-you-test-a-partial-explanation-of-tourettes/
+
+
+### idea
+
+* our bodies doing meaningful stuff in the world requires an idea (particularly using implicit knowledge, and it can be
+unconscious)
+
+* observation: ppl with tourette's have *meaningful and complete tics*. verbal tics are a good example
+(sometimes a single tic can be both physical and verbal, too).
+  * verbal tics as an example: ppl with TS will say *complete ideas*, even if they're short or fragmented.
+  * how can an idea be complete and fragmented? you know how you'll pause in speech, and you think for a second then
+say another bunch of words? each instance of speech - even if it's a partial sentence - is a complete idea in
+your brain. the difference is the speech is communicating *explicit knowledge*, but the idea that causes to make
+physical movements is based on *implicit knowledge*. those two types of knowledge don't need to be the same
+thing, so you can have complete implicit ideas which correspond to partial explicit ideas. note: it makes sense
+for these two types to often almost fully overlap b/c they're more efficient, particularly when you take stuff
+like neuroplasticity into account.
+
+* there's also like complete ideas from other things (like repeating lines from a video game character) that can be
+picked up from environmental sources
+
+* here's sweet anita (a streamer with TS) answering 'yes' w/ details to the q "do the words ever speak the truth?":
+https://www.youtube.com/watch?v=bfHJUPrahkY&feature=youtu.be&t=110
+  * one example she gives is being in a public bathroom and saying aloud "I can hear you shitting" -- It's a complete
+idea
+
+* there's a process of conjecture and criticism / evolution used in the brain for idea generation
+
+* idea generation using C&C/evolution means there must be an *elimination process* involved somewhere which filters
+out all but one idea. 'all but one' b/c you can't move your arm in two directions at once, etc.
+  * i go into some details about queues/locks in the audio/transcript but i'm not sure it's relevant here
+
+* if there's an elimination process there must be signals and feedback mechanism involved
+  * one thing that I'm not sure about is whether the C&C process needs to happen in each thought-generation-instance.
+like feedback and refinement of neuronal networks can happen over many ideas (well, the networks definitely are
+modified over many ideas), but there's no requirement any *iteration* happens generating each idea. from a systems
+point of view i'm not sure if the benefits would outweigh the cost
+
+* both filters and feedback could be going wrong and both could independently explain (at least some things about) TS
+  * the reason i think these two things *particularly* are potential causes is b/c they can work at the level of
+  emergence of complete ideas. granted, we don't know how ideas are encoded in the brain, but it seems reasonable
+  that individual neurons can play a role in both cases (and in idea generation) which means we can't rule out that a
+  corruption at these points could let unintended behaviours through, which, if they win the competition for the idea
+  that is eventually expressed, would explain at least some tics. (note: i don't know of an exhaustive list of tics
+  but that could be used to sanity-check this)
+  * more detail about this in the audio/transcript
+
+* i focus on feedback in the audio/transcript (note: filters acting up can explain it too):
+  * feedback signals could be complex but i don't think too much about those cases b/c they're harder to test for
+  * a simpler case is feedback signals that are on a spectrum like -1,0,1; bad feedback and good feedback are mutually
+exclusive (gets complex otherwise)
+
+* feedback / filter stuff could be going wrong on a neuron by neuron basis
+  * a curious feature of TS that doesn't criticise this is the idea of like *themes* in ppl's tics; particularly: the
+*same neurons* are affected over *many* tics, so it seems reasonable to look for explanations that operate on a
+compatible basis.
+
+so, i think that's all we need to suggest: (the following paragraph is copy pasted from my post to my fi site)
+
+one idea for treatment i came up with was based on the idea that feedback signals were inverted (something more complex
+might be going wrong but this is easier to test for). the test is to *encourage* tics - particularly in a way that
+translates to a “good” feedback signal in the brain. I don’t know how well behavioural feedback (like normal
+positive/negative reinforcement) translates to that deeper sort of feedback.
+
+
+## audio recording
 
 anyway, two bits of audio and a transcript are below; the original recording and a cut down version where longer silences are shortened and repeated/filler words are cut out. there are two versions because i was experimenting with descript.com and there are some features to cut stuff out.
 
@@ -38,7 +146,7 @@ original:
   <source src="https://maxkaye.s3-ap-southeast-2.amazonaws.com/20200804-How+do+we+test+a+partial+explanation+of+Tourette's.mp3" />
 </audio>
 
-### transcript
+## transcript
 
 Okay. So thinking about Tourette's, there's an idea that might explain it and I'm wondering, how can we come up with a way to experiment? Can't an experiment about this, given that we don't know all the details. so the idea is basically that, okay. first let's talk about traits. So Tourette's is this condition where there are uncontrolled behavior and verbalizations that people make and they're involuntary. It seems like they can last reasonable periods of time. almost as though someone is like changing personality for a little bit or something for a complete thought. And then once that's over. Even though the thought might be like, not what we'd lump as a thought, but it seems like it's a, it's one sort of expression continuously.
 

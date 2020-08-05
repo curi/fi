@@ -1,5 +1,5 @@
 ---
-title: 2020-07-17 The Constitution of Australia says no one is eligible for office
+title: (done) The Constitution of Australia says no one is eligible for office
 author: Max Kaye
 date: 2020-07-17
 layout: post

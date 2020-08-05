@@ -2,6 +2,7 @@
 title: Flux
 has_children: true
 date: 2020-07-18
+layout: page
 ---
 
 ## notes re IBDD / pricing

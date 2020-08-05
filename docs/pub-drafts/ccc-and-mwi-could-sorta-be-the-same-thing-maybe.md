@@ -1,9 +1,10 @@
 ---
-title: 2020-08-04 what does one do with thoughts that are like "way out there"?
+title: (done) what does one do with thoughts that are like "way out there"?
 author: Max Kaye
 date: 2020-08-04
 layout: post
 parent: Public Drafts
+fi_link: https://groups.google.com/g/fallible-ideas/c/Le2TGiV67Hs
 ---
 
 what does one do with thoughts that are like "way out there"?
