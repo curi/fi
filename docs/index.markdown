@@ -16,9 +16,8 @@ layout: home
 
 * <https://curi.us/2289-the-history-of-taking-children-seriously> - Elliot Temple's post on the history of TCS
 
-## All Posts
-
-{% assign all_pages = "" | split: ',' %}
+{% assign dated_pages = "" | split: ',' %}
+{% assign undated_pages = "" | split: ',' %}
 {% for page in site.pages %}
   {% if page.title %}
     {% comment %}
@@ -26,14 +25,29 @@ layout: home
         {% assign page.date = "2020-06-01" | string_to_date %}
     {% endunless %}
     {% endcomment %}
-    {% assign all_pages = all_pages | push: page %}
+    {% if page.date %}
+      {% assign dated_pages = dated_pages | push: page %}
+    {% else %}
+      {% assign undated_pages = undated_pages | push: page %}
+    {% endif %}
   {% endif %}
 {% endfor %}
 
-{% assign all_pages = all_pages | sort: "date" | reverse %}
+{% assign dated_pages = dated_pages | sort: "date" | reverse %}
+{% assign undated_pages = undated_pages | sort: "title" | reverse %}
+
+## Dated Posts
 
 <ul>
-{% for page in all_pages %}
+{% for page in dated_pages %}
   <li><a href="{{ page.url | relative_url }}">{% if page.date %}{{ page.date }} - {% endif %}{{ page.title }}</a></li>
+{% endfor %}
+</ul>
+
+## Other Posts/Pages
+
+<ul>
+{% for page in undated_pages %}
+  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
 {% endfor %}
 </ul>
