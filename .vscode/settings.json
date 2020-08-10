@@ -3,5 +3,8 @@
     "git.ignoreLimitWarning": true,
     "markdown-preview-enhanced.scrollSync": false,
     "markdown.preview.scrollEditorWithPreview": false,
-    "html.preview.scrollEditorWithPreview": false
+    "html.preview.scrollEditorWithPreview": false,
+    "cSpell.words": [
+        "improtant"
+    ]
 }
