@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notes | Tutorial 2
+title: Notes | Tutorial 02
 parent: Tutorial Notes
 date: 2020-06-24
 ---

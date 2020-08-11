@@ -17,14 +17,6 @@
 }
 
 @mixin fs-3 {
-  font-size: 12px !important;
-
-  @include mq(sm) {
-    font-size: 14px !important;
-  }
-}
-
-@mixin fs-4 {
   font-size: 15px !important;
 
   @include mq(sm) {
@@ -32,16 +24,24 @@
   }
 }
 
-@mixin fs-5 {
-  font-size: 16px !important;
+@mixin fs-4 {
+  font-size: 18px !important;
 
   @include mq(sm) {
     font-size: 18px !important;
   }
 }
 
+@mixin fs-5 {
+  font-size: 20px !important;
+
+  @include mq(sm) {
+    font-size: 20px !important;
+  }
+}
+
 @mixin fs-6 {
-  font-size: 18px !important;
+  font-size: 22px !important;
 
   @include mq(sm) {
     font-size: 24px !important;

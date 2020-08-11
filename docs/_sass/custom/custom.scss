@@ -1,0 +1,40 @@
+blockquote {
+    border-left-color: rgba(200, 50, 50, 0.5);
+    border-left-width: 0.25em;
+    border-left-style: solid;
+    margin: 0;
+    padding-left: 0.01em;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    // padding: 0;
+}
+
+blockquote p {
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+blockquote blockquote {
+    border-left-color: rgba(50, 200, 50, 0.5);
+    // margins just for doubly-nested one -- will still be applied to others
+    margin-left: 0.4em;
+    // margin-top: 0.1em;
+    margin-bottom: 0.25em;
+}
+
+blockquote blockquote blockquote {
+    border-left-color: rgba(50, 50, 200, 0.5);
+}
+
+blockquote blockquote blockquote blockquote {
+    border-left-color: rgba(200, 50, 50, 0.5);
+}
+
+blockquote blockquote blockquote blockquote blockquote {
+    border-left-color: rgba(50, 200, 50, 0.5);
+}
+
+blockquote blockquote blockquote blockquote blockquote blockquote {
+    border-left-color: rgba(50, 50, 200, 0.5);
+}

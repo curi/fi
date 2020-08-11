@@ -106,14 +106,13 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
-
-# compress_html:
-#   clippings: all
-#   comments: all
-#   endings: all
-#   startings: []
-#   blanklines: false
-#   profile: false
+compress_html:
+  clippings: false # all
+  comments: false # all
+  endings: false # all
+  startings: []
+  blanklines: false
+  profile: false
 
 defaults:
   - scope:
