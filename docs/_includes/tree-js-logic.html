@@ -98,17 +98,17 @@
       t.groupInfo = t.groupInfo ? t.groupInfo : '#nbsp;';
       const subGraphInfo = `subgraph sg-${_nodeName} ["${t.groupInfo}"]`;
   
+      const nodeLabel = t.n.includes('"') ? t.n.replace(/"/g, '#quot;') : t.n;
       const afterNodeData = t.cs.length > 0 ? `${subGraphInfo}
-  ${childLinks.join('\n')}
-  ${subGraphInfo.length > 0 ? 'end' : ''}` : '';
-  
-      return `${_nodeName}["${t.n}"]
-  ${afterNodeData}`
+${childLinks.join('\n')}
+${subGraphInfo.length > 0 ? 'end' : ''}` : '';
+
+      return `${_nodeName}["${nodeLabel}"]
+${afterNodeData}`
     }
   
     return `graph TD
-  ${inner(tree)}
-  `
+${inner(tree)}`
   }
   
   
@@ -116,9 +116,12 @@
   const mdFenced = document.querySelectorAll("pre.highlight");
   console.log(mdFenced);
   
+  const isPlaintextOrLangAbsent = el =>
+    el.classList.contains("language-plaintext") || 0 === Array(...el.classList).filter(kls => kls.slice(0, 9) === "language-").length
+
   mdFenced.forEach(el => {
     const child1 = el.childNodes[0];
-    if (child1.nodeName === "CODE" && el.parentElement.parentElement.classList.contains("language-plaintext")) {
+    if (child1.nodeName === "CODE" && isPlaintextOrLangAbsent(el.parentElement.parentElement)) {
       const grammarTreeSrc = child1.innerHTML;
       console.log(`raw grammar src:`, grammarTreeSrc)
       const grammarTree = parseWhitespaceTree(grammarTreeSrc);
@@ -153,6 +156,10 @@
       const mkSep = () => document.createTextNode(" | ")
       const links = [linkToImage, linkToSVG, linkToEdit].map(v => [mkSep(), v]).flat().slice(1)
       el.parentNode.append(...links);
+    } else {
+      console.log(`skipping`, el)
+      console.log('child1.nodeName === "CODE"', child1.nodeName === "CODE")
+      console.log('isPlaintextOrLangAbsent(el.parentElement.parentElement)', isPlaintextOrLangAbsent(el.parentElement.parentElement))
     }
   })
   
