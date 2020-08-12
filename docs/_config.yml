@@ -114,8 +114,8 @@ compress_html:
   blanklines: false
   profile: false
 
-defaults:
-  - scope:
-      path: ""
-    values: {}
-      # date: 2020-06-01
+# defaults:
+#   - scope:
+#       path: "*.md"
+#     values:
+#       layout: "page"

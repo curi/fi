@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 * promises and payoffs
 * "tell not show"
 

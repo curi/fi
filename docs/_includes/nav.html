@@ -9,6 +9,17 @@
     {%- assign sorted_unordered_pages_list = unordered_pages_list | sort:"title" -%}
   {%- endif -%}
   {%- assign pages_list = sorted_ordered_pages_list | concat: sorted_unordered_pages_list -%}
+
+  {% assign pages_with_parents = pages_list | where_exp: "item", "item.parent != nil" %}
+  {% assign pages_with_grand_parents = pages_list | where_exp: "item", "item.grand_parent != nil" %}
+  {%- assign children_map = pages_with_parents | group_by_exp: "item", "item.parent" -%}
+  {% comment %}
+  {% assign grand_children_map = {} %}
+  {% for parent_lookup in children_map %}
+    {% assign grand_children_map[parent_lookup.name] = 1 %}
+  {% endfor %}
+  {% endcomment %}
+  {%- assign grand_children_map = pages_with_grand_parents | group_by_exp: "item", "item.grand_parent" -%}
   {%- for node in pages_list -%}
     {%- unless node.nav_exclude -%}
       {%- if node.parent == nil and node.title -%}
@@ -21,9 +32,13 @@
           {%- endif -%}
           <a href="{{ node.url | absolute_url }}" class="nav-list-link{% if page.url == node.url %} active{% endif %}">{{ node.title }}</a>
           {%- if node.has_children -%}
-            {%- assign children_list = pages_list | where: "parent", node.title -%}
+          {%comment%}
+          {%- assign children_list = pages_list | where: "parent", node.title -%}
+          {%endcomment%}
+          {%- assign children_obj = children_map | where_exp: "item", "item.name == node.title" -%}
+          <!-- {{ children_obj[0].name }} || {{ children_obj[0].items | map: "title" | join: "," }} -->
             <ul class="nav-list ">
-            {%- for child in children_list -%}
+            {%- for child in children_obj[0].items -%}
               {%- unless child.nav_exclude -%}
                 <li class="nav-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
                   {%- if page.url == child.url or page.parent == child.title -%}
@@ -53,3 +68,24 @@
     {%- endunless -%}
   {%- endfor -%}
 </ul>
+
+<script>
+{%comment%}
+// console.log({{ children_map | jsonify }})
+// console.log({{ grand_children_map | jsonify }})
+{%endcomment%}
+
+{%comment%}
+  {% for item in children_map %}
+  // -- parent: {{ item.name }} --
+  console.log({{ item.items | jsonify }})
+  // -- end {{ item.name }} --
+  {% endfor %}
+
+  {% for item in grand_children_map %}
+  // -- grandparent: {{ item.name }} (grouped by parent) --
+  console.log({{ item.items | group_by: "parent" | jsonify }})
+  // -- end {{ item.name }} --
+  {% endfor %}
+  {%endcomment%}
+</script>
