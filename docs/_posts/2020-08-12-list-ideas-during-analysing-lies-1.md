@@ -72,3 +72,11 @@ parent: Posts
   - doing time limited challenges increases error rate but can be useful for learning quickly
     - what's going on here?
   - the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
+
+- why would wanting to be remembered as someone who contributed to a good future be good?
+  
+- why would wanting to be remembered as someone who contributed to a good future be second handed?
+
+- why would wanting to be remembered as someone who contributed to a good future be bad?
+
+- AL1: the prioritization of *academic* politicking indicates Birner thinks success as a philosopher depends on success in academia, which is wrong.
