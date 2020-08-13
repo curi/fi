@@ -3,6 +3,7 @@ layout: page
 title: Notes | Tutorial 02
 parent: Tutorial Notes
 date: 2020-06-24
+lesson: 2
 ---
 
 # Part 2: Complex Sentence Grammar

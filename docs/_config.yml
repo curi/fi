@@ -42,6 +42,27 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
+collections:
+  pub_drafts:
+    output: true
+    permalink: /pub-drafts/:name
+  books:
+    output: true
+    permalink: /books/:name
+  tutorials:
+    output: true
+    permalink: /notes/:name
+    sort_by: lesson
+  grammar_exercises:
+    output: true
+    permalink: /ex-parsing/:name
+  flux:
+    output: true
+    permalink: /flux/:name
+  posts:
+    output: true
+    permalink: /posts/:name
+
 # Sort order for navigation links
 nav_sort: case_insensitive # default, equivalent to nil
 # nav_sort: case_sensitive # Capital letters sorted before lowercase

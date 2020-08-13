@@ -5,16 +5,23 @@
 layout: home
 ---
 
-## FI Links
+## FI Links (external)
 
 * <https://fallibleideas.com/> - Main FI site, maintained by Elliot Temple
 * <https://curi.us/> - Elliot Temple's blog/forum hybrid
 * <http://fallibleliving.com/> - Maintained by Justin Mallone
 * <https://conjecturesandrefutations.com/> - Alan Forrester's blog
 
-### TCS
+### TCS (external)
 
 * <https://curi.us/2289-the-history-of-taking-children-seriously> - Elliot Temple's post on the history of TCS
+
+## Categories
+
+{% assign collections = site.collections %}
+{% for c in collections %}
+  <p>{{ c.label }}</p>
+{% endfor %}
 
 {% assign dated_pages = "" | split: ',' %}
 {% assign undated_pages = "" | split: ',' %}
