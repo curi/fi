@@ -60,3 +60,15 @@ parent: Posts
 
 - don't tell a story ("i was reading blah and thought blah"), tell the idea ("what if blah causes blah? I think it could because blah. Here's an example: blah")
 
+### August 13th
+
+- what is fallible ideas?
+  - community + living tradition of critical fallibilism
+
+- what is the relationship between critical rationalism and critical fallibilism. What are some differences?
+  - important disagreements exist
+
+- thoughts on conflict between learning and error rate
+  - doing time limited challenges increases error rate but can be useful for learning quickly
+    - what's going on here?
+  - the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
