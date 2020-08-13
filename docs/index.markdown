@@ -18,15 +18,13 @@ nav_order: 1
 
 * <https://curi.us/2289-the-history-of-taking-children-seriously> - Elliot Temple's post on the history of TCS
 
-## Categories
+## Collections
 
 {% assign cs = site.collections %}
 {% for c_name in site.collections_order %}
   {% assign c2 = site.collections | where_exp: "col", "col.label == c_name"  | first %}
-<h3> {{ c2.title }} </h3>
-
-{% assign pages_rev = c2.docs | reverse %}
-{% include list_pages.html pages=pages_rev %}
+  <h3> {{ c2.title }} </h3>
+  {% include list_pages.html pages=c2.docs sort_by_date=true %}
 
 {% endfor %}
 
@@ -48,20 +46,12 @@ nav_order: 1
 {% endfor %}
 
 {% assign dated_pages = dated_pages | sort: "date" | reverse %}
-{% assign undated_pages = undated_pages | sort: "title" | reverse %}
+{% assign undated_pages = undated_pages | sort: "title" %}
 
 ## Other Posts (Dated)
 
-<ul>
-{% for page in dated_pages %}
-  <li><a href="{{ page.url | relative_url }}">{% if page.date %}{{ page.date }} - {% endif %}{{ page.title }}</a></li>
-{% endfor %}
-</ul>
+{% include list_pages.html pages=dated_pages %}
 
 ## Other Posts (Undated)
 
-<ul>
-{% for page in undated_pages %}
-  <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-{% endfor %}
-</ul>
+{% include list_pages.html pages=undated_pages %}

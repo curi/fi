@@ -1,10 +1,11 @@
 ---
-title: (done) Appearance is never worth sacrificing one's integrity for.
+title: Appearance is never worth sacrificing one's integrity for.
 author: Max Kaye
 date: 2020-07-15
 layout: post
 parent: Public Drafts
 fi_link: https://groups.google.com/g/fallible-ideas/c/gSHSxW4ntxE
+done: true
 ---
 
 background: Flux is a political movement aiming to introduce new ideas to politics and use those ideas to build better democracies.

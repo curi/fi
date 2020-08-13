@@ -4,6 +4,7 @@ has_children: true
 date: 2020-07-18
 layout: page
 cat_root: flux
+permalink: /flux/
 ---
 
 ## notes re IBDD / pricing

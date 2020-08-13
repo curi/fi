@@ -2,6 +2,7 @@
 title: Public Drafts
 layout: post
 has_children: true
+permalink: /pub-drafts/
 ---
 
 1. TOC

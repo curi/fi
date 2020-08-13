@@ -2,7 +2,7 @@
 parent: Public Drafts
 date: 2020-08-04
 author: Max Kaye
-layout: post
+layout: page
 title: "What are the right changes to make if you want to change the world?"
 ---
 

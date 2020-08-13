@@ -2,11 +2,19 @@
 <h1>WARNING: you've included list_pages.html but have not provided a `pages` parameter! You sorta need to.</h1>
 {% endunless %}
 
+
+{% if include.sort_by_date %}
+  {% assign pages = include.pages | where_exp: "p", "p.date != nil" | sort: date | reverse %}
+  {% assign pages_no_date = include.pages | where_exp: "p", "p.date == nil" | reverse %}
+  {% assign pages = pages | concat: pages_no_date %}
+{% else %}
+  {% assign pages = include.pages %}
+{% endif %}
 <ul>
-    {% for page in include.pages %}
+    {% for page in pages %}
     <li>
         <a href="{{ page.url | relative_url }}">
-            {% if page.date %}[{{ page.date | date: "%Y-%m-%d" }}]{% endif %} {{ page.title }}
+            {% unless page.date == nil %} <em> {{ page.date | date: "%Y-%m-%d" }} </em> &mdash; {% endunless %} {{ page.title }}
         </a>
     </li>
     {% endfor %}

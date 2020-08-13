@@ -42,9 +42,13 @@
           {%- assign children_list = pages_list | where: "parent", node.title -%}
           {%endcomment%}
           {%- assign children_obj = children_map | where_exp: "item", "item.name == node.title" -%}
-          <!-- {{ children_obj[0].name }} || {{ children_obj[0].items | map: "title" | join: "," }} -->
             <ul class="nav-list ">
-            {%- for child in children_obj[0].items -%}
+            {% if node.title == "Tutorial Notes" or node.title == "Posts" %}
+              {% assign childs = children_obj[0].items | sort: ["date", "title"] | reverse %}
+            {% else %}
+              {% assign childs = children_obj[0].items | sort: ["title"] %}
+            {% endif %}
+            {%- for child in childs -%}
               {%- unless child.nav_exclude -%}
                 <li class="nav-list-item {% if page.url == child.url or page.parent == child.title %} active{% endif %}">
                   {%- if page.url == child.url or page.parent == child.title -%}

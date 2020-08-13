@@ -3,6 +3,7 @@ title: Tutorial Notes
 layout: page
 has_children: true
 cat_root: tutorials
+permalink: /notes/
 ---
 
 I am currently being tutored by [Elliot Temple](https://elliottemple.com).

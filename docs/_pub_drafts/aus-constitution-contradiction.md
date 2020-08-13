@@ -1,9 +1,10 @@
 ---
-title: (done) The Constitution of Australia says no one is eligible for office
+title: The Constitution of Australia says no one is eligible for office
 author: Max Kaye
 date: 2020-07-17
 layout: post
 parent: Public Drafts
+done: true
 ---
 
 My goal with this post is to tackle a small argument while communicating and structuring it well.
@@ -16,6 +17,7 @@ I streamed the planning process: <https://www.youtube.com/watch?v=IIuebFA1jSY> (
 ET and I looked over the planning in [Tutoring Max #14](https://www.youtube.com/watch?v=lVRkRhtZ2UA&list=PLKx6lO5RmaetREa9-jt2T-qX9XO2SD0l2&index=14)
 
 Links:
+
 * article tree planning + grammar tree
 * outline (text + hierarchy)
 

@@ -1,10 +1,11 @@
 ---
-title: "(done) How do you test a partial explanation of Tourette's?"
+title: "How do you test a partial explanation of Tourette's?"
 date: 2020-08-04
 author: Max Kaye
 layout: page
 parent: Public Drafts
 fi_link: https://groups.google.com/g/fallible-ideas/c/R0qGOHIgJQU
+done: true
 ---
 
 In the early hours of the morning (12am - 1am) I had an idea about Tourette's (Tourette's Syndrome / TS) and wanted to figure out if it was useful.
