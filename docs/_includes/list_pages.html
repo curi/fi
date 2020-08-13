@@ -1,0 +1,13 @@
+{% unless include.pages %}
+<h1>WARNING: you've included list_pages.html but have not provided a `pages` parameter! You sorta need to.</h1>
+{% endunless %}
+
+<ul>
+    {% for page in include.pages %}
+    <li>
+        <a href="{{ page.url | relative_url }}">
+            {% if page.date %}[{{ page.date | date: "%Y-%m-%d" }}]{% endif %} {{ page.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

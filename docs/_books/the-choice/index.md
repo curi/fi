@@ -3,7 +3,6 @@ title: The Choice - Outline
 has_children: true
 layout: page
 permalink: books/the-choice/
-date: 2020-07-14
 ---
 
 1. TOC

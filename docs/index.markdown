@@ -3,18 +3,32 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
+nav_order: 1
 ---
 
-## FI Links
+## FI Links (external)
 
 * <https://fallibleideas.com/> - Main FI site, maintained by Elliot Temple
 * <https://curi.us/> - Elliot Temple's blog/forum hybrid
 * <http://fallibleliving.com/> - Maintained by Justin Mallone
 * <https://conjecturesandrefutations.com/> - Alan Forrester's blog
 
-### TCS
+### TCS (external)
 
 * <https://curi.us/2289-the-history-of-taking-children-seriously> - Elliot Temple's post on the history of TCS
+
+## Categories
+
+{% assign cs = site.collections %}
+{% for c_name in site.collections_order %}
+  {% assign c2 = site.collections | where_exp: "col", "col.label == c_name"  | first %}
+<h3> {{ c2.title }} </h3>
+
+{% assign pages_rev = c2.docs | reverse %}
+{% include list_pages.html pages=pages_rev %}
+
+{% endfor %}
 
 {% assign dated_pages = "" | split: ',' %}
 {% assign undated_pages = "" | split: ',' %}
@@ -36,7 +50,7 @@ layout: home
 {% assign dated_pages = dated_pages | sort: "date" | reverse %}
 {% assign undated_pages = undated_pages | sort: "title" | reverse %}
 
-## Dated Posts
+## Other Posts (Dated)
 
 <ul>
 {% for page in dated_pages %}
@@ -44,7 +58,7 @@ layout: home
 {% endfor %}
 </ul>
 
-## Other Posts/Pages
+## Other Posts (Undated)
 
 <ul>
 {% for page in undated_pages %}

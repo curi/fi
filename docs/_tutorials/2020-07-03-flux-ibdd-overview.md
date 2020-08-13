@@ -1,5 +1,8 @@
 ---
 layout: page
+nav_exclude: true
+parent: Tutorial Notes
+date: 2020-07-03
 ---
 
 * promises and payoffs
