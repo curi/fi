@@ -57,7 +57,6 @@ parent: Posts
   - you can also say to the person (btw I have a methodology for asking about methodolgies, it's here if you want to check it out or skip ahead)
   - if the person looks at the flow chart and can move to the bit that's appropriate then it saves dialog time
 
-
 - don't tell a story ("i was reading blah and thought blah"), tell the idea ("what if blah causes blah? I think it could because blah. Here's an example: blah")
 
 ### August 13th
@@ -80,3 +79,5 @@ parent: Posts
 - why would wanting to be remembered as someone who contributed to a good future be bad?
 
 - AL1: the prioritization of *academic* politicking indicates Birner thinks success as a philosopher depends on success in academia, which is wrong.
+
+- AL1: it's curious how much i read into both the title and the ellipsis. if they were put there by the guy who posted (need to check source) it shows how much i take good quoting for granted. if it wasn't CR i think i would have been more skeptical of the quoting quality.
