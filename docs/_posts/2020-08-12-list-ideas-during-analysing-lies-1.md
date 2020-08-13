@@ -2,6 +2,7 @@
 title: "[List] Ideas during Analyising Lies 1"
 date: 2020-08-12
 layout: post
+parent: Posts
 ---
 
 - why would it be important to be impressive but to not aim to be impressive?

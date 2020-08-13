@@ -3,6 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
+nav_order: 1
 ---
 
 ## FI Links (external)
@@ -18,9 +20,14 @@ layout: home
 
 ## Categories
 
-{% assign collections = site.collections %}
-{% for c in collections %}
-  <p>{{ c.label }}</p>
+{% assign cs = site.collections %}
+{% for c_name in site.collections_order %}
+  {% assign c2 = site.collections | where_exp: "col", "col.label == c_name"  | first %}
+<h3> {{ c2.title }} </h3>
+
+{% assign pages_rev = c2.docs | reverse %}
+{% include list_pages.html pages=pages_rev %}
+
 {% endfor %}
 
 {% assign dated_pages = "" | split: ',' %}
@@ -43,7 +50,7 @@ layout: home
 {% assign dated_pages = dated_pages | sort: "date" | reverse %}
 {% assign undated_pages = undated_pages | sort: "title" | reverse %}
 
-## Dated Posts
+## Other Posts (Dated)
 
 <ul>
 {% for page in dated_pages %}
@@ -51,7 +58,7 @@ layout: home
 {% endfor %}
 </ul>
 
-## Other Posts/Pages
+## Other Posts (Undated)
 
 <ul>
 {% for page in undated_pages %}
