@@ -117,3 +117,7 @@ Next time:
 - the following paragraph of the quote provided for contextual before the actual source material
 - don't forget to re-evaluate the title
 - once the quote is done, do pass 2 and 3
+
+other stuff I remembered:
+
+- check the relationships of all the prepositions and things in sentence 2. there's some weird stuff there.
