@@ -83,3 +83,16 @@ parent: Posts
 - AL1: it's curious how much i read into both the title and the ellipsis. if they were put there by the guy who posted (need to check source) it shows how much i take good quoting for granted. if it wasn't CR i think i would have been more sceptical of the quoting quality.
 
 - why did overreaching stuff / coming to terms with own problems feel *~confessional* before but doesn't now?
+
+- songs to analyse
+  - santa clause is coming to town (TCS / lying to children)
+  - call me maybe
+  - you need to calm down (taylor swift)
+  - blank space (taylor swift)
+  - sk8er boi
+
+- standard nomenclature for FI posts about flagging stuff you
+- overreaching - label for full post
+- social signal / social dynamics / static meme - for particular statements or sentences; jokes, all jokes?
+  - not all jokes; e.g. "a preposition is fine to end a sentence with"
+- self grading of quality

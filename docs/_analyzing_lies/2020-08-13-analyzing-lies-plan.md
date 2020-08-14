@@ -24,6 +24,7 @@ I'm going to go through the Analyzing Lies material again. Here is my plan:
   * Ideally posting before watching the next chunk.
   * I'll also post it to <https://xertrov.github.io/fi/analyzing-lies/>
 * I'm also going to try and *not* edit my answers too much. It's more valuable for me and you (readers in general) if I react honestly rather than trying to touch it up too much after the fact. I'm putting this here because I think I've already done this twice, and it feels dishonest to take those things out.
+* I'm going to use the self-grading method discussed in [Tutoring Max 27] (link soon) at ~70min.
 
 ### Three pass method
 
