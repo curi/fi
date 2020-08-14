@@ -80,7 +80,6 @@ parent: Posts
 
 - AL1: the prioritization of *academic* politicking indicates Birner thinks success as a philosopher depends on success in academia, which is wrong.
 
-- AL1: it's curious how much i read into both the title and the ellipsis. if they were put there by the guy who posted (need to check source) it shows how much i take good quoting for granted. if it wasn't CR i think i would have been more skeptical of the quoting quality.
+- AL1: it's curious how much i read into both the title and the ellipsis. if they were put there by the guy who posted (need to check source) it shows how much i take good quoting for granted. if it wasn't CR i think i would have been more sceptical of the quoting quality.
 
 - why did overreaching stuff / coming to terms with own problems feel *~confessional* before but doesn't now?
-  

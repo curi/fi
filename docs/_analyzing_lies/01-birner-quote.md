@@ -8,11 +8,11 @@ layout: post
 ## Full quote
 
 >> INDIVIDUALISTS AND THE MOB: CAN CRITICAL RATIONALISM SURVIVE?
->> 
+>>
 >> “By its very nature, critical rationalism attracts philosophers who believe in the force of critical argument. Let us assume (realistically, I think) that the type of personality with a firm belief in the power of criticism is less prone than the average academic to devote resources to the social networking and academic politicking that are needed to create an environment in which his or her intellectual offspring can survive…
->> 
+>>
 >> “Until recently not only philosophers but some (outstanding) practising scientists (who are more likely to cultivate the social conditions that are necessary to carry on with their work), too, supported critical rationalism. This allowed critical rationalism to become a tradition for at least a couple of generations. In the mean time, however, the number of scientific disciplines, journals and scientists has increased. The professionalization of science has gone hand in hand with a drop in interest in philosophy on the part of scientists. The academic environment has changed and selection pressures have increased greatly. In this new environment, the support of scientists is lacking while the contents of critical rationalism continue to select against the type of personal characteristics that make it possible for individuals to adopt or have access to at least elements of different traditions. The situation of carriers of the tradition of critical rationalism being incapable of adopting or having access to alternative traditions is tantamount to the non-existence of alternative traditions. If critical rationalists continue to fail to adopt alternative traditions, or at least elements of them, critical rationalism risks becoming entrenched – and extinct.”
->> 
+>>
 >> Jack Birner, ‘From Group Selection to Ecological Niches,’ in ‘Rethinking Popper,’ ed. Zuzana Parusnikova.  
 
 ## Notes on spoilers from the start of AL1
