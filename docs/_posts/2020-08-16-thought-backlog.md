@@ -22,6 +22,10 @@ permalink: /thought-backlog/
 
 ## thoughts and ideas and stuff
 
+- gerunds can be modified by an adverb
+  - <https://www.grammar-monster.com/glossary/gerunds.htm>
+  - does fi/grammar say this?
+
 - does being unsiklled at FI and trying to manage a backlog become exponentially harder as prioritisation skills decrease?
   - like, prioritisation matters for effective FI participation with multiple things, and the more things the more it matters
   - so if someone is bad at FI and also bad at prioritisation it's a really uphill battle
