@@ -3,6 +3,7 @@ title: The Choice - Outline
 has_children: true
 layout: page
 permalink: books/the-choice/
+date: 2020-07-07
 ---
 
 1. TOC
@@ -36,7 +37,7 @@ manufacture of their goods.
 
 Chapter 3 is Efrat's reflection on the idea of common-sense logic from ch1, the report from ch2, and on what that means
 for herself and one's life and approach to life. She agrees the reasoning in ch2 is logical
-and common sense, but doesn't see how she could do that herself. 
+and common sense, but doesn't see how she could do that herself.
 
 She thinks there are
 two barriers: not prioritising the biggest problem, and dismissing options early due to
@@ -49,7 +50,7 @@ A side effect of the *typical* way people deal with these problems (where they a
 
 Finally, she concludes a good perception of reality is effective and powerful. The implications of this are not acknowledged at this point, but this is epistemically significant in a way Efrat has not yet realised.
 
-### Parallels to BoI
+### Parallels to BoI - Ch3
 
 * elegance in hard-to-vary explanations
 * theory-laden results (forecast is bad => shortages and surpluses)
@@ -70,7 +71,7 @@ complexity of systems: degrees of freedom vs information required to describe sy
 
 one problem covered so far: the perception reality is complex.
 
-### Parallels to BoI
+### Parallels to BoI - Ch4
 
 * reality is objective and consistent
 * power and reach of explanations
@@ -88,7 +89,7 @@ Second obstacle is the belief that: when we have conflicts the best we can do is
 
 Inherent simplicity => parts of reality we care about governed by only a few elements => find the incorrect assumption => eliminate conflicts.
 
-### Parallels to BoI
+### Parallels to BoI - Ch5
 
 * bad explanations lead to unpredictable outcomes
 * new knowledge proves something wrong about what it replaces (e.g. gravity as a force false according to general relativity, but not newtonian gravity)

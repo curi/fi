@@ -6,6 +6,8 @@ date: 2020-07-20
 layout: page
 ---
 
+## NOT DONE
+
 https://owl.purdue.edu/owl_exercises/punctuation_exercises/commas/comma_exercise_1.html
 
 Add commas as needed in the sentences below. On the line to the left of each sentence, write the number of the appropriate comma rule (click here to see the rules). If the sentence is correct as it is, write C on the line and refer to the appropriate rule in parentheses after the sentence.

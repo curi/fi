@@ -10,6 +10,19 @@
 {% else %}
   {% assign pages = include.pages %}
 {% endif %}
+
+{% if include.limit %}
+  {% assign t = "" | split: "," %}
+  {% for p in pages limit: includes.limit %}
+    {% assign t_size = t | size %}
+    {% unless t_size >= include.limit %}
+      {% assign t = t | push: p %}
+    {% endunless %}
+  {% endfor %}
+  {% assign pages = t %}
+{% endif %}
+  
+<!--list_pages has {{ pages | size }} pages-->
 <ul>
     {% for page in pages %}
     <li>

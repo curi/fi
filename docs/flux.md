@@ -1,6 +1,6 @@
 ---
 title: Flux
-has_children: true
+has_children: false
 date: 2020-07-18
 layout: page
 cat_root: flux

@@ -11,18 +11,14 @@ date: 2020-06-29
 ## He was waiting for the rain to stop.
 
 ```
-(was :: verb
+was :: verb
     he :: pronoun
-    (waiting :: gerund
-        (for :: preposition
-            ((to stop) :: infinitive 
-                (rain :: noun
+    waiting :: gerund
+        for :: preposition
+            to stop :: infinitive
+                rain :: noun
                     the :: det
-                ) :: subject
-            )
-        )
-    )
-)
+                :: subject
 ```
 
 * 'to stop' - could be (preposition,noun) but a noun would mean something like 'a stop' could be put in there, doesn't feel right => infinitive makes more sense
@@ -32,18 +28,16 @@ date: 2020-06-29
 implied => Nobody [has] ever been bothered by being dead
 
 ```
-(bothered :: verb, linking
-    (has :: aux verb
+bothered :: verb, linking
+    has :: aux verb
         been :: aux verb
         ever :: adverb
-    ) :: adverbial
+    :: adverbial
     nobody :: pronoun
-    (by :: preposition
-        (being :: gerund
+    by :: preposition
+        being :: gerund
             dead :: adjective / object of 'being'
-        )
-    ) :: adverbial
-)
+    :: adverbial
 ```
 
 * 'ever' adverb on 'has' 
@@ -576,7 +570,29 @@ alt:
                 insufferable :: adjective
 ```
 
-## so you see, Mr. Bond, neither the British Secret Service nor God can save you now
+## 2020-08-15 so you see, Mr. Bond, neither the British Secret Service nor God can save you now
+
+implied: "so you see, Mr Bond, [that] neither ..."
+
+```
+[;] :: implied conjunction
+    see :: verb
+        so :: adverb
+        you :: pronoun
+            Mr. Bond :: noun, referenced via 'you'
+        [that] :: pro-sentence
+    can :: aux verb
+        save :: verb
+            you :: pronoun
+        now :: adverb
+        neither :: pronoun
+            nor :: conjunction
+                British Secret Service :: noun
+                    the :: determiner
+                God :: noun
+            :: reference of neither
+    :: reference of [that]
+```
 
 ## we should be persuaded by neither eloquence nor vitriol, but instead by those arguments for which, despite detractors' best efforts, there are no unanswered criticisms
 

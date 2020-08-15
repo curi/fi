@@ -8,6 +8,10 @@
 .main-content {
   line-height: $content-line-height;
 
+  em, strong {
+    color: $link-color;
+  }
+
   ol,
   ul,
   dl,
@@ -21,6 +25,10 @@
   a {
     overflow: hidden;
     text-overflow: ellipsis;
+    // white-space: nowrap;
+  }
+
+  ol#markdown-toc > li > a {
     white-space: nowrap;
   }
 

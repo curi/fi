@@ -62,3 +62,8 @@ h6,
 .text-right {
   text-align: right !important;
 }
+
+em {
+  color: $link-color;
+  font-size: large;
+}

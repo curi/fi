@@ -93,8 +93,10 @@ Good luck!
 
 If you'd like more to read about writing, here are some posts by Elliot Temple. He's a better writer than I am and knows more about the topic.
 
+* <https://fallibleideas.com/grammar>
 * <https://curi.us/2028-writing-tips>
 * <https://curi.us/1885-writing-for-audiences>
+* <https://curi.us/2293-using-commas>
 * <https://curi.us/1431-writing-clearly-and-thinking-well>
 * <https://curi.us/1805-optimal-fallible-ideas-post-size-and-style>
 * <https://curi.us/1802-write-to-move-discussion-forward>

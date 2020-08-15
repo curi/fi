@@ -3,16 +3,22 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
+title: Home & Index
 nav_order: 1
 ---
+
+## Recent Posts
+
+{% assign all_posts = site.documents | where_exp: "d", "d.date != nil" %}
+{% include list_pages.html pages=all_posts sort_by_date=true limit=14 %}
 
 ## FI Links (external)
 
 * <https://fallibleideas.com/> - Main FI site, maintained by Elliot Temple
-* <https://curi.us/> - Elliot Temple's blog/forum hybrid
+* <https://curi.us/> - Elliot Temple's blog / forum hybrid
 * <http://fallibleliving.com/> - Maintained by Justin Mallone
 * <https://conjecturesandrefutations.com/> - Alan Forrester's blog
+* <http://justinmallone.com/> - Justin Mallone's blog
 
 ### TCS (external)
 
@@ -22,21 +28,17 @@ nav_order: 1
 
 {% assign cs = site.collections %}
 {% for c_name in site.collections_order %}
-  {% assign c2 = site.collections | where_exp: "col", "col.label == c_name"  | first %}
+  {% assign c2 = site.collections | where_exp: "col", "col.label == c_name" | first %}
   <h3> {{ c2.title }} </h3>
   {% include list_pages.html pages=c2.docs sort_by_date=true %}
-
 {% endfor %}
+
+## Other Posts (no category)
 
 {% assign dated_pages = "" | split: ',' %}
 {% assign undated_pages = "" | split: ',' %}
 {% for page in site.pages %}
   {% if page.title %}
-    {% comment %}
-    {% unless page.date %}
-        {% assign page.date = "2020-06-01" | string_to_date %}
-    {% endunless %}
-    {% endcomment %}
     {% if page.date %}
       {% assign dated_pages = dated_pages | push: page %}
     {% else %}
@@ -48,10 +50,10 @@ nav_order: 1
 {% assign dated_pages = dated_pages | sort: "date" | reverse %}
 {% assign undated_pages = undated_pages | sort: "title" %}
 
-## Other Posts (Dated)
+### Dated
 
 {% include list_pages.html pages=dated_pages %}
 
-## Other Posts (Undated)
+### Undated
 
 {% include list_pages.html pages=undated_pages %}
