@@ -89,7 +89,7 @@ Good luck!
 
 ----
 
-If you'd like more to read about writing, here are some posts by Elliot Temple. He's a better writer than I am and knows more about the topic.
+If you'd like more to read about writing, here are some posts by [Elliot Temple](https://elliottemple.com). He's a better writer than I am and knows more about the topic.
 
 * <https://fallibleideas.com/grammar>
 * <https://curi.us/2028-writing-tips>
