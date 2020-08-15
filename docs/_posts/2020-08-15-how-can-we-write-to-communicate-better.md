@@ -5,10 +5,10 @@ layout: post
 parent: Posts
 ---
 
-This article was originally written as a [15 minute writing exercise]().
-I've since edited it properly and improved some points using feedback Elliot Temple gave in my [tutorial on 14th August 2020]().
+This article was originally written as a [15 minute writing exercise](../../notes/2020-08-13-hw/#15-min-writing-exercise-parameters).
+I've since edited it properly and improved some points using feedback Elliot Temple gave in my [tutorial on 14th August 2020](https://youtu.be/EjB1Bn05o_Y?t=1230).
 
-The original draft is in [my "homework" notes for that tutorial](). (For comparison, the original draft was ~650 words and this one is ~1250)
+The original draft is in [my "homework" notes for that tutorial](../../notes/2020-08-13-hw/#how-can-you-write-to-better-communicate-to-people-generally). (For comparison, the original draft was ~650 words and this one is ~1250)
 
 ----
 
@@ -88,3 +88,14 @@ Similarly, turning a verb into a gerund, infinitive, or participle will diminish
 Being capable of these more advanced techniques is one of the motivations to learn some of the other skills I mentioned earlier, like grammar. I'll need more practice before I can write a good article about these sorts of techniques, though.
 
 Good luck!
+
+----
+
+If you'd like more articles on writing, here are some by Elliot Temple. He's a better writer than I am and knows more about the topic.
+
+* <https://curi.us/2028-writing-tips>
+* <https://curi.us/1885-writing-for-audiences>
+* <https://curi.us/1431-writing-clearly-and-thinking-well>
+* <https://curi.us/1805-optimal-fallible-ideas-post-size-and-style>
+* <https://curi.us/1802-write-to-move-discussion-forward>
+* <https://curi.us/2016-popper-vs-impressive-incomprehensible-writing>
