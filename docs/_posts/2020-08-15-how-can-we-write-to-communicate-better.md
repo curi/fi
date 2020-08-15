@@ -1,6 +1,6 @@
 ---
 title: How can we write to better communicate ideas?
-date: 2020-08-15
+date: 2020-08-15 20:00
 layout: post
 parent: Posts
 ---
