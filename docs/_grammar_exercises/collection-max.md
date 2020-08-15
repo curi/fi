@@ -94,23 +94,11 @@ Note: I can definitely write this better (it's from [early learning: objectivism
 
 (added after doing the one below)
 
-TODO: check aux verb tree structure
-
 ```
-explain :: verb
-  can :: aux verb
+can :: aux verb
+    explain :: verb
     i :: pronoun
 ```
-
-or is it
-
-```
-explain :: verb
-  i :: pronoun
-  can :: aux verb
-```
-
-option 2 is better; `can` changes `explain`, but `I` is the subject of explain
 
 ## I can explain the acronyms if need be.
 

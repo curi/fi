@@ -10,7 +10,7 @@ nav_order: 1
 ## Recent Posts
 
 {% assign all_posts = site.documents | where_exp: "d", "d.date != nil" %}
-{% include list_pages.html pages=all_posts sort_by_date=true limit=14 %}
+{% include list_pages.html pages=all_posts sort_by_date=true limit=10 %}
 
 ## FI Links (external)
 
