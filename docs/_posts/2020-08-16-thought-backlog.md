@@ -12,6 +12,9 @@ permalink: /thought-backlog/
   - pre-emptive reaction to avoid discussion and put on mental backlog
 
 - learning and error rate
+  - doing time limited challenges increases error rate but can be useful for learning quickly
+    - what's going on here?
+  - the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
 
 - analysing lies application - uncertainty, self-eval
 
@@ -90,11 +93,6 @@ permalink: /thought-backlog/
 - what is the relationship between critical rationalism and critical fallibilism. What are some differences?
   - important disagreements exist
 
-- thoughts on conflict between learning and error rate
-  - doing time limited challenges increases error rate but can be useful for learning quickly
-    - what's going on here?
-  - the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
-
 - why would wanting to be remembered as someone who contributed to a good future be good?
   
 - why would wanting to be remembered as someone who contributed to a good future be second handed?
@@ -115,10 +113,7 @@ permalink: /thought-backlog/
   - sk8er boi
 
 - standard nomenclature for FI posts about flagging stuff you
-
-- overreaching - label for full post
-
-- social signal / social dynamics / static meme - for particular statements or sentences; jokes, all jokes?
-  - not all jokes; e.g. "a preposition is fine to end a sentence with"
-
-- self grading of quality
+  - overreaching - label for full post
+  - social signal / social dynamics / static meme - for particular statements or sentences; jokes, all jokes?
+    - not all jokes; some are fine e.g. "a preposition is fine to end a sentence with"
+  - self grading of quality
