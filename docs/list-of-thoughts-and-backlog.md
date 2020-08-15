@@ -1,9 +1,31 @@
 ---
-title: "[List] Ideas during Analysing Lies 1"
-date: 2020-08-12
+title: Thought Backlog
+has_children: false
 layout: post
-parent: Posts
+date: 2020-08-16 04:00
 ---
+
+## conflicts
+
+- conflict re: overreaching and discuss disagreements
+  - pre-emptive reaction to avoid discussion and put on mental backlog
+
+- learning and error rate
+
+- analysing lies application - uncertainty, self-eval
+
+- (from 2020-08-12) conflict between idea of structuring things well and having a full idea in your head and trying to get it all out at once.
+
+## thoughts and ideas and stuff
+
+- does being unsiklled at FI and trying to manage a backlog become exponentially harder as prioritisation skills decrease?
+  - like, prioritisation matters for effective FI participation with multiple things, and the more things the more it matters
+  - so if someone is bad at FI and also bad at prioritisation it's a really uphill battle
+  - increased bandwidth (time) means prioritisation is less important, less of a bottleneck
+  - so more time is one way to get good enough for your prioritisation to get better
+  - then once prioritisation is better you can manage things at a slower rate with good prioritisation
+
+### copied over from [[List] Ideas during Analysing Lies 1](../posts/2020-08-12-list-ideas-during-analysing-lies-1)
 
 - why would it be important to be impressive but to not aim to be impressive?
 
@@ -40,8 +62,8 @@ parent: Posts
   - simple language is also easier to read and understand. if you can write complex ideas in simple language, that's a virtue. it makes it easier to spread good ideas, and it makes the writing more enduring.
   - (from AnalyzingLies1; ET) 32:07 where you're supposed to use bold and simple writing. and make your stuff easy to criticise. (not fancy and confusing)
 
-- thoughts on quoting people like goldratt: status, context, synchronicity
-  - context, post about "intellectual response time doens't matter; a novel interpretation of the tortise and the hare as a metaphor for attitudes towards thinking and learning.
+- thoughts on quoting people like goldratt: status, context, synchronising ideas
+  - context, post about "intellectual response time doesn't matter; a novel interpretation of the tortoise and the hare as a metaphor for attitudes towards thinking and learning."
     - quote goldratt: "I'm a bodybuilder"
 
 - how to symbols and our ideas about our self interact?
@@ -59,7 +81,7 @@ parent: Posts
 
 - don't tell a story ("i was reading blah and thought blah"), tell the idea ("what if blah causes blah? I think it could because blah. Here's an example: blah")
 
-### August 13th
+#### August 13th
 
 - what is fallible ideas?
   - community + living tradition of critical fallibilism
@@ -85,14 +107,17 @@ parent: Posts
 - why did overreaching stuff / coming to terms with own problems feel *~confessional* before but doesn't now?
 
 - songs to analyse
-  - santa clause is coming to town (TCS / lying to children)
+  - santa clause is coming to town (wrt TCS / lying to children)
   - call me maybe
   - you need to calm down (taylor swift)
   - blank space (taylor swift)
   - sk8er boi
 
 - standard nomenclature for FI posts about flagging stuff you
+
 - overreaching - label for full post
+
 - social signal / social dynamics / static meme - for particular statements or sentences; jokes, all jokes?
   - not all jokes; e.g. "a preposition is fine to end a sentence with"
+
 - self grading of quality
