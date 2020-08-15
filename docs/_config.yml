@@ -45,6 +45,7 @@ aux_links_new_tab: true
 collections_order:
   - posts
   - tutorials
+  - analyzing_lies
   - pub_drafts
   - books
   - grammar_exercises

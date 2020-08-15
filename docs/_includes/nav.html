@@ -2,9 +2,7 @@
   {%- assign ordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order != nil" -%}
   {%- assign unordered_pages_list = site.html_pages | where_exp:"item", "item.nav_order == nil" -%}
   {% for c in site.collections %}
-    {% for d in c.docs %}
-      {% assign to_concat = c.docs %}
-    {% endfor %}
+    {% assign to_concat = c.docs %}
     {% assign unordered_pages_list = unordered_pages_list | concat: to_concat %}
   {% endfor %}
   {%- if site.nav_sort == 'case_insensitive' -%}
