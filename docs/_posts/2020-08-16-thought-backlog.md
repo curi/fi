@@ -3,6 +3,7 @@ title: Thought Backlog
 has_children: false
 layout: post
 date: 2020-08-16 04:00
+permalink: /thought-backlog/
 ---
 
 ## conflicts
