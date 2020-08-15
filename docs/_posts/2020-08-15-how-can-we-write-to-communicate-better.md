@@ -91,7 +91,7 @@ Good luck!
 
 ----
 
-If you'd like more articles on writing, here are some by Elliot Temple. He's a better writer than I am and knows more about the topic.
+If you'd like more to read about writing, here are some posts by Elliot Temple. He's a better writer than I am and knows more about the topic.
 
 * <https://curi.us/2028-writing-tips>
 * <https://curi.us/1885-writing-for-audiences>
