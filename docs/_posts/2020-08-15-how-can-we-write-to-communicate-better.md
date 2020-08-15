@@ -83,7 +83,8 @@ Here's an example of what *not* to do: "It's sadly all too easy to mistakenly fi
 That last sentence was about *finding ourselves somewhere* rather than *the diminishment of ideas* (which was the *actual point*).
 Ideas in modifiers (adverbs, adjectives, prepositions, etc) are *less important* to the sentence than the subject, object or complement, and the primary verb.
 Similarly, turning a verb into a gerund, infinitive, or participle will diminish the meaning, too (though you *could* be tricky to get around this, but the result is often confusing).
-Being capable of these more advanced techniques is one of the motivations to learn some of the other skills I mentioned earlier, like grammar. I'll need more practice before I can write a good article about these sorts of techniques, though.
+Being capable of these more advanced techniques is one of the motivations to learn some of the other skills I mentioned earlier, like grammar.
+I'll need more practice before I can write a good article about these sorts of techniques, though.
 
 Good luck!
 
