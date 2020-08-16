@@ -11,14 +11,26 @@ permalink: /thought-backlog/
 - conflict re: overreaching and discuss disagreements
   - pre-emptive reaction to avoid discussion and put on mental backlog
 
-- learning and error rate
-  - doing time limited challenges increases error rate but can be useful for learning quickly
-    - what's going on here?
-  - the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
-
 - analysing lies application - uncertainty, self-eval
 
 - (from 2020-08-12) conflict between idea of structuring things well and having a full idea in your head and trying to get it all out at once.
+
+### conflict: learning and error rate
+
+The conflict is to do with the relative prioritization activities related to these two ideas:
+
+- the idea that working on building blocks and foundations is more efficient; leads to exponential progress with a larger base (like 2^x vs 10^x)
+- that activities or projects with a higher error ("exploratory learning" sorta thing) are worthwhile or fun (particularly the fun is why we do them, right?)
+  - counter-examples:
+    - trying to do [number theory stuff from SICP](https://www.youtube.com/watch?v=xYsTtXWzYPM) (via AnneB's work) -- big failure
+    - 'blind trees evening' as I called it (the thing that prompted me to contact ET about tutoring)
+
+thoughts:
+
+- interesting case: doing time limited challenges increases error rate but can be useful for learning quickly
+  - what's going on here?
+  - example: max's time-limited writing challenges
+- the more I learn the more intuitive it is to me that [*powering-up*](https://www.elliottemple.com/essays/life-overreaching-correcting-error) is a priority.
 
 ## thoughts and ideas and stuff
 
