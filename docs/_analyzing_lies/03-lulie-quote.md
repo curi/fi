@@ -24,7 +24,7 @@ layout: post
 >
 > New people from diverse intellectual backgrounds are getting interested in Popper regularly via Deutsch (who is himself still writing about critical rationalism). And there’s a lot of craving for these ideas lately — a lot of modern rationalist/skeptic communities trying to understand how to think about truth and knowledge, a lot of dissatisfaction for traditional academic philosophy, people who intuitively think objective morality makes sense but don’t know how to justify it, how to make sense of tyranny and liberalism, and so on. It’s very fertile ground for the next generation.
 
-## analysis
+## analysis (in depth; 1st pass)
 
 > (1) While I sympathise with the spirit of this post, I am far more optimistic.
 
@@ -148,3 +148,52 @@ Also if people are learning badly and taking away half baked ideas that's not ve
 > (21) It’s very fertile ground for the next generation.
 
 Saying things are good when they're not, **avoiding** issues.
+
+## analysis (mid-level; 2nd pass)
+
+> While I sympathise with the spirit of this post, I am far more optimistic.
+>
+> There’s a premise here that critical rationalism is incompatible with social networking and politicking.
+>
+> But you can have all sorts of interests as a critical rationalist. Why would social networking and politicking be special?
+
+She starts out by saying she sees the good in the post but thinks the future will be better than the picture pained.
+
+**dishonestly representing the post** (or rather, the extract), **there's no good to see it's just more acceptable to say that**
+
+Then she makes note of the main point but **downplays** it to seem important to the extract.
+
+She rebuts this point by saying you can have lots of interests &mdash; this is **dishonestly broad** and gives an impression you can think what you like and be in CR. Most things ppl are interested in aren't compatible with CR. She makes a lazy argument like 'lots of things are compatible, why is X special' which both **evades** responding to the extract (to **maintain social status and not embarrass Birner**) and isn't a logically sound argument.
+
+> Maybe the assumption is that critical debate isn’t compatible with these social endeavours, but I don’t think that’s true: there’s always a way of explaining an idea that isn’t off-putting; it’s not fundamentally the case that people dislike criticism. (What they dislike is something more like: being trapped; being called bad; having problems that destabilise/overwhelm; etc. It’s possible to avoid all these problems and still have a critical discussion.)
+
+She **downplays** Birner's point again with *maybe*, and actually provides more of an explanation. That is: you can always explain an idea s.t. it's not off-putting (which relies on the other person so it's **tenuous at best**) and then claims ppl don't fundamentally dislike criticism, which might be true of some people, but isn't generally. So she paints a **false picture** to compare to so that it comes out favourably. She then mentions some stuff that people also dislike, but it doesn't cover all the cases of criticism. It also **denies** things like *personal responsibility* for the quality of one's ideas. If she agrees with DD about morality this sort of stuff might violate the moral criterion DD proposes b/c it's tolerating things that can destroy the methods of correcting mistakes. So she's **overly tolerant** to avoid offending ppl.
+
+> Or maybe the assumption is that people are not persuaded by argument, and instead you have to appeal to social status or bureaucracy. Ray Scott Percival may agree with me here that this isn’t true either.
+
+She reframes the debate again to **downplay** Birner's attack on CR. Maybe she's making a meta-joke because she immediately **appeals to social status** via mentioning RSP &mdash; if so it's **hiding meaning in social pandering**, if not it's somewhat **hypocritical**. She also uses it as an **excuse not to address the point**.
+
+> Another apparent premise is that the only way to carry on these ideas is through institutional academia (which does indeed have its flaws). But it’s becoming ever easier to work outside the system (books, blogs, videos, forums, etc.), and even build intellectual communities and organisations to keep these ideas going. You don’t need to be an academic to engage with academia, either. Problems are soluble. There will be a solution to the problem “how do we ensure CR survives without doing unpleasant academic tedium?”.
+
+She **downplays** again with words like *another apparent premise* instead of acknowledging the extent of what Birner is saying. She correctly identifies that Birner claims certain things are necessary's but **evades** answering properly b/c she mentions some things that &mdash; on the whole &mdash; aren't very effective at doing the thing she says they do. Then there's a **non-sequitur** or maybe just **reframing** to **downplay** the point again via *academic tedium* which sounds a lot better than 'CR is incompatible with environments where one's ideas can survive'. She also don't take it further to criticise academia for having bad culture, which is **social agility** &mdash; dodging the confrontation.
+
+There's a BoI **reference dropped** without applying it very well, too.
+
+> The quote talks about “personal characteristics” — so maybe it’s saying the personality type that gets into critical rationalism tends not to be the exuberant promoter/social type. (As an aside, the final sentence of the second paragraph seems to be saying “critical rationalists don’t actually take the clash of ideas seriously”!)
+> But truth is connected. Why not be interested in expressing ideas so that they’re appealing to other generations/traditions?
+
+More **hedging/downplay/reframing** via *maybe* and *exuberant promoter/social type* (which is not at all similar to stuff Birner says, where most of the personality stuff is about traits like *firm belief in the power of criticism*).
+
+She then points out something really serious and completely **avoids** dealing with it. Even though it's crucial to the extract, she already said she agrees with the spirit of the extract, and important enough to add a `!` to the end of! **reframing/downplay**
+
+There's the confusing *truth is connected* bit which is a non-sequitur and leads into a suggestion that would likely corrupt ideas or require bad compromise, so she's **misleadingly suggesting things incompatible with CR are compatible**. This makes her look more open minded and ~fairer, **calibrated** to reduce social friction.
+
+> New people from diverse intellectual backgrounds are getting interested in Popper regularly via Deutsch (who is himself still writing about critical rationalism). And there’s a lot of craving for these ideas lately — a lot of modern rationalist/skeptic communities trying to understand how to think about truth and knowledge, a lot of dissatisfaction for traditional academic philosophy, people who intuitively think objective morality makes sense but don’t know how to justify it, how to make sense of tyranny and liberalism, and so on. It’s very fertile ground for the next generation.
+
+The final paragraph makes some optimistic claims which she **knows aren't true** (or should know), including DD actively writing (though I'd like to be proven wrong). She goes on to claim everything is peachy, and there are lots of good things happening. She claims stuff like there's "a lot of dissatisfaction for traditional academic philosophy" even though Birner makes the opposite point, and she **avoids addressing this conflict** despite it being really important.
+
+She finishes with a general optimism that isn't well supported and directly conflicts with what Birner is saying, but it's okay because she made some concessions so she's **socially insulated** from anyone trying to claim she's being too critical.
+
+## analysis (high-level; 3rd pass)
+
+Lulie gives false credit to a bad post/extract, reframes the debate multiple times to make Birner's extract sound better (and less critical of CR) than it is, avoids dealing with direct conflicts brought up by the extract, misrepresents CR and the importance of ideas, appeals to social status a bit, and ultimately finishes optimistically pretending there aren't any issues here.
