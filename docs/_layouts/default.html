@@ -65,9 +65,20 @@ layout: table_wrappers
           <div id="search-results" class="search-results"></div>
         </div>
       {% endif %}
-      {% if site.aux_links %}
-        <nav aria-label="Auxiliary" class="aux-nav">
-          <ul class="aux-nav-list">
+      <nav aria-label="Auxiliary" class="aux-nav">
+        <ul class="aux-nav-list">
+          {% if
+            site.gh_edit_link and
+            site.gh_raw_link_text and
+            site.gh_edit_repository and
+            site.gh_edit_branch and
+            site.gh_edit_view_mode
+          %}
+            <li class="aux-nav-list-item">
+              <a class="site-button" target="_blank" rel="noopener noreferrer" href="{{ site.gh_edit_repository }}/{{ site.gh_edit_view_mode }}/{{ site.gh_edit_branch }}/docs/{{ page.path }}" id="this-page-raw">{{ site.gh_raw_link_text }}</a>
+            </li>
+          {% endif %}
+          {% if site.aux_links %}
             {% for link in site.aux_links %}
               <li class="aux-nav-list-item">
                 <a href="{{ link.last }}" class="site-button"
@@ -79,9 +90,9 @@ layout: table_wrappers
                 </a>
               </li>
             {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
+          {% endif %}
+        </ul>
+      </nav>
     </div>
     <div id="main-content-wrap" class="main-content-wrap">
       {% unless page.url == "/" %}

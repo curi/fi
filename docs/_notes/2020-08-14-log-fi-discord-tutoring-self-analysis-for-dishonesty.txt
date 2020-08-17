@@ -1,3 +1,11 @@
+---
+layout: nil
+date: 2020-08-14
+nav_exclude: true
+permalink: 2020-08-14-log-fi-discord-tutoring-self-analysis-for-dishonesty.txt
+title: (Discord Log) Self-Analysis for Dishonesty
+---
+
 #Context:
 
 JustinCEO used "contractability" in a sentence; a word he made up to talk about how easy it is to add a contraction to a sentence, e.g. `can not` -> `can't`.

@@ -63,6 +63,10 @@ h6,
   text-align: right !important;
 }
 
-em {
+em, strong {
   color: $link-color;
+}
+
+#italics-grey em {
+  color: $grey-dk-200
 }

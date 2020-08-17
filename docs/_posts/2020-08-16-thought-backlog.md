@@ -15,6 +15,13 @@ permalink: /thought-backlog/
 
 - (from 2020-08-12) conflict between idea of structuring things well and having a full idea in your head and trying to get it all out at once.
 
+- keeping posts small but replying to lots of points
+  - breaking up posts is annoying
+  - so ideally take each discussion one post at a time?
+    - doesn't take advantage of async or talking about multiple things during discussion
+    - but can be more efficient if you focus on important things
+  - check curi.us on discussions
+
 ### conflict: learning and error rate
 
 The conflict is to do with the relative prioritization activities related to these two ideas:

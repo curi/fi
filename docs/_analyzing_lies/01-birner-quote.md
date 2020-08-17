@@ -121,3 +121,7 @@ Next time:
 other stuff I remembered:
 
 - check the relationships of all the prepositions and things in sentence 2. there's some weird stuff there.
+
+----
+
+update after tutorial 27: going to leave Birner's quote there and go to next section.
