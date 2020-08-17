@@ -1,9 +1,12 @@
 ---
-title: L's Quote
+title: Lulie's Quote
 date: 2020-08-17 7:30
 parent: Analyzing Lies
 layout: post
 ---
+
+1. TOC
+{:toc}
 
 ## original quote
 
@@ -157,9 +160,11 @@ Saying things are good when they're not, **avoiding** issues.
 >
 > But you can have all sorts of interests as a critical rationalist. Why would social networking and politicking be special?
 
-She starts out by saying she sees the good in the post but thinks the future will be better than the picture pained. She doesn't say what the good is. This is **dishonestly representing the post** (or rather, the extract). There's no good in the extract, but it's just more acceptable to say things like this.
+She starts out by saying she sees the good in the post but thinks the future will be better than the picture painted. She doesn't say what the good is. This is **dishonestly representing the post** (or rather, the extract). ~~There's no good in the extract, but~~<sup>1</sup> it's just more acceptable to say things like this.
 
-Then she makes note of the main point but **downplays** it to seem important to the extract.
+<sub>[1]: edited, this bit was unfair, and it does have decent criticisms of CR.</sub>
+
+Then she makes note of the main point but **downplays** it so it seems less important to the extract.
 
 She rebuts this point by saying you can have lots of interests &mdash; this is **dishonestly broad** and gives an impression you can think what you like and be in CR. Most things ppl are interested in aren't compatible with CR, saying they can be is **pandering and misrepresentation**. She makes a lazy argument like 'lots of things are compatible, why is X special' which both **evades** responding to the extract (to **maintain social status and not embarrass Birner**) and isn't a logically sound argument.
 
@@ -182,7 +187,7 @@ There's a BoI **reference dropped** without applying it very well, too.
 
 More **hedging/downplay/reframing** via *maybe* and *exuberant promoter/social type* (which is not at all similar to stuff Birner says, where most of the personality stuff is about traits like *firm belief in the power of criticism*).
 
-She then points out something really serious and completely **avoids** dealing with it. Even though it's crucial to the extract, she already said she agrees with the spirit of the extract, and important enough to add a `!` to the end of! **reframing/downplay**
+She then points out something really serious and completely **avoids** dealing with it. Even though it's crucial to the extract, she already said she ~~agrees~~ sympathises <sub>(edited)</sub> with the spirit of the extract, and important enough to add a `!` to the end of the sentence! **reframing/downplay**
 
 There's the confusing *truth is connected* bit which is a non-sequitur and leads into a suggestion that would likely corrupt ideas or require bad compromise, so she's **misleadingly suggesting things incompatible with CR are compatible**. This makes her look more open minded and ~fairer, **calibrated** to reduce social friction.
 
