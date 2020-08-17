@@ -76,11 +76,11 @@ So, yeah, these things sound like ppl would dislike them, but people definitely 
 You can avoid some of the problems some of the time, but not all of the problems all of the time.
 Eventually they'll get in the way &mdash; **she should know this**.
 
-> (8) (Or maybe the assumption is that people are not persuaded by argument, and instead you have to appeal to social status or bureaucracy.)
+> (8) Or maybe the assumption is that people are not persuaded by argument, and instead you have to appeal to social status or bureaucracy.
 
 No response to this is given (tho it's in a parenthetical), it's sort of just **dismissed because RSP *might* agree with her.**
 
-> (9) (Ray Scott Percival may agree with me here that this isn’t true either.)
+> (9) Ray Scott Percival may agree with me here that this isn’t true either.
 
 **Name dropping**, raises social status if RSP is like well known or whatever.
 
