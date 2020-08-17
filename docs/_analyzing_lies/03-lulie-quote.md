@@ -157,13 +157,11 @@ Saying things are good when they're not, **avoiding** issues.
 >
 > But you can have all sorts of interests as a critical rationalist. Why would social networking and politicking be special?
 
-She starts out by saying she sees the good in the post but thinks the future will be better than the picture pained.
-
-**dishonestly representing the post** (or rather, the extract), **there's no good to see it's just more acceptable to say that**
+She starts out by saying she sees the good in the post but thinks the future will be better than the picture pained. She doesn't say what the good is. This is **dishonestly representing the post** (or rather, the extract). There's no good in the extract, but it's just more acceptable to say things like this.
 
 Then she makes note of the main point but **downplays** it to seem important to the extract.
 
-She rebuts this point by saying you can have lots of interests &mdash; this is **dishonestly broad** and gives an impression you can think what you like and be in CR. Most things ppl are interested in aren't compatible with CR. She makes a lazy argument like 'lots of things are compatible, why is X special' which both **evades** responding to the extract (to **maintain social status and not embarrass Birner**) and isn't a logically sound argument.
+She rebuts this point by saying you can have lots of interests &mdash; this is **dishonestly broad** and gives an impression you can think what you like and be in CR. Most things ppl are interested in aren't compatible with CR, saying they can be is **pandering and misrepresentation**. She makes a lazy argument like 'lots of things are compatible, why is X special' which both **evades** responding to the extract (to **maintain social status and not embarrass Birner**) and isn't a logically sound argument.
 
 > Maybe the assumption is that critical debate isn’t compatible with these social endeavours, but I don’t think that’s true: there’s always a way of explaining an idea that isn’t off-putting; it’s not fundamentally the case that people dislike criticism. (What they dislike is something more like: being trapped; being called bad; having problems that destabilise/overwhelm; etc. It’s possible to avoid all these problems and still have a critical discussion.)
 
