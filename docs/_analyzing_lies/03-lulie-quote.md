@@ -81,7 +81,9 @@ Eventually they'll get in the way &mdash; **she should know this**.
 
 > (8) Or maybe the assumption is that people are not persuaded by argument, and instead you have to appeal to social status or bureaucracy.
 
-No response to this is given (tho it's in a parenthetical), it's sort of just **dismissed because RSP *might* agree with her.**
+No response to this is given ~~(tho it's in a parenthetical)~~, it's sort of just **dismissed because RSP *might* agree with her.**
+
+<sub>Edit: I incorrectly marked the quote parenthetical; this statement wasn't</sub>
 
 > (9) Ray Scott Percival may agree with me here that this isn’t true either.
 
@@ -99,7 +101,7 @@ Over a long time scale maybe? Access has increased, not sure if that makes it ea
 
 > (12) You don’t need to be an academic to engage with academia, either.
 
-This is pretty unrealistic. Maybe if you were really good at being impressive to academics and had some vouch for you? But realistically you do. Just b/c it'd be possible to engage (problems are soluble) doesn't mean it's easy / accessible / worth while. There's also a lot of cultural stigma. **dishonest**
+[6/10] This is pretty unrealistic. Maybe if you were really good at being impressive to academics and had some vouch for you? But realistically you do. Just b/c it'd be possible to engage (problems are soluble) doesn't mean it's easy / accessible / worth while. There's also a lot of cultural stigma. **dishonest**
 
 > (13) Problems are soluble.
 
