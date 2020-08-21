@@ -1,5 +1,4 @@
 ---
-layout: nil
 date: 2020-08-14
 nav_exclude: true
 permalink: 2020-08-14-log-fi-discord-tutoring-self-analysis-for-dishonesty.txt
