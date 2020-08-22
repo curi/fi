@@ -13,6 +13,7 @@ parent: Learning Reports
 * I've been having a discussion on LW about DD's ideas from an AGI presentation. The discussion is particularly focused on epistemology though. MakoYass and I are sort of trying to understand more about each other's point of view. The discussion feels relatively non-accusatory / non-debate-y which is good, but I think he's overreaching a bit and not explaining Bayesian Epistemology very well. Part of that is reflected in his somewhat stream-of-conciousness style. I've provided a list of points re: CR which I think are points of difference between BE and CR, and brought up some ideas from yes/no philosophy like the goal-get-a-pet example. <https://www.lesswrong.com/posts/bsteawFidASBXiywa/misc-raw-responses-to-a-tract-of-critical-rationalism>
 * I started some analysis of *Santa Claus is Coming to Town*; it's mostly about threatening children.
   * I had some trouble with grammatical analysis, particularly that of "watch out" in "you better watch out" and the repeated "you better" throughout the chorus. I think I've come up with good explanations for what they mean though.
+* I got some feedback from Mum regarding [How can we write to better communicate ideas?](../2020-08-15-how-can-we-write-to-communicate-better/) which I haven't properly evaluated yet. She suggested cutting a bunch out, though, which I thought was funny considering the post was an expansion of my earlier version.
 
 misc:
 
