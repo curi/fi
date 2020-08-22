@@ -32,6 +32,8 @@ permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 aux_links:
+  "feed.xml":
+    - "/fi/feed.xml"
   "Public Docs":
     - "https://drive.google.com/drive/u/0/folders/1_CXXYqdyV8FE5BWXMGChlhd76vL4gc--"
   "YouTube":
