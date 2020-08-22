@@ -41,19 +41,19 @@ He is **thanking Lulie for the tag** by replying like this and as a top-post - a
 His reply is also entirely **non-critical**, which is odd considering he's meant to be a prominent CR thinker.
 It's also hard to believe he didn't have any issues with Lulie's post or interpretation -- unless he didn't bother to think much about it; **he should know better**.
 It *might* be possible to reply casually such that a lax reading of Lulie's post was okay, but this is a CR forum!
-Not reddit or a discussion about a restaurant or the movies.
-His **inappropriate of tone is projecting low effort** (as in LoLE, not one of carelessness) -- we'll see more of this mismatch throughout his post.
+Not ~~reddit or~~ <sub>(edited)</sub> a discussion about a restaurant or the movies.
+His **inappropriate ~~of~~ tone is projecting low effort** (as in LoLE, not one of carelessness) -- we'll see more of this mismatch throughout his post.
 
 > The quotation from Jack Birner's piece is verbose and largely incorrect.
 
 The quotation is neither verbose (as some things were omitted) and isn't "largely" incorrect AFAIK; though there are errors like the ellipsis.
 What RSP means is that this part of Birner's essay is verbose and largely incorrect.
 'Extract' is a better word than 'quotation' -- this is **careless** and ambiguous.
-If you brought this sort of thing up with someone a response like *you know what I meant* is typical. (Casual phrasing is okay when it suits the subject matter; this doesn't.)
+If you brought this sort of thing up with someone a response like *you know what I meant* is typical. ~~(~~Casual phrasing is okay when it suits the subject matter; this doesn't.~~)~~
 
 He says *verbose*, which is sort-of-true. It is somewhat verbose (as in prolix) but the *bigger issue is the academese and fanciness*.
 RSP is thus **non-specific** in an important way.
-We know it's not that verbose because my [outline](../02-birner-quote/) of Birner's extract is of comparable length; if Birner's extract was *verbose* only, it would have a smaller extract.
+We know it's not that verbose because my [outline](../02-birner-quote/) of Birner's extract is of comparable length; if Birner's extract was *verbose* only, it would have a smaller ~~extract~~ outline <sub>(edited)</sub>.
 I suspect RSP's writing is fancy, too.
 If RSP writes in academese, then to criticise Birner for this would admit hypocrisy, so RSP would be **dodging criticism** (social agility).
 
@@ -65,6 +65,8 @@ RSP also **projects expertise**.
 
 This is also a **false concession** since intro/extroversion isn't particularly relevant to Birner's argument.
 Plenty of introverted ppl do politicking -- that's why the idea of "in the shadows" or puppet-master-ing is reasonably well known.
+
+Added in tutorial: **false concession** because he's not granting anything -- the comparison via 'but' indicates he's disagreeing with a more fundamental point (and is condescending to Birner).
 
 > Just look at me! Or David McDonagh!
 
@@ -79,6 +81,8 @@ Aside: Birner doesn't take in to account what the goals of someone in CR are/sho
 If one is to do relevant philosophical work *simpliciter* then who cares about being an academic?
 If one is to *be an academic* that is more problematic.
 Both RSP and Lulie could have pointed that out, but it might have raised conflicts w/in them.
+
+Added in tutorial: **bragging**.
 
 > I'm completely happy being surrounded by justificationists - just so I can have a go at them all at once. 😁
 
@@ -105,6 +109,9 @@ The emoji "😁" indicates RSP is pleased with himself, and **socially pressures
 RSP **concept drops** "the Economic Calculation Problem" (which I've never heard of before).
 Wikipedia just says it's the problem of being unable to replicate market-driven prices with economic planning.
 That's a fancy name for a simple problem.
+
+(note from tutorial: I'm missing a lot of context on econ-calc-problem; like Marxists changing focus b/c of [Mises's paper](https://wiki.mises.org/wiki/Economic_calculation_problem))
+
 Moreover, I'm pretty sure most Marxists/Leninists aren't super concerned about pricing; their arguments are often about other things like supposed tyranny / slavery via working / employment.
 *Concept dropping* here is not making a point relevant to LT's post or Birner's extract (or at least I don't see how it is ATM).
 It *is* relevant to RSP claiming he's extroverted, but it's just more anecdotes, which gives him an excuse for concept-dropping, **elevating relative social status** (with respect to justificationists and Marxists/Leninists), **institution dropping U of Warwick**.
@@ -113,12 +120,12 @@ It *is* relevant to RSP claiming he's extroverted, but it's just more anecdotes,
 The second option doesn't fit b/c of the way he's worded the sentence and the grouping of nouns.
 The first option is *okay*, but why would he say that, isn't the econ-calc problem enough?
 Is he just pointing out (to them) that we should not have contradictions in our ideas (which is presumably why their position on econ-calc problem is impossible to justify)?
-Why is he picking on Marxists/Leninists only? (Though my experience - of uni in Australia - is there aren't many other active pro-communist groups that are accessible and out-and-about.)
+Why is he picking on Marxists/Leninists only? (Though my experience - of uni in Australia - is there aren't many other ~~active pro-communist~~ groups that are accessible and out-and-about.)
 RSP should not be so **careless**.
 
 Claiming to have publicly attacked Marxists/Leninists **raises relative social status** and is **self-aggrandising**.
 
-"used to love" is odd compared to "loved" -- it the comparative implication is that he doesn't love it anymore?
+"used to love" is odd compared to "loved" -- is the comparative implication is that he doesn't love it anymore?
 
 Typo/grammar errors:
 
@@ -193,4 +200,4 @@ todo
 
 todo
 
-"cold autumn wind" could be a reference to 1984's "It was a bright cold day in August when the clocks were striking 13". (todo: check 1984 quote)
+"cold autumn wind" could be a reference to 1984's "It was a bright cold day in April and the clocks were striking 13". (todo: check 1984 quote)
