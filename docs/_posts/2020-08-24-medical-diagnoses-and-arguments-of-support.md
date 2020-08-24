@@ -11,6 +11,66 @@ catagories:
 
 Speed writing exercise, goal for splits: 3 min, 10 min, 2 min
 
+**Note:** [I asked ET about this in tutorial 31](https://youtu.be/-n3OGmymw_w?t=6265), and in response to some of his feedback sort of outlined/summarised it in a follow post to FI. Here is my outline:
+
+Two philosophers: Aro and El. Aro believes in arguments of support, El doesn't.
+
+I label explanations with capital letters, A..Z. The explanations are diagnoses in this case. We eliminate them via
+evidence that contradicts the explanation.
+
+There are 25 explanations under consideration, A..Y.
+
+Situation 1; (case 1) eliminate Y, A..X remain.
+Aro and El basically agree on things, here.
+
+Situation 1; (case 2) eliminate A..X, Y remains.
+Aro and El basically agree on things, here, too.
+
+Situation 1.1.:
+Start with the second case in Situation 1 and introduce a new option, Z.
+
+What do Aro and El think given Z is introduced?
+
+El doesn't think much of it; he's just not done when he otherwise might be.
+
+Aro needs to think about whether the same evidence still supports Y, to what extent, and how much it supports Z, etc.
+
+Aro needs to re-evaluate the evidence's support for Y and Z.
+
+Evidence's relationship to Y changes due to the introduction of Z.
+The epistemic status of that supporting relationship changes w/ the introduction of Z.
+So the epistemic status of supporting relationships for Y depend on other ideas you know.
+Those other ideas are not *refutations* of Y, however, they influence how much Y is supported.
+So Y's support from some evidence is *not* dependent on the evidence as much as it is on *alternatives to Y* (which are
+things we can make up, almost at will).
+
+The mistake here (leading to the need to recalc the amount of support) is different from other mistakes.
+With other mistakes: the correction can both be decisive and involve learning something new.
+
+With supporting arguments, the mistake of incorrectly judging support is one where:
+
+* the correction is not decisive
+* we don't ever learn something new
+  * (note: a new option like Z is what causes one to realise their estimate of support is wrong, so it can't be a thing
+    we learn as a result of fixing that)
+
+When irrelevant\* new knowledge was introduced, Aro has to change his measurement of the amount of support an option, Y,
+had, but there was no associated error correction in a substantial way. For *any* idea that gets introduced he has to
+do that. But shouldn't the relationship between evidence and ideas be something we can make enduring, objectively
+reasonable statements about?
+
+\[*]: Irrelevant to the evidence<->idea supporting relationship
+
+A way of resolving this issue is to find equilibrium points in one's measurement of support.
+These points should be such that: the amount of support provided by some evidence for some idea doesn't change as
+not-directly-relevant ideas are introduced.
+
+The only such equilibrium point for supporting arguments/evidence is 0.
+Therefore arguments/evidence always provide zero support.
+This is equivalent to the idea that supporting arguments don't exist.
+This is a contradiction with the premise that they do exist.
+Therefore they don't; QED.
+
 ## planning
 
 - diagnosis has lots of options (hypotheses)
