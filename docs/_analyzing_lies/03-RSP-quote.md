@@ -256,7 +256,7 @@ So he either wanted to hurt the socialists or thought conflict was inevitable so
 
 > The same applies to CR.
 
-He's wrong, but it reveals we weren't incorrect to assume this before.
+He's wrong, but it reveals we ~~weren't incorrect~~ were okay to assume this before.
 
 > If one imprudently allows a sound counterargument into one’s "safe space," beware the corruption to one’s cherished beliefs - they may fall and wither like leaves from a cold autumn wind.
 
@@ -270,7 +270,7 @@ I don't think this sentence should be read at face value tho, because I think ta
 It's misleading and bad writing to swap perspectives like this; esp without making it explicit or at least like a paragraph break or some other flagging language.
 Instead **he gets poetic (status signal)** for no clear reason.
 
-RSP is making the point that if you pay attention to ideas and judge them on quality, you'll find things you stop believing some stuff you liked to believe. That's mostly true, but it's not clear why he's making this point or why he thought it would be more impactful or meaningful to say it like this (philosophically).
+RSP is making the point that if you pay attention to ideas and judge them on quality, you'll find that you stop believing some stuff you liked to believe. That's mostly true, but it's not clear why he's making this point or why he thought it would be more impactful or meaningful to say it like this (philosophically).
 
 "Imprudently" is a weird word to use here b/c he could speak from a *neutral* PoV if he didn't add this adverb. "Beware" has an anti-CR connotation here too, but it's somewhat general and acceptable b/c of the poetic/purple way he's put this last sentence. He could have just said "If one allows a sound counterargument into one’s "safe space," know the consequences for one’s cherished beliefs - they may fall and wither like leaves from a cold autumn wind." Something like that is wanky* but at least somewhat correct.
 
