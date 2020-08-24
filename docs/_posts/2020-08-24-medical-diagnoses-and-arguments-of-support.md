@@ -1,5 +1,5 @@
 ---
-title: Practice | Medical Diagnoses and Arguments of Support
+title: Medical Diagnoses and Arguments of Support (Writing Practice)
 date: 2020-08-24 09:00
 parent: Posts
 layout: post

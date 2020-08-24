@@ -1,5 +1,5 @@
 ---
-title: Draft | Song Analysis - Santa Claus is Coming to Town
+title: (Draft) Song Analysis - Santa Claus is Coming to Town
 layout: post
 date: 2020-08-23 10:00
 parent: Posts
