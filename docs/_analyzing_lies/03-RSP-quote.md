@@ -32,6 +32,8 @@ Bolded terms are my claims of dishonesty; italicised terms are just regular emph
 
 ----
 
+## Analysis (2020-08-21)
+
 > I think Lulie Tanett's reply to Jack Birner's piece here is dead on.
 
 In general this sort of comment & phrasing doesn't need to have bad social stuff in it, however, RSP is replying *only* to Lulie's comment and not to any of the other comments. There are multiple other threads - which he doesn't reply to. It's also a reply to OP, not to Lulie's comment (though as far as Facebook is concerned the threading is terrible, so this doesn't *need* to be done for self-aggrandising reasons).
@@ -200,4 +202,74 @@ todo
 
 todo
 
-"cold autumn wind" could be a reference to 1984's "It was a bright cold day in April and the clocks were striking 13". (todo: check 1984 quote)
+~~"cold autumn wind" could be a reference to 1984's "It was a bright cold day in April and the clocks were striking 13". (todo: check 1984 quote)~~ (Note: decided in tutorial this wasn't a 1984 ref)
+
+----
+
+## Analysis 2020-08-24
+
+> Rational argument has a force of its own, as I argue in depth in my book.
+
+He somewhat contradicts himself with the mostly-true "rational argument has a force of its own" statement (though **repeats the misuse of 'force'**).
+However, that contradiction is in service to **self-aggrandisement** via mentioning his book, further **raising relative social status and projecting expertise**.
+
+The contradiction here: why make all the *other* points about CR (or CR practitioners) he did above but then make a claim about rational argument that usurps the previous points?
+There's no *need* for those points unless RSP concedes that the "force" of "rational argument" is in some way *insufficient*, and doing stuff like being extroverted or politicking are good ideas.
+(Which, ofc, would mean there is some rational argument for them.)
+
+He could have addressed this with qualifiers like "none of that really matters though, b/c rational argument...", or structuring things differently.
+
+It's possible LT mentioned RSP just so he could mention he wrote a relevant book; mentioning the book is something LT **should have done**, but otherwise the interaction is **moving through social motions**.
+
+> Having a strong argument is like being given a light sabre for a battle in the bronze age.
+
+Another comparison to *violence*.
+
+There's also a lot of **social framing** of the ideas here: *light sabres* are weapons of the *Jedi*. Throughout Star Wars the idea is often repeated that *only* Jedis are skillful enough to handle a light sabre well enough to use in combat; other ppl don't have them (they also can't really get them). Jedis are positioned as *virtuous* and *just*, and often they occupy the role of *applying righteous justice*. Jedis only use violence when necessary and only on bad people. Etc etc etc. RSP is comparing CR practitioners to Jedis and other ppl (who refuse his arguments) as barbarians (maybe sand people to keep the star wars motif).
+
+Moreover, what happened to weak ppl in the bronze age? They got *conquered*, they didn't get *convinced* or *persuaded*. What is RSP suggesting here?
+
+**Stepping back...** RSP said "being given a light sabre for a battle in the bronze age", so he's sort of presuming *there's already going to be a battle*, metaphorical *life will already be lost*, but a *strong* argument (not 'rational argument') is a decisive advantage (like a light sabre). I think I had more of an impression he was advocating having a light sabre and going out to use it, deliberately, but it's a little less aggressive when you're given it for the battle.
+
+> You simply can't wait to get out there and use it.
+
+*WHAT?!* We should *want* to go out and be violent?
+
+WRT "can't wait", is RSP talking about *eagerness* or *urgency*?
+Both interpretations have issues.
+
+Either way he seems to be advocating using metaphorical force or violence (via rational argument) against ppl, which just doesn't make sense if you're not like convincing them. maybe his goal is not to convince them?
+
+Stepping back, linking the last two sentences makes sense and I think reveals some meaning: 'Having a strong argument is like being given a light sabre for a battle in the bronze age[:] [you] simply can't wait to get out there and use it.'
+
+This makes it sound like RSP thinks there is an *obligation* for ppl with a metaphorical light sabre to use it.
+
+To what end?
+
+> That's what it felt like at Warwick with the ECA.
+
+RSP has loosely said he felt good about the Warwick+ECA thing, and now that it felt like "being given a light sabre for a battle in the bronze age".
+
+So he either wanted to hurt the socialists or thought conflict was inevitable so was happy he had an advantage. But he didn't express any remorse or other thoughts, just a sort of *faux-CR hooliganism*.
+
+> The same applies to CR.
+
+He's wrong, but it reveals we weren't incorrect to assume this before.
+
+> If one imprudently allows a sound counterargument into one’s "safe space," beware the corruption to one’s cherished beliefs - they may fall and wither like leaves from a cold autumn wind.
+
+He drops a "safe space" reference but it's unclear if he did so jokingly or not. I *think* he did but I'm not sure. Even if it's an ambiguous signal, it's still a social signal of some kind.
+
+However, the bigger issue here is *how he frames everything in this last sentence!*
+"imprudently allows a sound counterargument" -- this, taken at face value, is anti-CR.
+We should want as many sound ideas as possible regardless of "cherished beliefs" (we shouldn't cherish them, anyway).
+
+I don't think this sentence should be read at face value tho, because I think taking on a non-CR master/teacher figure to make a point (**further status signalling**).
+It's misleading and bad writing to swap perspectives like this; esp without making it explicit or at least like a paragraph break or some other flagging language.
+Instead **he gets poetic (status signal)** for no clear reason.
+
+RSP is making the point that if you pay attention to ideas and judge them on quality, you'll find things you stop believing some stuff you liked to believe. That's mostly true, but it's not clear why he's making this point or why he thought it would be more impactful or meaningful to say it like this (philosophically).
+
+"Imprudently" is a weird word to use here b/c he could speak from a *neutral* PoV if he didn't add this adverb. "Beware" has an anti-CR connotation here too, but it's somewhat general and acceptable b/c of the poetic/purple way he's put this last sentence. He could have just said "If one allows a sound counterargument into one’s "safe space," know the consequences for one’s cherished beliefs - they may fall and wither like leaves from a cold autumn wind." Something like that is wanky* but at least somewhat correct.
+
+* wanky: adjective | vulgar slang • British <br />adjective: wanky; comparative adjective: wankier; superlative adjective: wankiest <br /> pretentious, contemptible, or stupid. <br /> *"wanky art-house movies"*
