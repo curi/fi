@@ -10,6 +10,8 @@ Anything without once indicates a confidence of 9 or 10 / 10.
 
 Bolded terms are my claims of dishonesty; italicised terms are just regular emphasis.
 
+1. TOC
+{:toc}
 ----
 
 ## Original Quote
@@ -32,7 +34,7 @@ Bolded terms are my claims of dishonesty; italicised terms are just regular emph
 
 ----
 
-## Analysis (2020-08-21)
+## Analysis 2020-08-21
 
 > I think Lulie Tanett's reply to Jack Birner's piece here is dead on.
 
@@ -272,4 +274,7 @@ RSP is making the point that if you pay attention to ideas and judge them on qua
 
 "Imprudently" is a weird word to use here b/c he could speak from a *neutral* PoV if he didn't add this adverb. "Beware" has an anti-CR connotation here too, but it's somewhat general and acceptable b/c of the poetic/purple way he's put this last sentence. He could have just said "If one allows a sound counterargument into one’s "safe space," know the consequences for one’s cherished beliefs - they may fall and wither like leaves from a cold autumn wind." Something like that is wanky* but at least somewhat correct.
 
-* wanky: adjective | vulgar slang • British <br />adjective: wanky; comparative adjective: wankier; superlative adjective: wankiest <br /> pretentious, contemptible, or stupid. <br /> *"wanky art-house movies"*
+> \* wanky: adjective, vulgar slang • British <br />
+adjective: wanky; comparative adjective: wankier; superlative adjective: wankiest <br />
+definition: pretentious, contemptible, or stupid. <br />
+*"wanky art-house movies"*
