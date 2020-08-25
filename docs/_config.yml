@@ -29,8 +29,10 @@ url: "https://xertrov.github.io" # the base hostname & protocol for your site, e
 twitter_username: xertrov
 github_username:  xertrov
 
+encoding: binmode
+
 permalink: pretty
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+exclude: ["node_modules/", "*/tex/*", "*.tex", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 aux_links:
   "feed.xml":

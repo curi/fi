@@ -15,3 +15,6 @@ proj/idea-trees
 /d3-vue-example/
 .jekyll-cache
 curi-us-backup
+**/tex/*
+!**/tex/*.tex
+*.log
