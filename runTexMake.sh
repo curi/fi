@@ -26,7 +26,7 @@ runMake4Ht() {
   fi
 
   # make4ht -uf html5+staticsite "$FNAME"
-  make4ht -u "$FNAME"
+  make4ht -u "$FNAME" "fn-in"
   FNAME_START=$(basename $FNAME .tex)
   
   if [ -d ../../imgs/ ]; then
