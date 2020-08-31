@@ -29,10 +29,10 @@ url: "https://xertrov.github.io" # the base hostname & protocol for your site, e
 twitter_username: xertrov
 github_username:  xertrov
 
-encoding: binmode
+# encoding: binmode
 
 permalink: pretty
-exclude: ["node_modules/", "*/tex/*", "*.tex", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+exclude: ["node_modules/", "**/tex/*", "tex/", "*.tex", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
 
 aux_links:
   "feed.xml":
@@ -117,10 +117,10 @@ talkyard_server_url: https://comments-for-xk-io.talkyard.net
 talkyard_script_url: https://c1.ty-cdn.net/-/talkyard-comments.min.js
 
 
-# plugins:
+plugins:
+    - jekyll-redirect-from
 #   - jekyll-feed
-# plugins:
-#     - jekyll-remote-theme
+#   - jekyll-remote-theme
 # remote_theme: pmarsceill/just-the-docs
 color_scheme: nil # "dark"
 search_enabled: true

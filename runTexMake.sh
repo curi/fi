@@ -10,7 +10,12 @@ if [ ! -e "$1" ]; then
   exit 0
 fi
 
+runFrontmatter() {
+  cat $1 | sed -n -e '/---/,/---/s/^% //p' > $2
+}
+
 runPandoc() {
+  runFrontmatter $1 $2
   cat $1 | sed -n -e '/---/,/---/d; p' | pandoc -f latex -t html >> $2
 }
 
@@ -39,6 +44,7 @@ runMake4Ht() {
     cd ..
   fi
   
+  runFrontmatter "$1" "$2"
   cat ${F_RAW}.html | sed -n '/<body>/,/<\/body>/p' | head -n -1 | tail -n +2 | sed -r 's/(src='"'"')(.*\.png'"'"')/\1..\/..\/imgs\/\2/' >> $FOUT
   echo "\n<style>" >> $FOUT
   cat ${F_RAW}.css >> $FOUT
@@ -65,8 +71,10 @@ dirpre="."
   #htlatex $dirpre/$filename ;
   F="$dirpre/$filename"
   set -x
-  # front matter
-  cat $F | sed -n -e '/---/,/---/s/^% //p' > $filenoext.html
+  # do frontmatter in runMake4Ht
+  ## front matter
+  ## cat $F | sed -n -e '/---/,/---/s/^% //p' > $filenoext.html
+  ## runFrontmatter $F $filenoext.html
   # main body
   #runPandoc $F $filenoext.html
   runMake4Ht $F $filenoext.html

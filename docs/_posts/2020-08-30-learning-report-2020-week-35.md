@@ -1,7 +1,7 @@
 ---
 title: "Learning Report: 2020, week 35"
 layout: post
-date: 2020-08-30
+date: 2020-08-30 15:00
 parent: Learning Reports
 ---
 
@@ -12,10 +12,15 @@ parent: Learning Reports
     * SCICTT analysis - 'silly mistake' wrt some subordinating conjunctions where I mislabel as preposition
   * 32
     * built a tree of TAG discussion on LW
+  * 33
+    * method of discussion: each answer 1 question and pose 1 q each reply. Note to self: use this in future.
+    * finished [Reading: Distributed Consensus from Proof of Stake is Impossible](../2020-08-28-reading-distributed-consensus-pos-impossible)
 
 misc:
 
-things was unhappy about last week:
+carry-over things I wasn't happen about:
 
-* I haven't done any writing practice this week
-* I haven't read more of *The Choice*
+* ~~I haven't done any writing practice this week~~. I did some, though not much.
+* I haven't read more of *The Choice*. Still haven't.
+* Didn't do much on the weekend.
+* Not using time efficiently -- feels like at least.

@@ -5,11 +5,16 @@
     "markdown.preview.scrollEditorWithPreview": false,
     "html.preview.scrollEditorWithPreview": false,
     "cSpell.words": [
+        "Landauer",
         "Lulie",
         "Lulie's",
-        "improtant",
+        "Pfft",
+        "hodler",
         "justificationists",
         "simpliciter"
     ],
-    "cSpell.language": "en,en-GB"
+    "cSpell.language": "en,en-GB",
+    "[tex]": {
+        "editor.wordWrap": "on"
+    }
 }

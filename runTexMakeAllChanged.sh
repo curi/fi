@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-TEX_FILES=$(git diff --cached --name-only | grep '\.tex$')
+## --cached will only process files that are staged
+TEX_FILES=$(git diff --name-only | grep '\.tex$')
 
 if [ "$TEX_FILES" != "" ]; then
     echo "$TEX_FILES" | xargs -n 1 ./runTexMake.sh
