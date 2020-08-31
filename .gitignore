@@ -18,3 +18,5 @@ curi-us-backup
 **/tex/*
 !**/tex/*.tex
 *.log
+*.tmp
+
