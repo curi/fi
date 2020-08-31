@@ -48,11 +48,11 @@ Links for tutorial 34:
 
 \section{Reading: Introduction}
 
-People propose proof-of-stake (PoS) can be used to protect blockchains (i.e. is the consensus mechanism).
+People propose that proof-of-stake (PoS) can be used to protect blockchains.
 The proposition to use proof-of-stake is flawed.
 The paper looks at the history and motivation of proof-of-work (PoW) (as used in Bitcoin).
-PoW (or its history and motivation?) "evades a impossibility result" [sic].
-The paper shows PoS is not a [good] replacement.
+PoW "evades a impossibility result" [sic].
+The paper shows PoS is not a viable replacement.
 
 \section{Reading: Proof of Stake}
 
@@ -90,7 +90,7 @@ Particularly: a proof of stake of some cryptocurrency is like a proof that the h
 
 A synchronous network is required. You can't assume nodes need to agree on precise timing of events or the order of events. You can't make that assumption for networks over the internet anyway.
 
-For blockchains, we just need distributed consensus on the order of transactions (and nothing else). That means nodes must agree on the first transaction that moves particular funds. That means the recipient can trust that the network treats those coins as his.
+For blockchains, we just need distributed consensus on the order of transactions (and nothing else).\footnote{ET feedback: what about if transactions happened at all? MK: We need that too. Not mentioned in the original paper.} That means nodes must agree on the first transaction that moves particular funds. That means the recipient can trust that the network treats those coins as his.
 
 The \emph{double-spending problem} is the reason we need distributed consensus. Someone could always try to send the same money to two different people. Both transactions could look valid. Recipients need to know that if there are conflicts about ownership they will still get their money. Distributed consensus means nodes can agree that the one recorded first is the right one.\footnote{The author is a bit unclear b/c of the way they've worded it. They haven't considered the case of two recipients, etc. Personally I think they should have left most of that out; it was unnecessary.}
 
@@ -98,13 +98,13 @@ The \emph{double-spending problem} is the reason we need distributed consensus. 
 
 \subsection{Reading: How does Bitcoin achieve distributed consensus?}
 
-We can prove that distributed consensus cannot be cryptographically guaranteed on an async network.\footnote{The author cites: M.A. Fischer, N.A. Lynch, and M.S. Paterson,Impossibility of distributed consensus with one faulty process, J. Ass. for Comp. Mach.32(1985), no. 2, 374–382.} Bitcoin gets around this by only requiring an economic guarantee. It does this via external opportunity cost. That opportunity cost is CPU time and electricity. Bitcoin provides rewards within the system, but only if consensus and an unbroken transaction history is maintained.
+We can prove that distributed consensus cannot be cryptographically guaranteed on an async network.\footnote{The author cites: M.A. Fischer, N.A. Lynch, and M.S. Paterson, Impossibility of distributed consensus with one faulty process, J. Ass. for Comp. Mach.32(1985), no. 2, 374–382.} Bitcoin gets around this by only requiring an economic guarantee. It does this via external opportunity cost. That opportunity cost is CPU time and electricity. Bitcoin provides rewards within the system, but only if consensus and an unbroken transaction history is maintained.
 
-Proofs of work in Bitcoin prove an opportunity cost was paid and how much it was. Such a proof includes all work (past proofs) up to that point.\footnote{Particularly proofs of work include all work done in the history \emph{the miner selects}, and not proofs were from other histories.} Bitcoin nodes choose the history with the most total work as the valid history to extend. (Thought it can be a bit fuzzy at the head if there are multiple options.) This history is called the consensus history. You can only spend coins on the consensus history. So miners are incentivised to all work on the same history.\footnote{If they don't they can't spend the reward.} Also, one miner can't control the consensus history without help from their peers.
+Proofs of work in Bitcoin prove an opportunity cost was paid and how much it was. Such a proof includes all work (past proofs) up to that point.\footnote{Particularly proofs of work include all work done in the history \emph{the miner selects}, and not proofs were from other histories.} Bitcoin nodes choose the history with the most total work as the valid history to extend. (Though it can be a bit fuzzy at the head if there are multiple options.) This history is called the consensus history. You can only spend coins on the consensus history. So miners are incentivised to all work on the same history.\footnote{If they don't, then they won't be able to spend the reward.} Also, one miner can't control the consensus history without help from their peers.\footnote{ET pointed out 51\% attack is not mentioned here.}
 
 \subsection{Reading: How is proof of stake used to achieve distributed consensus?}
 
-The big idea behind PoS is move opportunity cost from outside the system to inside it. People want to do this because PoW incentivises ppl to do as much work as possible. Bitcoin work is thermodynamic work. For this kind of work, the Landauer limit lets us figure out what "as much work as possible" means. The result is a network that uses a lot of energy. This drives us towards the heat death of the universe. It drives us "literally as fast as the laws of physics will allow"\footnote{Pfft. No it doesn't. The laws of physics would go way faster. Also the author needs to learn about basic economics. Basic physics too.} If opportunity cost is inside the system we should be able to use less resources (and limit their usage).
+The big idea behind PoS is to move opportunity cost from outside the system to inside it. People want to do this because PoW incentivises ppl to do as much work as possible. Bitcoin work is thermodynamic work. For this kind of work, the Landauer limit lets us figure out what "as much work as possible" means. The result is a network that uses a lot of energy. This drives us towards the heat death of the universe. It drives us "literally as fast as the laws of physics will allow"\footnote{Pfft. No it doesn't. The laws of physics would go way faster. Also the author needs to learn about basic economics. Basic physics too.} If opportunity cost is inside the system we should be able to use fewer resources (and limit their usage).
 
 PoS works b/c currency holders can lock up their funds ("stake") in some staking scheme. This action is cryptographically verifiable. Particular people publish signed updates to extend the chain's history. Normally a small random selection of people are chosen to do this, and only a majority need to agree to publish an extension. Those people get a reward and can unlock their stake later.\footnote{I think the original paper is missing some details but they're not super important here.}
 
@@ -160,11 +160,11 @@ It appears that whatever "space" we want distributed consensus in, we need oppor
 
 This should get merged into the "Distributed Consensus" part of \emph{A Treatise on Altcoins}, but that article isn't done, so this\footnote{In this paragraph "this" refers to the author's original article, linked at the top.} article is being published on its own.
 
-This topic is hard to discussion on IRC because incentive analysis and cryptography interact. The goal of this article is to make the fundamentals clear and give relevant discussions better foundations.
+This topic is hard to discuss on IRC because incentive analysis and cryptography interact. The goal of this article is to make the fundamentals clear and give relevant discussions better foundations.
 
 \section{Comments}
 
-The author makes some mistakes and problems. The mistakes are partially due to using a fancy writing style. They don't compromise the main argument, but do make the article harder to read.
+The author makes some mistakes and there are some other problems. The mistakes are partially due to using a fancy writing style. They don't compromise the main argument, but do make the article harder to read.
 
 There's also some things that are unnecessary, I think. One example is going into the double-spending problem. I don't know who would want to read this document if they don't already understand the double-spending problem.
 
