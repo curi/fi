@@ -16,6 +16,8 @@ parent: Learning Reports
     * method of discussion: each answer 1 question and pose 1 q each reply. Note to self: use this in future.
     * finished [Reading: Distributed Consensus from Proof of Stake is Impossible](../2020-08-28-reading-distributed-consensus-pos-impossible)
 
+* I started "haskell from first principles" again - reviewed material I'd already covered.
+
 misc:
 
 carry-over things I wasn't happen about:

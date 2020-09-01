@@ -29,6 +29,7 @@ url: "https://xertrov.github.io" # the base hostname & protocol for your site, e
 twitter_username: xertrov
 github_username:  xertrov
 
+future: true
 # encoding: binmode
 
 permalink: pretty
