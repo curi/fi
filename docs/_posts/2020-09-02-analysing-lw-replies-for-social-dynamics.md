@@ -5,6 +5,9 @@ parent: Posts
 layout: post
 ---
 
+1. TOC
+{:toc}
+
 ## Donald Hobson
 
 [Donald Hobson's reply](https://www.lesswrong.com/posts/Ze6PqJK2jnwnhcpnb/chains-bottlenecks-and-optimization?commentId=3oJLTCiDswNjEFrzk)
@@ -69,6 +72,8 @@ He's communicating that he's an expert and that the's pointing out something cur
 
 He's also communicating that he *knows more than Goldratt*, that he's pointing something out that Goldratt got wrong. Which begs the questions: "why does he recommend it? are there not better things to recommend?"
 
+(Note: ET pointed out Dagon might think Goldratt agrees with him about the limits of the chain metaphor)
+
 He's expecting curi to respond with more detail or something and on the whole it's a low-effort response (both LoLE and actually LE). The conversation is now about his idea.
 
 (This reframing to talk about your own ideas feels like it's going to be pretty common).
@@ -113,7 +118,7 @@ abramdemski continues to quote curi, but then offers a false concession/agreemen
 
 > I can agree that a weighted average is not what is called for in a conjunctive case. It is closer to correct in a disjunctive case.
 
-That's not really substantial; he's not saying curi's right, just that curi's not super wrong, that *some* part is good. he then sort of contradicts himself with the second question, but they're both similar in the way they treat curi/curi's idea. both sentences are more signalling of expertise and are designed to make abramdemski look better (like more magnanimous or generous or something), while making curi look like he's missed something and sorta 'on the right track'.
+That's not really substantial; he's not saying curi's right, just that curi's not super wrong, that *some* part is good. he then sort of contradicts himself with the second sentence, but they're both similar in the way they treat curi/curi's idea. both sentences are more signalling of expertise and are designed to make abramdemski look better (like more magnanimous or generous or something), while making curi look like he's missed something and sorta 'on the right track'.
 
 abramdemski says:
 
