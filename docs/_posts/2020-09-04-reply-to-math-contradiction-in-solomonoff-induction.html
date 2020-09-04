@@ -6,26 +6,26 @@ layout: post
 published: true
 ---
 <!-- l. 23 --><p class='noindent'>This is a reply to <a href='https://www.lesswrong.com/posts/hD4boFF6K782grtqX/mathematical-inconsistency-in-solomonoff-induction'>this LessWrong post</a>.
-</p><!-- l. 25 --><p class='indent'>   I went through the maths in OP. I think the core inconsistency is that SI implies
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction0x.png' class='math' alt='l(X ∪Y ) = l(X)  ' />. I’m going to redo the maths below (breaking it down
-step-by-step more). curi has <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction1x.png' class='math' alt='2l(X ) = l(X )  ' /> which is the same inconsistency given
-his substitution. I’m not sure we can make that substitution but I also don’t think we
-need to.
+</p><!-- l. 25 --><p class='indent'>   I went through the maths in OP and it seems to check out. I think the core
+inconsistency is that SI implies <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction0x.png' alt='l(X ∪ Y) = l(X )  ' />. I’m going to redo the maths
+below (breaking it down step-by-step more). curi has <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction1x.png' alt='2l(X ) = l(X)  ' /> which is the
+same inconsistency given his substitution. I’m not sure we can make that substitution
+but I also don’t think we need to.
 </p><!-- l. 27 --><p class='indent'>   Let <span class='cmmi-10'>X </span>and <span class='cmmi-10'>Y </span>be independent hypotheses for Solomonoff induction.
 </p><!-- l. 29 --><p class='indent'>   According to the prior, the non-normalized probability of <span class='cmmi-10'>X </span>(and similarly for <span class='cmmi-10'>Y </span>)
 is:
 </p>
    <table class='equation'><tr><td> <a id='x1-2r1'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction2x.png' class='math-display' alt='P(X ) =--1--
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction2x.png' alt='P(X ) =--1--
        2l(X )
 ' /></center></td><td class='equation-label'>(1)</td></tr></table>
 <!-- l. 37 --><p class='nopar'>
-</p><!-- l. 39 --><p class='indent'>   what is the probability of <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction3x.png' class='math' alt='X ∪ Y  ' />?
+</p><!-- l. 39 --><p class='indent'>   what is the probability of <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction3x.png' alt='X ∪ Y  ' />?
 </p>
    <table class='equation'><tr><td> <a id='x1-3r2'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction4x.png' class='math-display' alt='P (X  ∪Y ) = P (X )+ P (Y )− P(X ∩ Y )
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction4x.png' alt='P (X  ∪Y ) = P (X )+ P (Y )− P(X ∩ Y )
            --1--  --1-   --1-- -1--
          = 2l(X ) + 2l(Y) − 2l(X) ⋅2l(Y)
            --1--  --1-   ----1-----
@@ -38,7 +38,7 @@ is:
 </p>
    <table class='equation'><tr><td> <a id='x1-4r3'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction5x.png' class='math-display' alt='              1
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction5x.png' alt='              1
 P(X ∪ Y) = -l(X∪Y-)
            2
 ' /></center></td><td class='equation-label'>(3)</td></tr></table>
@@ -47,7 +47,7 @@ P(X ∪ Y) = -l(X∪Y-)
 </p>
    <table class='equation'><tr><td> <a id='x1-5r4'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction6x.png' class='math-display' alt='   1       1      1        1
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction6x.png' alt='   1       1      1        1
 2l(X∪Y-) = 2l(X-) + 2l(Y-) − 2l(X)+l(Y)
 ' /></center></td><td class='equation-label'>(4)</td></tr></table>
                                                                   
@@ -60,7 +60,7 @@ P(X ∪ Y) = -l(X∪Y-)
 </p>
    <table class='equation'><tr><td> <a id='x1-6r5'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction7x.png' class='math-display' alt='---1---= --1--+ --1- − ---1-----
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction7x.png' alt='---1---= --1--+ --1- − ---1-----
 2l(X∪Y )  2l(X )  2l(Y)   2l(X)+l(Y)
        = --1--+ --1--− ----1----
          2l(X )  2l(X )  2l(X)+l(X )
@@ -74,7 +74,7 @@ P(X ∪ Y) = -l(X∪Y-)
 </p>
    <table class='equation'><tr><td> <a id='x1-7r6'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction8x.png' class='math-display' alt='---1---   --1--
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction8x.png' alt='---1---   --1--
 2l(X)− 1 ≫ 22l(X)
 ' /></center></td><td class='equation-label'>(6)</td></tr></table>
 <!-- l. 79 --><p class='nopar'>
@@ -85,7 +85,7 @@ P(X ∪ Y) = -l(X∪Y-)
 </p>
    <table class='equation'><tr><td> <a id='x1-8r7'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction9x.png' class='math-display' alt='0 ≈ --1--
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction9x.png' alt='0 ≈ --1--
     22l(X)
 ' /></center></td><td class='equation-label'>(7)</td></tr></table>
 <!-- l. 85 --><p class='nopar'>
@@ -93,17 +93,17 @@ P(X ∪ Y) = -l(X∪Y-)
 </p>
    <table class='equation'><tr><td> <a id='x1-9r8'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction10x.png' class='math-display' alt='   ---1---≃ ---1---
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction10x.png' alt='   ---1---≃ ---1---
    2l(X∪Y )  2l(X )−1
 ∴ l(X ∪ Y ) ≃ l(X )− 1
          □
 ' /></center></td><td class='equation-label'>(8)</td></tr></table>
 <!-- l. 95 --><p class='nopar'>
-</p><!-- l. 97 --><p class='indent'>   curi has slightly different logic and argues <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction11x.png' class='math' alt='l(X ∪ Y) ≃ 2l(X )  ' /> which I think is
-reasonable. His argument means we get <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction12x.png' class='math' alt='l(X ) ≃ 2l(X )  ' />. I don’t think those steps are
+</p><!-- l. 97 --><p class='indent'>   curi has slightly different logic and argues <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction11x.png' alt='l(X ∪ Y) ≃ 2l(X )  ' /> which I think is
+reasonable. His argument means we get <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction12x.png' alt='l(X ) ≃ 2l(X )  ' />. I don’t think those steps are
 necessary but they are worth mentioning as a difference. I think <a href='#x1-9r8'>Equation (8)</a> is
 enough.
-</p><!-- l. 99 --><p class='indent'>   I was curious about what happens when <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction13x.png' class='math' alt='l(X ) ⁄= l(Y )  ' />. Let’s assume the
+</p><!-- l. 99 --><p class='indent'>   I was curious about what happens when <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction13x.png' alt='l(X ) ⁄= l(Y )  ' />. Let’s assume the
 following:
 </p>
    <table class='equation'><tr><td> <a id='x1-10r9'></a>
@@ -111,7 +111,7 @@ following:
 
                                                                   
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction14x.png' class='math-display' alt='  l(X) &lt; l(Y )
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction14x.png' alt='  l(X) &lt; l(Y )
 
 ∴ -1l(X)-≫ -l1(Y-)
   2      2
@@ -121,7 +121,7 @@ following:
 </p>
    <table class='equation'><tr><td> <a id='x1-11r10'></a>
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction15x.png' class='math-display' alt='      P (X  ∪Y ) =--1--+ --1- − ----1----
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction15x.png' alt='      P (X  ∪Y ) =--1--+ --1- − ----1----
                  2l(X )  2l(Y)   2l(X)+l(Y)
                              0        // 0
   lim  P (X  ∪Y ) =--1--+ --/1/ − ---/1/---
@@ -137,16 +137,16 @@ l(Y)→∞            2l(X )  /2l(Y)   /2/l(X)+l(Y)
 
                                                                   
    <center class='math-display'>
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction16x.png' class='math-display' alt='      1       1
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction16x.png' alt='      1       1
    2l(X-∪Y) ≃ 2l(X)
 ∴ l(X ∪Y ) ≃ l(X)
 
     ⇒ l(Y ) ≃ 0
 ' /></center></td><td class='equation-label'>(11)</td></tr></table>
 <!-- l. 126 --><p class='nopar'>
-</p><!-- l. 128 --><p class='indent'>   but <a href='#x1-10r9'>Equation (9)</a> says <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction17x.png' class='math' alt='l(X) &lt; l(Y )  ' /> – this contradicts <a href='#x1-12r11'>Equation (11)</a>.
-<img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction18x.png' class='math' alt='■ ' />
-</p><!-- l. 130 --><p class='indent'>   So there’s an inconsistency regardless of whether <img src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction19x.png' class='math' alt='l(X ) = l(Y )  ' /> or not.
+</p><!-- l. 128 --><p class='indent'>   but <a href='#x1-10r9'>Equation (9)</a> says <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction17x.png' alt='l(X) &lt; l(Y )  ' /> – this contradicts <a href='#x1-12r11'>Equation (11)</a>.
+<img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction18x.png' alt='■ ' />
+</p><!-- l. 130 --><p class='indent'>   So there’s an inconsistency regardless of whether <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction19x.png' alt='l(X ) = l(Y )  ' /> or not.
 </p>
     
 
