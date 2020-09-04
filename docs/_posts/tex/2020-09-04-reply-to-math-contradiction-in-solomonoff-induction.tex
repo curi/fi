@@ -1,0 +1,39 @@
+% ---
+% title: "Reply to 'Mathematical Inconsistency in Solomonoff Induction?'"
+% date: 2020-09-04
+% parent: Posts
+% layout: post
+% published: true
+% ---
+
+
+\documentclass{article}
+\usepackage{footnote}
+% \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage[capitalise,nameinlink,noabbrev]{cleveref}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+I went through the maths in OP. I think the core inconsistency is that SI implies \(l(X \cup Y) = l(X)\). I'm going to redo the maths below (breaking it down step-by-step more). curi has \(2l(X) = l(X)\) which is the same inconsistency given his substitution. I'm not sure we can make that substitution but I also don't think we need to.
+
+Let $X$ and $Y$ be independent hypotheses for Solomonoff induction.
+
+According to the prior: the non-normalized probability of $X$ (and similarly for $Y$) is:
+
+\begin{equation}
+P(X) = \frac{1}{2^{l(X)}}
+\end{equation}
+
+what is the probability of \(X\cup~Y\)?
+
+\begin{equation}
+P(X \cup Y) = P(X) + P(Y) - P(X\cap~Y)
+\end{equation}
+
+
+
+\end{document}
