@@ -32,6 +32,7 @@ FFMPEG="true"  # this will do nothing but we need to give some program to --exec
 if [[ "$AUDIO_ONLY" == "true" ]]; then
     FORMAT="bestaudio"
     FFMPEG="ffmpeg -i {}  -codec:a libmp3lame -qscale:a 0 {}.mp3 && rm {} "
+    DL_AUDIO_SUFX="-audio"
 fi
 
 ARIA2C_EXPANSION=""
@@ -41,7 +42,7 @@ fi
 
 cd $ARCHIVE_LOCATION
 # can try `--no-check-certificate` if you have issues
-youtube-dl --download-archive "$ARCHIVE_LOCATION/downloaded.txt" \
+youtube-dl --download-archive "$ARCHIVE_LOCATION/downloaded$DL_AUDIO_SUFX.txt" \
     --no-post-overwrites -i -x -f "$FORMAT"  \
     https://youtube.com/channel/UCOyCX1UYR7mJQmm8TXrGlhA \
     -o "%(title)s_%(id)s.%(ext)s" --exec "$FFMPEG"
