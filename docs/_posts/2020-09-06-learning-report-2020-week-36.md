@@ -42,6 +42,7 @@ category: Learning Reports
 
 * (mild) I'd prefer to spend less time thinking about SI because it's not really relevant to my near-term goals. It might still help me generally because I'm thinking more about CR and yes/no at the same time. I like thinking about it because it's topical and interesting, tho.
 * Reading habit - I still haven't built this up, or spent time working towards it.
+* not using skills like brainstorming before writing posts (which I'm viewing as writing practice)
 
 ## ideas for future stuff
 
