@@ -36,7 +36,7 @@ if [[ "$AUDIO_ONLY" == "true" ]]; then
 fi
 
 ARIA2C_EXPANSION=""
-if which aria2c; then
+if which aria2c >/dev/null 2>&1 ; then
     ARIA2C_EXPANSION="--external-downloader aria2c"
 fi
 
@@ -45,6 +45,6 @@ cd $ARCHIVE_LOCATION
 youtube-dl --download-archive "$ARCHIVE_LOCATION/downloaded$DL_AUDIO_SUFX.txt" \
     --no-post-overwrites -i -x -f "$FORMAT"  \
     https://youtube.com/channel/UCOyCX1UYR7mJQmm8TXrGlhA \
-    -o "%(title)s_%(id)s.%(ext)s" --exec "$FFMPEG"
+    -o "%(title)s_%(id)s.%(ext)s" --exec "$FFMPEG" \
     $ARIA2C_EXPANSION
 ```
