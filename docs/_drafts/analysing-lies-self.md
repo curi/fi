@@ -7,7 +7,6 @@ why people should pay attention to what i say
 - they do different things
 - wtf
 
-
 what does this say about my expectations for how other people think?
 
 what does it mean for how I should think about some other peoples opinions?
