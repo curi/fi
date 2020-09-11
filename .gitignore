@@ -20,3 +20,4 @@ curi-us-backup
 *.log
 *.tmp
 
+*.save
