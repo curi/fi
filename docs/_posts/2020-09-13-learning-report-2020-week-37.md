@@ -4,7 +4,7 @@ layout: post
 date: 2020-09-13
 parent: Learning Reports
 category: Learning Reports
-published: false
+published: true
 ---
 
 (NOTE: not yet complete)
