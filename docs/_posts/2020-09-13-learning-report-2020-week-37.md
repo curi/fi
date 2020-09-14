@@ -61,7 +61,8 @@ published: true
         * Fun but not a great use of time, no results from 12hrs+ work
       * **BOTTLENECK** I think lookup times of pixels I'm using for a-star (which gives distances for the travelling salesman alg) is the bottleneck. looping thru all pixels (~1.3m) to test if black/white adds like +60s to my tests
         * can optimise this
-
+  * there are other problems I identified w/ my run and issues I have that I haven't had time to write down here
+  
 It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Most of that time was spent doing the Unity/Route stuff.
 
 ## Issues
