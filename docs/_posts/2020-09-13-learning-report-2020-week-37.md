@@ -54,7 +54,7 @@ published: true
       * In my WR 2020-09-13 run I think I had better-than-previous technical movement, but there are still obviously sloppy things (like going into the final run of 14 orbs -- I miss one and have to go back)
       * Doing the final 14 *well* saves >3s on it's own, if not more. Missing any one of them is quite costly
   * taking it further
-    * I used [*Engauge Digitizer*](https://github.com/markummitchell/engauge-digitizer/) to get a CSV of points of the orbs - I wanted to use some route-finding software later to try and improve the route
+    * I used [*Engauge Digitizer*](https://github.com/markummitchell/engauge-digitizer/) to get a [CSV of points of the orbs](https://imgur.com/a/MoIDmWK) - I wanted to use some route-finding software later to try and improve the route
     * Idea: use travelling salesman + genetic to find a faster route?
       * Have done a bit on this in python and haskell (separately)
         * Fun but not a great use of time, no results from 12hrs+ work
