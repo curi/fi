@@ -66,6 +66,8 @@ It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Mos
 ## Issues
 
 * I had lots of things I wanted to do over the weekend and didn't do ~any.
+  * I intend to read *easy way* again (partially due to some discord conversations about it)
+    * need to fix some habits
 
 ## Carry over
 
