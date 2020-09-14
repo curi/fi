@@ -33,6 +33,7 @@ published: true
     * There are ~4 or so unique ways SSOL starts the suggested tweet. I googled them in quotes with various prefixes like "It took me 00:02"
       * this example finds a quote on Twitter (from @CharlesEnos) from 28 May 2014
         > It took me 00:02:47 to break the #threeminuteworldtime http://gamelab.mit.edu/slower  #slowlight #openrelativity
+      * I couldn't find shorter times on twitter, there were some other 2 minute times, but none faster than 2:47
     * (there were some social-integration features b/c SSOL it was released in 2012)
   * Watched previous runs to figure out routes
   * Tried some more experimental routes that didn't seem to work well
@@ -58,8 +59,20 @@ published: true
     * Idea: use travelling salesman + genetic to find a faster route?
       * Have done a bit on this in python and haskell (separately)
         * Fun but not a great use of time, no results from 12hrs+ work
+      * I think lookup times of pixels I'm using for a-star (which gives distances for the travelling salesman alg) is the bottleneck. testing all pixels tadds like 
 
 It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Most of that time was spent doing the Unity/Route stuff.
+
+## Issues
+
+* I had lots of things I wanted to do over the weekend and didn't do ~any.
+
+## Carry over
+
+* Reading habit - I still haven't built this up, or spent time working towards it.
+  * some improvement, not enough
+    * one issue is I end up pausing a thinking a bunch reading FoR which means I take a long time to get through stuff
+    * another is concentration, like doing multiple things at once (e.g. discord)
 
 ## post ideas
 
