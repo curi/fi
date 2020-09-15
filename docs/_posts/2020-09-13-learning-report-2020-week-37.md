@@ -77,6 +77,7 @@ It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Mos
   * some improvement, not enough
     * one issue is I end up pausing a thinking a bunch reading FoR which means I take a long time to get through stuff
     * another is concentration, like doing multiple things at once (e.g. discord)
+* didn't write as much as I planned to
 
 ## post ideas
 
@@ -105,7 +106,7 @@ It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Mos
     * objections to meta => defensive b/c of social stuff?
     (not good)
       * what about some equivalence of action to goodness? does anything like that come in to it?
-* Justin/Max metaphors of violence thing
+* Justin/Max metaphors of violence chat log
 * Chat log excerpts
 * Why you should contribute via subscribestar
 * Why (and under what conditions) should you take someone seriously?
@@ -114,6 +115,15 @@ It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Mos
 * What does it mean for a philosopher to be consistent? (both WRT their behaviour and their values)
 * "picking fights" - can they be good?
 * haskell over scheme - importance of data types
+
+* idea 2020-09-15
+* great ppl and picking challenges
+  - example from pirate legend in a day
+    - joke about taking the other sloop's loot
+    - doesn't matter how good you are - skills / potential is always contextual
+    - this means that knowledge about that context is just as useful if not moreso than knowledge about the skills (i.e. being good)
+    - can't be great while overreaching
+
 
 From FoR notes:
 

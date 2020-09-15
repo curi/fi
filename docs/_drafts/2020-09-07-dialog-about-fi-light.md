@@ -17,3 +17,9 @@ max: okay, say we start with my goal, to help FI. what things would help beginne
 ----
 
 - it's not about lowering standards to pander, it's about practice
+
+practice stages
+
+- do it at all
+- do it repeatedly (lower ER)
+- do it fast
