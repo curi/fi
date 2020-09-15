@@ -9,13 +9,20 @@ import inflection
 
 
 def is_bool(v):
-    return v.lower() in ['true', 'false']
+    return v.lower() in {'true', 'false'}
+
+def is_yesno(v):
+    return v.lower() in {'yes', 'no'}
 
 
 yesno_validator = Validator.from_callable(
-    is_bool,
+    is_yesno,
     error_message="Enter 'yes' or 'no'",
     move_cursor_to_end=True)
+
+
+def yesno_to_bool(v: str):
+    return v.lower() in {'yes', 'y', 'true'}
 
 
 d = datetime.now()
@@ -57,6 +64,6 @@ print(f"""Wrote the below frontmatter to {new_lr_file}
 You can now edit {new_lr_file} as required.
 """)
 
-start_vscode = bool(prompt(f"Run `code {new_lr_file}`? (yes/no) > ", validator=yesno_validator, completer=WordCompleter({'yes', 'no'})).lower())
+start_vscode = yesno_to_bool(prompt(f"Run `code {new_lr_file}`? (yes/no) > ", validator=yesno_validator, completer=WordCompleter({'yes', 'no'})).lower())
 if start_vscode:
     os.system(f"code {new_lr_file}")
