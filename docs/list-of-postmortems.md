@@ -1,8 +1,7 @@
 ---
 title: List of FI Postmortems
-date: 2020-09-16 09:45
-categories: resources fi list postmortem
-layout: post
+categories: "resources fi postmortem"
+layout: page
 permalink: /lists/postmortems/
 ---
 
