@@ -116,15 +116,6 @@ It was maybe ~6hrs till I beat/equalled the WR and ~8 to get a time of 2:30. Mos
 * "picking fights" - can they be good?
 * haskell over scheme - importance of data types
 
-* idea 2020-09-15
-* great ppl and picking challenges
-  - example from pirate legend in a day
-    - joke about taking the other sloop's loot
-    - doesn't matter how good you are - skills / potential is always contextual
-    - this means that knowledge about that context is just as useful if not moreso than knowledge about the skills (i.e. being good)
-    - can't be great while overreaching
-
-
 From FoR notes:
 
 * offtopic - FoR ch2,25:00 maybe -- beginning to talk about "tangible" photons and what it means to be in the same universe -> thinking about the "what to do with way out there ideas" post
