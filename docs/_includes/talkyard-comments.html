@@ -1,10 +1,10 @@
 {% if site.talkyard_server_url %}
+<p style="font-size: 70%; opacity: 0.8">You can leave a comment anonymously. No sign up or login is required. Use a junk email if not your own; email is only for notifications&mdash;though, FYI, I will be able to see it.</p>
 <script>talkyardServerUrl='{{ site.talkyard_server_url }}';</script>
 <script async defer src="{{ site.talkyard_script_url }}"></script>
 <!-- You can specify a per page discussion id on the next line, if your URLs might change. -->
 <div class="talkyard-comments" data-discussion-id="{{ page.discussion_id }}" style="margin-top: 45px;">
 <noscript>Please enable Javascript to view comments.</noscript>
-<p style="margin-top: 25px; opacity: 0.9; font-size: 96%">Comments powered by
-<a href="https://www.talkyard.io">Talkyard</a>.</p>
+<p style="margin-top: 15px; opacity: 0.8; font-size: 70%">Comments powered by <a href="https://www.talkyard.io">Talkyard</a>.</p>
 </div>
 {% endif %}

@@ -5,21 +5,16 @@ layout: page
 permalink: /lists/postmortems/
 ---
 
-## Postmortems
-
-### this site (note: will improve this list in future so it's not opaque)
+## xertrov.github.io/fi/ (note: will improve this list in future so it's not opaque)
 
 {% assign numPMs = 3 %}
-{% for i in (1..numPMs) %}
-* [/pm/{{ i }}](../../pm/{{i}})
-{% endfor %}
+[/pm/1](../../pm/1) {% for i in (2..numPMs) %}| [/pm/{{ i }}](../../pm/{{i}}) {% endfor %}
 
-### curi.us
+## curi.us
 
-* Alisa's thread
+* [Alisa's thread](https://curi.us/2204)
 * [Max's thread](https://curi.us/2380)
 
-## Perimortems
+## this site, but with a label
 
-* Max's thread
-  * [Perimortem on intuitive response to #18037](../2020-09-16-perimortem-on-intuitive-response-to-18037/)
+* [Perimortem on intuitive response to #18037](../2020-09-16-perimortem-on-intuitive-response-to-18037/)
