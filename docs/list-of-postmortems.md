@@ -7,9 +7,17 @@ permalink: /lists/postmortems/
 
 ## Postmortems
 
+### this site (note: will improve this list in future so it's not opaque)
+
+{% assign numPMs = 3 %}
+{% for i in (1..numPMs) %}
+* [/pm/{{ i }}](../../pm/{{i}})
+{% endfor %}
+
+### curi.us
+
 * Alisa's thread
-* Max's thread
-* (todo, more examples)
+* [Max's thread](https://curi.us/2380)
 
 ## Perimortems
 
