@@ -22,6 +22,24 @@ Why did DD help Elliot? Why did DD mentor him? It wasn't because ET was better t
 
 (Not finished, but less confident about where to go from here)
 
+Sketch:
+
+(Note: I feel like I haven't earned the privilege of making some of these comments, but sketching it out anyway)
+
+* DD saw potential in ET
+* I think ET should consider, *if/when* such a person/situation arises, to mentor them similarly
+  * the goal should be to elevate *one* person (or maybe two, IDK) to close to his level.
+  * then some quid-pro-quo kicks in, the deal is essentially a 'pay if forward' type thing
+  * now we have two *great* people
+    * supply is presumably an issue
+* while this is happening FI ppl who aren't that capable (yet?) help each-other
+  * it's important that most of the FI work that *can* be done by someone other than ET *is* done by someone else
+    * that's helping the best ppl too by removing load/demand for attention/scarcity of half decent discussion/feedback
+      * this happens a bit now, but enough?
+  * also important that cargo-cult type stuff doesn't happen; progress needs to be genuine, ppl need to disagree and seek out those challenges
+    * ideally resolving them on their own (then those two people get better w/o significant attention or demand for attention)
+* (todo)
+
 ## Podcast & Transcript
 
 Published on curi.us on 2017-10-06
