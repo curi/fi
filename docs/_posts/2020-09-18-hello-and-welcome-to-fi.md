@@ -1,14 +1,26 @@
 ---
-title: "Hello, and welcome to FI"
+title: "Hello, and welcome to FI (opt1)"
 layout: post
 date: 2020-09-18 00:17
 parent: Posts
 categories: "fi fi-beginners"
 ---
 
+## context for this writing ~exercise/practice
+
 Audience: me in August 2017, essentially.
 
-> Note: I'm not sure I can speak with the tone of authority I do in this, but I'm fairly confident it's reasonable.
+*Note: I'm not sure I can speak with the tone of authority I do in this, but I'm fairly confident it's reasonable.*
+
+*After reviewing in Tutoring Max 41: This is not a good post. Lots of issues. Leaving it here for the record, but, yeah.*
+
+*Thinking about this now, it's more like 2020-Max wrote this for 2020-Max, not for 2017-Max.*
+
+*the (opt1) in the title indicates this is one of multiple ways to tackle the same issue; I intend to try other ways in future posts.*
+
+Please see [Tutoring Max #41 0:30:00 onwards](https://youtu.be/MxVzxS8uMto?t=1807) for discussion with ET about this post.
+
+## the post itself
 
 Fallible Ideas (FI) is not like other forums. Other forums have much lower standards. They think things like: "It's rude to criticise someone", "You have to stay on topic", or "It's better to praise new members than criticise them". Other forums encourage quantity over quality, and the *appearance* or *feeling* of good discussion over the *actual quality* of discussion.
 
@@ -24,7 +36,7 @@ I think it's important to mention, I am not attempting to dissuade you--I'm writ
 
 One of the reasons I'm writing this is so that *you*, an FI beginner, will have some material that I did not. I will tell you some things I would have liked to been told--and might have found had I the wherewithal to humbly look. I urge you to proceed with an open mind. By that I mean: please, reserve judgement until you have *thoroughly* thought through and discussed the foundational material. There are many things you can learn without talking about fantastical things like AGI or saving the world. In fact, it will be *expected* that you take seriously *other things* before having the sorts of discussions many people try to jump right into.
 
-FI is a community that will *expect* you are *fully capable* of discussing topics you choose *at incredibly high standards*. If you do not master (or at least become proficient) in the basics, do not expect anyone to take you seriously in more advanced matters. If you [overreach](https://www.elliottemple.com/essays/life-overreaching-correcting-error)--that is, attempt to tackle problems beyond your potential--you will be confronted about this. *This is what high standards mean*, high standards do not mean things like *fancy*, *impressive*, or *advanced*. High standards means *a low error rate* and *consistent, robust thinking*; you must know your own boundaries and capabilities to reach your goals.
+FI is a community that will *expect* you are *fully capable* of discussing topics you choose *at incredibly high standards*. ~~If you do not master (or at least become proficient) in the basics, do not expect anyone to take you seriously in more advanced matters.~~ If you [overreach](https://www.elliottemple.com/essays/life-overreaching-correcting-error)--~~that is, attempt to tackle problems beyond your potential~~(not what overreaching means, need to rework a lot here)--you will be confronted about this. *This is what high standards mean*, high standards do not mean things like *fancy*, *impressive*, or *advanced*. High standards means *a low error rate* and *consistent, robust thinking*; you must know your own boundaries and capabilities to reach your goals.
 
 Despite the high standards, *everyone* is capable of becoming a productive member--and potentially very quickly. What does being a productive member mean? Primarily: making progress *for yourself*. You owe nothing to other posters, and they owe nothing to you. However, you do *owe it to yourself* to take the *knowledge* made available to you and use it to *improve your thinking and your life*.
 
@@ -32,7 +44,7 @@ FI is not a club, or a show and tell. It is a **serious philosophy forum for ser
 
 All that said, I'm glad you're here.
 
-FI is the living tradition of several David Deutsch related online communities: TCS (Taking Children Seriously), ARR (Autonomy Respecting Relationships), and the FoR (Fabic of Reality) and BoI (Beginning of Infinity). Although FI is the living tradition of these discussion groups, you won't find DD here, only his legacy: primarily through his long-time mentee, and colleague, [Elliot Temple](https://www.elliottemple.com/).
+FI is the living tradition of several David Deutsch related online communities: TCS (Taking Children Seriously), ARR (Autonomy Respecting Relationships), and the FoR (Fabric of Reality) and BoI (Beginning of Infinity). Although FI is the living tradition of these discussion groups, you won't find DD here, only his legacy: primarily through his long-time mentee, and colleague, [Elliot Temple](https://www.elliottemple.com/).
 
 As for introductory material, in lieu of follow-up posts of mine (and others, I hope), these things will help you on your way:
 

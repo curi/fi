@@ -27,6 +27,8 @@ Sketch:
 (Note: I feel like I haven't earned the privilege of making some of these comments, but sketching it out anyway)
 
 * DD saw potential in ET
+  * win-win
+  * 'potential' is not a good word
 * I think ET should consider, *if/when* such a person/situation arises, to mentor them similarly
   * the goal should be to elevate *one* person (or maybe two, IDK) to close to his level.
   * then some quid-pro-quo kicks in, the deal is essentially a 'pay if forward' type thing

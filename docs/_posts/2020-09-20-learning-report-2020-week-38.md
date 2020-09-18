@@ -14,12 +14,14 @@ published: false
 ## tutorials
 
 * 40
+* 41
 
 ## postmortems
 
 * I said I'd do a retrospective (filling in for a monthly learning report) and I didn't. I should do a postmortem on that.
-* [misreading IR](https://curi.us/2380-max-microblogging#18051) #18051
+* [pm/1](../../pm/1)
 * [pm/2](../../pm/2)
+* [misreading IR](https://curi.us/2380-max-microblogging#18051) #18051 (also via [pm/3](../../pm/3))
 
 ## carry over
 
