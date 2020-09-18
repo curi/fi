@@ -23,6 +23,8 @@ published: false
 
 ## carry over
 
+* started reading *the choice* again, up to ch12 (friday)
+
 ## misc
 
 * SSOL speedrun improved to 2:20

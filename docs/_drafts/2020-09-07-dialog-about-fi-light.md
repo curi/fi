@@ -18,7 +18,7 @@ anon: maybe you're going a bit fast. helping FI is a broad, nonspecific goal. yo
 
 max: I want a better world, and a better life for future people. I think it's important to contribute to that if I can. There are ways I do that outside FI, which are fine. But I don't want to just do those other things, I think FI succeeding will be important - both on its own merit, and because my other things will do better too. Or, if my other things don't do better, in the future other people like me might be able to do better than I did. I want humanity to get more good thinkers, and I don't know how that will happen without FI. Slowly I guess.
 
-max: I want other things too, associated stuff. 
+max: I want other things too, associated stuff.
 
 ----
 
