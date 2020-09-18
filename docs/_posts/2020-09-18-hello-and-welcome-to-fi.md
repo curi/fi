@@ -6,6 +6,10 @@ parent: Posts
 categories: "fi fi-beginners"
 ---
 
+Audience: me in August 2017, essentially.
+
+> Note: I'm not sure I can speak with the tone of authority I do in this, but I'm fairly confident it's reasonable.
+
 Fallible Ideas (FI) is not like other forums. Other forums have much lower standards. They think things like: "It's rude to criticise someone", "You have to stay on topic", or "It's better to praise new members than criticise them". Other forums encourage quantity over quality, and the *appearance* or *feeling* of good discussion over the *actual quality* of discussion.
 
 But you knew that, right? At least a bit. You *went looking* for *high quality philosophy*; isn't that why you're here? Maybe, maybe not. You're here now.

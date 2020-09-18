@@ -38,10 +38,10 @@ exclude: ["node_modules/", "**/tex/*", "tex/", "*.tex", "*.gemspec", "*.gem", "G
 aux_links:
   "feed.xml":
     - "/fi/feed.xml"
-  "Public Docs":
-    - "https://drive.google.com/drive/u/0/folders/1_CXXYqdyV8FE5BWXMGChlhd76vL4gc--"
-  "YouTube":
-    - "https://www.youtube.com/channel/UCscXO9PxvE7M2YZQmJo6LwA"
+  # "Public Docs":
+  #   - "https://drive.google.com/drive/u/0/folders/1_CXXYqdyV8FE5BWXMGChlhd76vL4gc--"
+  # "YouTube":
+  #   - "https://www.youtube.com/channel/UCscXO9PxvE7M2YZQmJo6LwA"
   "Tutoring Playlist":
     - "https://www.youtube.com/playlist?list=PLKx6lO5RmaetREa9-jt2T-qX9XO2SD0l2"
 

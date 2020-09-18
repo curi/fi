@@ -20,6 +20,8 @@ I think ET's conclusion answers this question. ET should help the best people. W
 
 Why did DD help Elliot? Why did DD mentor him? It wasn't because ET was better than DD -- that happened later. There must have been some other reason, perhaps that ET was "the best", whatever that means in this case. I think that sounds reasonable so far.
 
+(Not finished, but less confident about where to go from here)
+
 ## Podcast & Transcript
 
 Published on curi.us on 2017-10-06
