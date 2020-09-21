@@ -4,6 +4,8 @@ layout: post
 date: 2020-09-18 00:17
 parent: Posts
 categories: "fi fi-beginners"
+redirect_from:
+- "/103"
 ---
 
 ## context for this writing ~exercise/practice

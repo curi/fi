@@ -4,6 +4,8 @@ layout: post
 date: 2020-09-18 01:47
 parent: Posts
 categories: "fi fi-beginners"
+redirect_from:
+- "/104"
 ---
 
 > Note: this is currently a draft and incomplete post.

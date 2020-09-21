@@ -4,7 +4,9 @@ layout: post
 date: 2020-09-16 09:22
 parent: Posts
 categories: "microblog postmortem"
-redirect_from: "/pm/2"
+redirect_from:
+- "/pm/2"
+- "/p/101"
 ---
 
 Originally posted to [curi.us/2380](https://curi.us/2380#18039)

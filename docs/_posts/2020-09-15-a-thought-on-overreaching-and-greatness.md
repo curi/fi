@@ -4,6 +4,8 @@ layout: post
 date: 2020-09-15 18:08
 parent: Microblog
 categories: "microblog overreaching"
+redirect_from:
+- "/p/100"
 ---
 
 Consider people who are *great* (like exceptional) at something in particular.
