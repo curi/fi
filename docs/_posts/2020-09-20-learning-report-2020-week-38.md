@@ -4,7 +4,7 @@ layout: post
 date: 2020-09-20
 parent: Learning Reports
 category: Learning Reports
-published: false
+published: true
 redirect_from:
 - "/105"
 ---
