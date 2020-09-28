@@ -31,8 +31,10 @@ redirect_from:
 
 * make a video like 'Tom Scott is Wrong About Online Voting and he Should Stop Spreading Misinformation
   * made some notes on this
-* discussion / debate policy
+* write and publish draft: discussion / debate policy
   * from curi.us debate topics: "Intellectuals who are too busy to talk with everyone should have written policies for who they talk to"
+* write response to WA Electoral Funding submission request (by Oct 2)
+* write response to Fed Electoral Funding submission request (by Nov 6)
 
 ## notes
 
