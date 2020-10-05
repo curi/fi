@@ -6,6 +6,7 @@ parent: Public Drafts
 ---
 
 ## what's the differences between statements where you change the focus from occurrence to prevalence
+
 what is the difference between
 
 > TS occurs in people from all ethnic groups; males are affected about three to four times more often than females.

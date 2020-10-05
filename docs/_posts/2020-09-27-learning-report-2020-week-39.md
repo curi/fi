@@ -8,9 +8,9 @@ category: Learning Reports
 
 ## tutorials
 
-* 43
+* 42
   * covering some overreaching material
-* 44
+* 43
   * talking about goals, bigger picture stuff
 
 ## SSOL
