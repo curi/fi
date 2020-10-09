@@ -11,6 +11,9 @@ category: Learning Reports
 This week Elliot and I had a practice discussion (over both tutorials) about whether genes can play a significant role in one's thoughts. I felt like it was valuable for a few reasons:
 
 - I haven't had many discussions like that. I felt like we got to the important bits much quicker than 'normal' conversations (if 'normal' conversations ever get to the point).
+  - differences
+    - focus -- keeping attention on 1 thing at a time
+    - msgs less 'laden' with presumption
 - By keeping a tree of the conversation it became clearer the role each person played to the 'breadth' of the discussion (how many forks were in the tree). It was also clear how I was contributing to that a lot more than Elliot was.
 - The 'challenges' Elliot put to me (in response to the ideas I was putting forward) were relevant and they either teased out required information or asked me questions that, when I attempted to answer, pointed out issues with the idea.
 
@@ -47,7 +50,7 @@ This week Elliot and I had a practice discussion (over both tutorials) about whe
 
 I have done some work on two bodies of code I'm unfamiliar with, one in *dart* which I haven't used before besides super simple stuff. I was fairly productive considering.
 
-I've been experimenting for a while with how to do datastructures in languages like Python (or dart). Both can be fairly loose with their type system but have recent extra features that help. One thing I'm noticing is that my code has a comparably low nesting-factor. Excluding code that looks like nesting due to formatting, I often have no nesting outside of e.g. a try/catch block for the entire function body.
+I've been experimenting for a while with how to do data structures in languages like Python (or dart). Both can be fairly loose with their type system but have recent extra features that help. One thing I'm noticing is that my code has a comparably low nesting-factor. Excluding code that looks like nesting due to formatting, I often have no nesting outside of e.g. a try/catch block for the entire function body.
 
 I think this is directly due to using immutable data structures, pure functions, and first class functions. Doing things like avoiding `null`/`None` as valid types helps too -- this way you can e.g. return a list of results (of say type `Maybe int`) instead of handling error cases in a more cumbersome confusing way. It makes code easier to analyse, extend, predict, sequence, etc.
 
