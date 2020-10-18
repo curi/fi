@@ -21,3 +21,4 @@ curi-us-backup
 *.tmp
 
 *.save
+*.backup
