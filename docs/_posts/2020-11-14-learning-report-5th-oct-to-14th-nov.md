@@ -1,5 +1,7 @@
 # Max's Learning Report - 5th Oct to 14th Nov
 
+[Post to curi.us learning reports thread](http://curi.us/2377-learning-updates-thread#18653)
+
 I've mostly been posting to [my microblogging thread](https://curi.us/2380-max-microblogging) and a little to [my FI site](https://xertrov.github.io/fi/). I've written a decent amount.
 
 I finished *The Choice* (finally) and started *Philosophy: Who Needs It*. I'm really enjoying P:WNI. One of my favourite sections so far is Rand's open letter to Boris Spassky.
