@@ -6,15 +6,17 @@ parent: Posts
 layout: post
 ---
 
-Creating a political party takes time, energy, and resources like money. Parties aren't cheap to create and they're some effort to maintain. It doesn't make sense to start or continue a party if the political party doesn't contribute to some goal, or of that goal can be met more effectively in other ways.
+<!-- needs opening paragraph -- no topic sentence -> unfocused -->
+
+Creating a political party takes time, energy, and resources like money. Parties aren't cheap to create and they take some effort to maintain. It doesn't make sense to start or continue a party if the political party doesn't contribute to some goal, or of that goal can be met more effectively in other ways.
 
 In general, Australian political parties are groups with members that are registered with the relevant Electoral Commission. These groups are allowed to run candidates under a unified banner in elections managed by that Electoral Commission. Parties aren't necessarily incorporated. Parties are made up of members, at least some of whom must be voters in the relevant elections.
 
-It's fair to say a party can help achieve multiple goals. When a party is multi-purpose, like this, the goals don't change. There aren't that many common goals parties help achieve, either. Some of the goals a political party might satisfy can be better satisfied by other types of organisations. For example: if you had the goal to increase medical research for some disease, you could register a political party around that issue, or you could register a not-for-profit company. Why would you want to go the political party route instead of another option? It doesn't make sense to register a political party if some other type of organisation would be better. It only makes sense if you're taking advantage of the things political parties are *uniquely* suited to address.
+It's fair to say that a party can help achieve multiple goals. When a party is multi-purpose, like this, the goals don't change. There aren't that many common goals that parties help achieve, either. Some of the goals a political party might satisfy can be better satisfied by other types of organisations. For example: if you had the goal to increase medical research for some disease, you could register a political party around that issue, or you could register a not-for-profit company. Why would you want to go the political party route instead of another option? It doesn't make sense to register a political party if some other type of organisation would be better. It only makes sense if you're taking advantage of the things political parties are *uniquely* suited to address.
 
 The main goals a political party is **uniquely** suited to meet, are:
 
-* Affect the policies enacted by legislatures; either by proposing new legislation, or participating in voting on which legislation to enact.
+* Affect the policies enacted by legislatures, either by proposing new legislation, or by participating in voting on which legislation to enact.
 * Get one particular person, or a group of people, elected.
 
 Both of these involve the interim step of winning elections.
@@ -27,4 +29,41 @@ What is a **decisive** reason for starting a political party? Well, such a reaso
 
 A core goal of a political party, then, must be to affect elections--i.e. increase the chance of a candidate, or multiple candidates, being elected. That goal is a decisive reason to start a political party.
 
-A political party which does not *contribute* to *particular candidates* being elected is not very good. Political parties don't need to have their *own* candidates elected to meet the core goal. An easy example can be demonstrated with Flux. We (Flux) have enough members to register multiple parties federally. This would give us certain advantages, though it increases maintenance costs and the overhead of running in elections. If we had, say, 4 federal parties, we could run 4 candidates where previously we could only run 1. In some situations this would increase the chance of us winning a seat. So parties can contribute to the core goal even if the candidate elected is not their own.
+A political party which does not *contribute* to *particular candidates* being elected is wasting resources. Political parties don't need to have their *own* candidates elected to meet the core goal. An easy example can be demonstrated with Flux. We (Flux) have enough members to register multiple parties federally. This would give us certain advantages, though it increases maintenance costs and the overhead of running in elections. If we had, say, 4 federal parties, we could run 4 candidates where previously we could only run 1. In some situations this would increase the chance of us winning a seat. So parties can contribute to the core goal even if the candidate elected is not their own.
+
+## what do the common misconceptions lead to -- impact
+
+## what mistakes get made when ppl don't understand this
+
+- feels unfocused
+- what are the downsides
+- switches back and forth
+- seemed like 2 goals would be main thing
+
+et: might do better to start with bullet points
+
+what's my goal?
+
+get info across as main focus
+
+after feedback on the outline version
+
+- staggered library of crit
+  - tier for lower quality
+  - tier for higher quality
+
+need better idea of what audience is interested in
+
+doesn't seem like I know my audience / have a clear goal
+
+can respond to ~everyone a lot faster w/ bullet point
+
+no background on who I'm arguing with
+
+write outline first
+
+- progression / theme
+
+some guy with a policy: you need an outline with the article or no feedback
+
+outline - brainstorm a bunch of thing, then criticize list and narrow it down / fit together thematically / etc.
