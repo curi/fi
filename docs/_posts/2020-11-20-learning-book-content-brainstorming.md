@@ -100,3 +100,5 @@ categories: "learning"
 - tilting
 - motor
   - todo: read Rand on this
+- overconfidence
+- humility
