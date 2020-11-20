@@ -80,7 +80,8 @@ categories: "learning"
     * Questions - V
   * Overreaching - IV
 * Further Reading & Acknowledgements
-  * Fallible Ideas & Elliot Temple
+  * Elliot Temple
+  * Fallible Ideas
   * Goldratt
   * Rand
   * Deutsch
