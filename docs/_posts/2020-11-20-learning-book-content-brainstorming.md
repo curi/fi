@@ -95,3 +95,5 @@ categories: "learning"
 - judging ideas - IGCs
 - limits
 - distractions
+- mistakes
+  - e.g. GPB and over-perserverence: https://youtu.be/36gbY5rPT-A?t=1097
