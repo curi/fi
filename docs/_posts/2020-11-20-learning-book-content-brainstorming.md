@@ -93,4 +93,5 @@ categories: "learning"
 - learning cycle more prominent
 - add: applying to knowledge-work
 - judging ideas - IGCs
-  
+- limits
+- distractions
