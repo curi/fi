@@ -71,6 +71,7 @@ categories: "learning"
     * Ideas
     * Judgements
   * Stuck - III
+    * Perserverence
     * Getting Unstuck
       * Questions - IV
 * Advanced
@@ -85,3 +86,11 @@ categories: "learning"
   * Goldratt
   * Rand
   * Deutsch
+
+
+## notes
+
+- learning cycle more prominent
+- add: applying to knowledge-work
+- judging ideas - IGCs
+  
