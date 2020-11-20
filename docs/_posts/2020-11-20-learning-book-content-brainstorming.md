@@ -97,3 +97,4 @@ categories: "learning"
 - distractions
 - mistakes
   - e.g. GPB and over-perserverence: https://youtu.be/36gbY5rPT-A?t=1097
+- tilting
