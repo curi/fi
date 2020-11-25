@@ -96,9 +96,11 @@ categories: "learning"
 - limits
 - distractions
 - mistakes
-  - e.g. GPB and over-perserverence: https://youtu.be/36gbY5rPT-A?t=1097
+  - e.g. GPB and over-perseverance: https://youtu.be/36gbY5rPT-A?t=1097
 - tilting
 - motor
   - todo: read Rand on this
 - overconfidence
 - humility
+- consistency
+  - penga practicing one thing over and over via a level created for that purpose - https://www.youtube.com/watch?v=r-2qhUbL1-M
