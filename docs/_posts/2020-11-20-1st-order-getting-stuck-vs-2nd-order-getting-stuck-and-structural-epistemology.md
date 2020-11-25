@@ -93,4 +93,4 @@ Can you turn 2nd order stuck into 1st order stuck? ... maybe? The only way I can
 - <https://fallibleideas.com/knowledge-structure>
 - <https://curi.us/1497-programming-and-epistemology>
 - <https://curi.us/1370-fragile-knowledge>
-- <http://fallibleideas.com/originality>
+- <https://fallibleideas.com/originality>
