@@ -1,0 +1,436 @@
+---
+title: "Reading: Distributed Consensus from Proof of Stake is Impossible"
+date: 2020-08-30 12:00
+parent: Posts
+layout: post
+published: true
+redirect_from: "posts/2020-08-28-reading-distributed-consensus-pos-impossible/"
+---
+<!-- l. 27 --><p class='noindent'>Distributed Consensus from Proof of Stake is Impossible PDF: <a href='../../files/pdfs/2014-05-28-distributed-consensus-pos/old-pos.pdf'>old-pos.pdf</a>,
+<a href='https://xertrov.github.io/fi/files/pdfs/2014-05-28-distributed-consensus-pos/old-pos.pdf'>(permalink)</a>
+</p><!-- l. 29 --><p class='indent'>   The paper <span class='cmti-10'>Distributed Consensus from Proof of Stake is Impossible </span>has been
+criticised as being hard to read and understand.
+</p><!-- l. 31 --><p class='indent'>   My goal is to accurately analyse the paper to extract its arguments, and
+re-express them in simple language.
+</p><!-- l. 33 --><p class='indent'>   Links for tutorial 34:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'><a href='#ex10'>X, if Y, but Z</a></li></ul>
+   <h3 class='likesectionHead'><a id='x1-1000'></a>Contents</h3>
+   <div class='tableofcontents'>
+   <span class='sectionToc'>1 <a id='QQ2-1-2' href='#x1-20001'>Reading: Introduction</a></span>
+<br />   <span class='sectionToc'>2 <a id='QQ2-1-3' href='#x1-30002'>Reading: Proof of Stake</a></span>
+<br />    <span class='subsectionToc'>2.1 <a id='QQ2-1-4' href='#x1-40002.1'>Reading: What is Proof of Stake?</a></span>
+<br />    <span class='subsectionToc'>2.2 <a id='QQ2-1-5' href='#x1-50002.2'>Reading: What is distributed consensus?</a></span>
+<br />    <span class='subsectionToc'>2.3 <a id='QQ2-1-6' href='#x1-60002.3'>Reading: How does Bitcoin achieve distributed consensus?</a></span>
+<br />    <span class='subsectionToc'>2.4 <a id='QQ2-1-7' href='#x1-70002.4'>Reading: How is proof of stake used to achieve distributed consensus?</a></span>
+<br />    <span class='subsectionToc'>2.5 <a id='QQ2-1-8' href='#x1-80002.5'>Reading: What is wrong with this mechanism for consensus?</a></span>
+<br />    <span class='subsectionToc'>2.6 <a id='QQ2-1-9' href='#x1-90002.6'>Reading: Is it possible to obtain a distributed consensus without
+provably consuming some re-source outside of the system?</a></span>
+<br />   <span class='sectionToc'>3 <a id='QQ2-1-10' href='#x1-100003'>Reading: About this document.</a></span>
+<br />   <span class='sectionToc'>4 <a id='QQ2-1-11' href='#x1-110004'>Comments</a></span>
+   </div>
+<!-- l. 48 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>1   </span> <a id='x1-20001'></a>Reading: Introduction</h3>
+<!-- l. 50 --><p class='noindent'>People propose that proof-of-stake (PoS) can be used to protect blockchains. The
+proposition to use proof-of-stake is flawed. The paper looks at the history and
+motivation of proof-of-work (PoW) (as used in Bitcoin). PoW ”evades a impossibility
+result” [sic]. The paper shows PoS is not a viable replacement.
+</p><!-- l. 56 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>2   </span> <a id='x1-30002'></a>Reading: Proof of Stake</h3>
+                                                                  
+
+                                                                  
+<!-- l. 58 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.1   </span> <a id='x1-40002.1'></a>Reading: What is Proof of Stake?</h4>
+<!-- l. 60 --><p class='noindent'>As cryptography has progressed, the idea that [<span class='cmti-10'>information </span>can be real and valuable]
+is being taken seriously. People know about economic activity which depends on
+crypto stuff. Business stuff can be done on the public internet safely. People also
+know about bad things that happen if secret data is lost.
+</p>
+   <div class='newtheorem'>
+<!-- l. 65 --><p class='noindent'><span class='head'>
+<span class='cmbx-10'>Idea 1</span> </span><a id='x1-40011'></a> <span class='cmti-10'>Information can be real and valuable.</span>
+</p>
+   </div>
+<!-- l. 69 --><p class='indent'>   Since Bitcoin, <a href='#x1-40011'>Idea 1</a> is concrete. All at once: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>You can hold and trade a <span class='cmti-10'>fungible </span>”store of value” (i.e. money).
+     </li>
+     <li class='itemize'>You can do this using the internet.
+     </li>
+     <li class='itemize'>You can do this with cryptographic security, instead of physical security.
+     </li>
+     <li class='itemize'>The security prevents fraud and theft.</li></ul>
+<!-- l. 77 --><p class='noindent'>Instead of ”this key is worth <span class='tcrm-1000'>$</span>X because that is the cost of it being public”, one can say
+”this key is worth <span class='tcrm-1000'>$</span>X but is divisible, you can send <span class='tcrm-1000'>$</span>Y to someone but keep the
+rest”.
+</p><!-- l. 79 --><p class='indent'>   Proof-of-stake is simple in this<span class='footnote-mark'><a id='fn1x0-bk' href='#fn1x0'><sup class='textsuperscript'>1</sup></a></span><a id='x1-4002f1'></a>
+context. ”A proof of stake is a cryptographic proof of ownership.” That proof can
+prove (precise) ownership of coins. It can also prove that the coins satisfy some
+property, like being locked up.
+</p><!-- l. 82 --><p class='indent'>   Particularly: a proof of stake of some cryptocurrency is like a proof that the
+hodler/stakeholder will benefit if the projects succeeds. If the stake (from the proof) is
+time-locked<span class='footnote-mark'><a id='fn2x0-bk' href='#fn2x0'><sup class='textsuperscript'>2</sup></a></span><a id='x1-4003f2'></a>
+then it shows the owner has interest in the project’s long term success.
+</p><!-- l. 84 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.2   </span> <a id='x1-50002.2'></a>Reading: What is distributed consensus?</h4>
+   <div class='newtheorem'>
+<!-- l. 86 --><p class='noindent'><span class='head'>
+<span class='cmbx-10'>Idea 2 (Distributed Consensus)</span> </span><span class='cmti-10'>A </span>distributed consensus <span class='cmti-10'>is an agreement
+                                                                  
+
+                                                                  
+</span><span class='cmti-10'>between  parties.  That  agreement  is  global.  The  parties  don’t  have  to  trust
+</span><span class='cmti-10'>each-other. The parties don’t need identities. The parties didn’t need to have
+</span><span class='cmti-10'>been present when the system started.</span>
+</p>
+   </div>
+<!-- l. 90 --><p class='noindent'>A synchronous network is required. You can’t assume nodes need to agree on precise
+timing of events or the order of events. You can’t make that assumption for networks
+over the internet anyway.
+</p><!-- l. 92 --><p class='indent'>   For blockchains, we just need distributed consensus on the order of transactions (and
+nothing else).<span class='footnote-mark'><a id='fn3x0-bk' href='#fn3x0'><sup class='textsuperscript'>3</sup></a></span><a id='x1-5002f3'></a>
+That means nodes must agree on the first transaction that moves particular funds.
+That means the recipient can trust that the network treats those coins as
+his.
+</p><!-- l. 94 --><p class='indent'>   The <span class='cmti-10'>double-spending problem </span>is the reason we need distributed consensus.
+Someone could always try to send the same money to two different people.
+Both transactions could look valid. Recipients need to know that if there
+are conflicts about ownership they will still get their money. Distributed
+consensus means nodes can agree that the one recorded first is the right
+one.<span class='footnote-mark'><a id='fn4x0-bk' href='#fn4x0'><sup class='textsuperscript'>4</sup></a></span><a id='x1-5003f4'></a>
+</p><!-- l. 96 --><p class='indent'>   (Other problems with blockchains are easy and we know how to solve
+them.)
+</p><!-- l. 98 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.3   </span> <a id='x1-60002.3'></a>Reading: How does Bitcoin achieve distributed consensus?</h4>
+<!-- l. 100 --><p class='noindent'>We can prove that distributed consensus cannot be cryptographically guaranteed on an async
+network.<span class='footnote-mark'><a id='fn5x0-bk' href='#fn5x0'><sup class='textsuperscript'>5</sup></a></span><a id='x1-6001f5'></a>
+Bitcoin gets around this by only requiring an economic guarantee. It does this via
+external opportunity cost. That opportunity cost is CPU time and electricity. Bitcoin
+provides rewards within the system, but only if consensus and an unbroken
+transaction history is maintained.
+</p><!-- l. 102 --><p class='indent'>   Proofs of work in Bitcoin prove an opportunity cost was paid and how
+much it was. Such a proof includes all work (past proofs) up to that
+point.<span class='footnote-mark'><a id='fn6x0-bk' href='#fn6x0'><sup class='textsuperscript'>6</sup></a></span><a id='x1-6002f6'></a>
+Bitcoin nodes choose the history with the most total work as the valid history to
+extend. (Though it can be a bit fuzzy at the head if there are multiple options.)
+This history is called the consensus history. You can only spend coins on
+the consensus history. So miners are incentivised to all work on the same
+history.<span class='footnote-mark'><a id='fn7x0-bk' href='#fn7x0'><sup class='textsuperscript'>7</sup></a></span><a id='x1-6003f7'></a>
+Also, one miner can’t control the consensus history without help from their
+peers.<span class='footnote-mark'><a id='fn8x0-bk' href='#fn8x0'><sup class='textsuperscript'>8</sup></a></span><a id='x1-6004f8'></a>
+                                                                  
+
+                                                                  
+</p><!-- l. 104 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.4   </span> <a id='x1-70002.4'></a>Reading: How is proof of stake used to achieve distributed consensus?</h4>
+<!-- l. 106 --><p class='noindent'>The big idea behind PoS is to move opportunity cost from outside the system to
+inside it. People want to do this because PoW incentivises ppl to do as much work as
+possible. Bitcoin work is thermodynamic work. For this kind of work, the
+Landauer limit lets us figure out what ”as much work as possible” means. The
+result is a network that uses a lot of energy. This drives us towards the heat
+death of the universe. It drives us ”literally as fast as the laws of physics will
+allow”<span class='footnote-mark'><a id='fn9x0-bk' href='#fn9x0'><sup class='textsuperscript'>9</sup></a></span><a id='x1-7001f9'></a> If
+opportunity cost is inside the system we should be able to use fewer resources (and
+limit their usage).
+</p><!-- l. 108 --><p class='indent'>   PoS works b/c currency holders can lock up their funds (”stake”) in some
+staking scheme. This action is cryptographically verifiable. Particular people
+publish signed updates to extend the chain’s history. Normally a small random
+selection of people are chosen to do this, and only a majority need to agree to
+publish an extension. Those people get a reward and can unlock their stake
+later.<span class='footnote-mark'><a id='fn10x0-bk' href='#fn10x0'><sup class='textsuperscript'>10</sup></a></span><a id='x1-7002f10'></a>
+</p><!-- l. 110 --><p class='indent'>   PoS doesn’t depend on the high cost of taking control of the main history (unlike
+PoW). Instead, PoS says stakeholders will agree on the extension. They’ll do this b/c:
+</p>
+     <ul class='itemize1'>
+     <li class='itemize'>they’re randomly chosen so are unlikely to collude, and
+     </li>
+     <li class='itemize'>they don’t want to undermine the system anyway, and
+     </li>
+     <li class='itemize'>they can’t do much damage anyway b/c new random stakeholders will be
+     chosen soon who will probably agree on a single history to extend.</li></ul>
+<!-- l. 117 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.5   </span> <a id='x1-80002.5'></a>Reading: What is wrong with this mechanism for consensus?</h4>
+<!-- l. 119 --><p class='noindent'>PoS equates state to temporarily sacrificed [internal] resources. This begs the question of consensus
+on who owns what.<span class='footnote-mark'><a id='fn11x0-bk' href='#fn11x0'><sup class='textsuperscript'>11</sup></a></span><a id='x1-8001f11'></a>
+PoS fans evade this problem with the argument: </p>
+     <ul class='itemize1'>
+     <li class='itemize'>False histories must be made by stakeholders, and
+     </li>
+     <li class='itemize'>Stakeholders’ power is limited to a short interval, and
+     </li>
+     <li class='itemize'>When they have power they’re incentivised to behave.
+     </li>
+     <li class='itemize'>Therefore conflicting histories won’t happen, and
+     </li>
+                                                                  
+
+                                                                  
+     <li class='itemize'>the ”weak synchronicity” is enough to agree on a single history.</li></ul>
+<!-- l. 128 --><p class='indent'>   The problem with the argument is
+simple.<span class='footnote-mark'><a id='fn12x0-bk' href='#fn12x0'><sup class='textsuperscript'>12</sup></a></span><a id='x1-8002f12'></a>
+The problem is to do with what ”short interval” means. It’s only short relative to the
+full history. The full history (”consensus history”) has to exist for ”short interval” to
+mean something. [But the full history is based on stakeholders’ balances.] So we’re
+still begging the question. A stakeholder has no incentive to be honest if they sell
+their stake (like at an exchange). This means they can’t be punished for forking the
+history at the time they had control. They could also expose their private keys and
+let others fork the history.
+</p><!-- l. 138 --><p class='indent'>   This is difficult to understand.<span class='footnote-mark'><a id='fn13x0-bk' href='#fn13x0'><sup class='textsuperscript'>13</sup></a></span><a id='x1-8003f13'></a>
+We can use an example. Suppose that earlier, a single person could add blocks.  <a id='ex10'></a>It
+might have happened naturally, if the keys were chosen by some algorithm,
+or it could happen if the person got other private keys (maybe by buying
+them).<span class='footnote-mark'><a id='fn14x0-bk' href='#fn14x0'><sup class='textsuperscript'>14</sup></a></span><a id='x1-8004f14'></a>
+The person getting all the relevant keys can happen much later, and keyholders
+aren’t incentivised to keep their keys secret after they use them. Keyholders also
+might accidentally reveal their keys, and the chance of that increases over
+time.
+</p><!-- l. 145 --><p class='indent'>   Now we have an attacker who can fork the chain at an earlier point in
+time. To replace the consensus history the attacker needs to make an
+alternate history, starting from his fork, and this new history needs to be
+longer<span class='footnote-mark'><a id='fn15x0-bk' href='#fn15x0'><sup class='textsuperscript'>15</sup></a></span><a id='x1-8005f15'></a> than the existing public
+history. But every block<span class='footnote-mark'><a id='fn16x0-bk' href='#fn16x0'><sup class='textsuperscript'>16</sup></a></span><a id='x1-8006f16'></a>
+needs new signers. Can the attacker still do the attack? Yes: we used
+the word ”random” but the network needs to agree on the new signers
+(otherwise we’d get lots of forks), so the new selection has to be based on
+past history. That means an attacker with enough past signing keys can
+change<span class='footnote-mark'><a id='fn17x0-bk' href='#fn17x0'><sup class='textsuperscript'>17</sup></a></span><a id='x1-8007f17'></a>
+the history they control so that their keys are always selected for the next
+part. (The attacker probably needs to try lots of different options to find
+a way to continue the consensus history so he keeps control. It’s like the
+attacker replaced proof-of-stake with proof-of-work but centralised around
+themselves.)
+</p><!-- l. 147 --><p class='indent'>   This ability to control future selections of stakeholders (and maybe even the <span class='cmti-10'>set</span>
+they’re chosen from) is bad. It’s bad – even if no one is trying to attack the network –
+because the signers who extend history have an incentive to choose futures better for
+them, so the system will get centralised. They can do this by manipulating future
+selection processes, or blocking transactions that would introduce potential new
+signers.
+</p><!-- l. 149 --><p class='noindent'>
+</p>
+   <h4 class='subsectionHead'><span class='titlemark'>2.6   </span> <a id='x1-90002.6'></a>Reading: Is it possible to obtain a distributed consensus without provably
+                                                                  
+
+                                                                  
+consuming some re-source outside of the system?</h4>
+<!-- l. 151 --><p class='noindent'>Intuitively, no, but there’s no rigorous argument.
+</p><!-- l. 153 --><p class='indent'>   The problem comes down to <span class='cmti-10'>costless
+</span><span class='cmti-10'>simulation</span><span class='footnote-mark'><a id='fn18x0-bk' href='#fn18x0'><sup class='textsuperscript'>18</sup></a></span><a id='x1-9001f18'></a> or
+<span class='cmti-10'>nothing at stake</span>.<span class='footnote-mark'><a id='fn19x0-bk' href='#fn19x0'><sup class='textsuperscript'>19</sup></a></span><a id='x1-9002f19'></a>
+If there’s (virtually) no cost for signers to make blocks, they can easily search for
+blocks with a better future for them. Regardless of the safeguards to prevent
+minority-rule, an attacker can influence the consensus history towards a future we’re
+they’re the majority, even if they’re the only physical party (they might have lots of
+keys).
+</p><!-- l. 156 --><p class='indent'>   It appears that whatever ”space” we want distributed consensus in, we need
+opportunity cost in that space. (For Bitcoin, it’s the ”space of humans”, which is
+roughly thermodynamic space, since we’re agents in that space.)
+</p><!-- l. 158 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>3   </span> <a id='x1-100003'></a>Reading: About this document.</h3>
+<!-- l. 160 --><p class='noindent'>This should get merged into the ”Distributed Consensus”
+part of <span class='cmti-10'>A Treatise on Altcoins</span>, but that article isn’t done, so
+this<span class='footnote-mark'><a id='fn20x0-bk' href='#fn20x0'><sup class='textsuperscript'>20</sup></a></span><a id='x1-10001f20'></a>
+article is being published on its own.
+</p><!-- l. 162 --><p class='indent'>   This topic is hard to discuss on IRC because incentive analysis and cryptography
+interact. The goal of this article is to make the fundamentals clear and give relevant
+discussions better foundations.
+</p><!-- l. 164 --><p class='noindent'>
+</p>
+   <h3 class='sectionHead'><span class='titlemark'>4   </span> <a id='x1-110004'></a>Comments</h3>
+<!-- l. 166 --><p class='noindent'>The author makes some mistakes and there are some other problems. The mistakes
+are partially due to using a fancy writing style. They don’t compromise the main
+argument, but do make the article harder to read.
+</p><!-- l. 168 --><p class='indent'>   There’s also some things that are unnecessary, I think. One example is
+going into the double-spending problem. I don’t know who would want to
+read this document if they don’t already understand the double-spending
+problem.
+</p><!-- l. 170 --><p class='indent'>   Some parts were hard to outline accurately b/c the sentences were complex. For
+those parts I made lists instead.
+</p>
+                                                                  
+
+                                                                  
+   <div class='footnotes'><!-- l. 79 --><p class='indent'>    <span class='footnote-mark'><a id='fn1x0' href='#fn1x0-bk'><sup class='textsuperscript'>1</sup></a></span><span class='cmr-8'>Which context? I am guessing the context of a public(!) distributed ledger; sending
+</span><span class='cmr-8'>cryptocoins on a public net. The list provided above plus the ”instead of …one can say …”
+</span><span class='cmr-8'>bit.</span></p><!-- l. 82 --><p class='indent'> <span class='footnote-mark'><a id='fn2x0' href='#fn2x0-bk'><sup class='textsuperscript'>2</sup></a></span><span class='cmr-8'>Time-locked means that the coins can’t be spent by the owner till some point in the
+</span><span class='cmr-8'>future.</span></p><!-- l. 92 --><p class='indent'> <span class='footnote-mark'><a id='fn3x0' href='#fn3x0-bk'><sup class='textsuperscript'>3</sup></a></span><span class='cmr-8'>ET feedback: what about if transactions happened at all? MK: We need that too. Not
+</span><span class='cmr-8'>mentioned in the original paper.</span></p>
+<!-- l. 94 --><p class='indent'>     <span class='footnote-mark'><a id='fn4x0' href='#fn4x0-bk'><sup class='textsuperscript'>4</sup></a></span><span class='cmr-8'>The author is a bit unclear b/c of the way they’ve worded it. They haven’t considered the
+</span><span class='cmr-8'>case of two recipients, etc. Personally I think they should have left most of that out; it was
+</span><span class='cmr-8'>unnecessary.</span></p>
+<!-- l. 100 --><p class='indent'>     <span class='footnote-mark'><a id='fn5x0' href='#fn5x0-bk'><sup class='textsuperscript'>5</sup></a></span><span class='cmr-8'>The author cites: M.A. Fischer, N.A. Lynch, and M.S. Paterson, Impossibility of
+</span><span class='cmr-8'>distributed consensus with one faulty process, J. Ass. for Comp. Mach.32(1985), no. 2,
+</span><span class='cmr-8'>374–382.</span></p><!-- l. 102 --><p class='indent'> <span class='footnote-mark'><a id='fn6x0' href='#fn6x0-bk'><sup class='textsuperscript'>6</sup></a></span><span class='cmr-8'>Particularly proofs of work include all work done in the history </span><span class='cmti-8'>the miner selects</span><span class='cmr-8'>, and not
+</span><span class='cmr-8'>proofs were from other histories.</span></p>
+<!-- l. 102 --><p class='indent'>     <span class='footnote-mark'><a id='fn7x0' href='#fn7x0-bk'><sup class='textsuperscript'>7</sup></a></span><span class='cmr-8'>If they don’t, then they won’t be able to spend the reward.</span></p>
+<!-- l. 102 --><p class='indent'>     <span class='footnote-mark'><a id='fn8x0' href='#fn8x0-bk'><sup class='textsuperscript'>8</sup></a></span><span class='cmr-8'>ET pointed out 51% attack is not mentioned here.</span></p>
+<!-- l. 106 --><p class='indent'>     <span class='footnote-mark'><a id='fn9x0' href='#fn9x0-bk'><sup class='textsuperscript'>9</sup></a></span><span class='cmr-8'>Pfft. No it doesn’t. The laws of physics would go way faster. Also the author needs to learn
+</span><span class='cmr-8'>about basic economics. Basic physics too.</span></p>
+<!-- l. 108 --><p class='indent'>     <span class='footnote-mark'><a id='fn10x0' href='#fn10x0-bk'><sup class='textsuperscript'>10</sup></a></span><span class='cmr-8'>I think the original paper is missing some details but they’re not super important
+</span><span class='cmr-8'>here.</span></p>
+<!-- l. 119 --><p class='indent'>     <span class='footnote-mark'><a id='fn11x0' href='#fn11x0-bk'><sup class='textsuperscript'>11</sup></a></span><span class='cmr-8'>This is because we are trying to answer the question ”who owns what” (consensus) by using
+</span><span class='cmr-8'>the last answer of ”who owns what?” I think that’s what the author means by ”begging the
+</span><span class='cmr-8'>question”. They should try to be more clear and less fancy.</span></p>
+<!-- l. 128 --><p class='indent'>     <span class='footnote-mark'><a id='fn12x0' href='#fn12x0-bk'><sup class='textsuperscript'>12</sup></a></span><span class='cmr-8'>I doubt that, but let’s continue…</span></p>
+<!-- l. 138 --><p class='indent'>     <span class='footnote-mark'><a id='fn13x0' href='#fn13x0-bk'><sup class='textsuperscript'>13</sup></a></span><span class='cmr-8'>The author says ”This is abstruse”, which I hope wasn’t a joke b/c it’s stupid if it was. Also,
+</span><span class='cmr-8'>the last paragraph started with ”The problem with this argument is simple” – get your message
+</span><span class='cmr-8'>straight!</span></p>
+<!-- l. 142 --><p class='indent'>     <span class='footnote-mark'><a id='fn14x0' href='#fn14x0-bk'><sup class='textsuperscript'>14</sup></a></span><span class='cmr-8'>Original sentence: ”This may have happened organically, if this person’s keys were chosen
+</span><span class='cmr-8'>randomly by the stake-choosing algorithm, but it could also happen if this person tracks down the
+</span><span class='cmr-8'>other keyholders and buys their keys.”</span></p>
+<!-- l. 145 --><p class='indent'>     <span class='footnote-mark'><a id='fn15x0' href='#fn15x0-bk'><sup class='textsuperscript'>15</sup></a></span><span class='cmr-8'>”Longer” is approximately correct but it might mean different things for different
+</span><span class='cmr-8'>networks; like for proof-of-work networks it can mean ”more work done” rather than ”more
+</span><span class='cmr-8'>blocks”</span></p><!-- l. 145 --><p class='indent'> <span class='footnote-mark'><a id='fn16x0' href='#fn16x0-bk'><sup class='textsuperscript'>16</sup></a></span><span class='cmr-8'>or epoch, whatever</span></p>
+<!-- l. 145 --><p class='indent'>     <span class='footnote-mark'><a id='fn17x0' href='#fn17x0-bk'><sup class='textsuperscript'>17</sup></a></span><span class='cmr-8'>They’re changing the alternate history they’re in the process of creating.</span></p>
+<!-- l. 153 --><p class='indent'>     <span class='footnote-mark'><a id='fn18x0' href='#fn18x0-bk'><sup class='textsuperscript'>18</sup></a></span><span class='cmr-8'>The author notes this is what Greg Maxwell calls it.</span></p>
+<!-- l. 153 --><p class='indent'>     <span class='footnote-mark'><a id='fn19x0' href='#fn19x0-bk'><sup class='textsuperscript'>19</sup></a></span><span class='cmr-8'>The author notes this is what Andrew Miller calls it</span></p><!-- l. 160 --><p class='indent'> <span class='footnote-mark'><a id='fn20x0' href='#fn20x0-bk'><sup class='textsuperscript'>20</sup></a></span><span class='cmr-8'>In this paragraph ”this” refers to the author’s original article, linked at the top.</span></p>      </div>
+ 
+
+<style>
+ 
+/* start css.sty */
+.cmti-10{ font-style: italic;}
+.cmbx-10{ font-weight: bold;}
+.cmr-9{font-size:90%;}
+.cmr-8{font-size:80%;}
+.cmti-8{font-size:80%; font-style: italic;}
+p{margin-top:0;margin-bottom:0}
+p.indent{text-indent:0;}
+p + p{margin-top:1em;}
+p + div, p + pre {margin-top:1em;}
+div + p, pre + p {margin-top:1em;}
+@media print {div.crosslinks {visibility:hidden;}}
+a img { border-top: 0; border-left: 0; border-right: 0; }
+center { margin-top:1em; margin-bottom:1em; }
+td center { margin-top:0em; margin-bottom:0em; }
+.Canvas { position:relative; }
+img.math{vertical-align:middle;}
+li p.indent { text-indent: 0em }
+li p:first-child{ margin-top:0em; }
+li p:last-child, li div:last-child { margin-bottom:0.5em; }
+li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+.enumerate1 {list-style-type:decimal;}
+.enumerate2 {list-style-type:lower-alpha;}
+.enumerate3 {list-style-type:lower-roman;}
+.enumerate4 {list-style-type:upper-alpha;}
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+.obeylines-h,.obeylines-v {white-space: nowrap; }
+div.obeylines-v p { margin-top:0; margin-bottom:0; }
+.overline{ text-decoration:overline; }
+.overline img{ border-top: 1px solid black; }
+td.displaylines {text-align:center; white-space:nowrap;}
+.centerline {text-align:center;}
+.rightline {text-align:right;}
+div.verbatim {font-family: monospace,monospace; white-space: nowrap; text-align:left; clear:both; }
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.fbox {display:table}
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.minipage{width:100%;}
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center div {text-align: left;}
+div.flushright, div.flushright div.flushright {text-align: right;}
+div.flushright div {text-align: left;}
+div.flushleft {text-align: left;}
+.underline{ text-decoration:underline; }
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+.framebox-c {text-align:center;}
+.framebox-l {text-align:left;}
+.framebox-r {text-align:right;}
+span.thank-mark{ vertical-align: super }
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+div.footnotes{border-top:solid 1px black; border-bottom:solid 1px black; padding-bottom:1ex; padding-top:0.5ex; margin-right:15%; margin-top:2ex; font-style:italic; font-size:85%;}
+div.footnotes p{margin-top:0; margin-bottom:0; text-indent:0;}
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 0px; margin:0px; }
+.hline td, .cline td{ padding: 0; }
+.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.tabbing-right {text-align:right;}
+div.float, div.figure {margin-left: auto; margin-right: auto;}
+div.float img {text-align:center;}
+div.figure img {text-align:center;}
+.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+.reversemarginpar{float:left;}
+table.equation {width:100%;}
+.equation td{text-align:center; }
+td.equation { margin-top:1em; margin-bottom:1em; } 
+td.equation-label { width:5%; text-align:center; }
+td.eqnarray4 { width:5%; white-space: normal; }
+td.eqnarray2 { width:5%; }
+table.eqnarray-star, table.eqnarray {width:100%;}
+div.eqnarray{text-align:center;}
+div.array {text-align:center;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.pmatrix img{vertical-align:middle;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.bar-css {text-decoration:overline;}
+table.tabular{border-collapse: collapse; border-spacing: 0;}
+img.cdots{vertical-align:middle;}
+.partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+.index-item, .index-subitem, .index-subsubitem {display:block}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption span.id{font-weight: bold; white-space: nowrap; }
+h1.partHead{text-align: center}
+p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+.paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+.subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+.quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+.verse{white-space:nowrap; margin-left:2em}
+div.maketitle {text-align:center;}
+h2.titleHead{text-align:center;}
+div.maketitle{ margin-bottom: 2em; }
+div.author, div.date {text-align:center;}
+div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+.quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+.abstract p {margin-left:5%; margin-right:5%;}
+div.abstract {width:100%;}
+figure.float, div.figure {margin-left: auto; margin-right: auto;}
+figure.float img {text-align:center;}
+figure.figure img {text-align:center;}
+figure.figure > p {text-align:center;}
+figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
+figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+.equation td{text-align:center; }
+.equation-star td{text-align:center; }
+table.equation-star { width:100%; }
+table.equation { width:100%; }
+table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+td.align-label { width:5%; text-align:center; }
+td.align-odd { text-align:right; padding-right:0.3em;}
+td.align-even { text-align:left; padding-right:0.6em;}
+table.multline, table.multline-star {width:100%;}
+td.gather {text-align:center; }
+table.gather {width:100%;}
+div.gather-star {text-align:center;}
+dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
+/* end css.sty */
+
+</style>

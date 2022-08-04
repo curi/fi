@@ -1,0 +1,291 @@
+---
+title: "Reply to 'Mathematical Inconsistency in Solomonoff Induction?'"
+date: 2020-09-04
+parent: Posts
+layout: post
+published: true
+---
+<!-- l. 23 --><p class='noindent'>This is a reply to <a href='https://www.lesswrong.com/posts/hD4boFF6K782grtqX/mathematical-inconsistency-in-solomonoff-induction'>this LessWrong post</a>.
+</p><!-- l. 25 --><p class='indent'>   I went through the maths in OP and it seems to check out. I think the core
+inconsistency is that SI implies <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction0x.png' alt='l(X ∪ Y) = l(X )  ' />. I’m going to redo the maths
+below (breaking it down step-by-step more). curi has <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction1x.png' alt='2l(X ) = l(X)  ' /> which is the
+same inconsistency given his substitution. I’m not sure we can make that substitution
+but I also don’t think we need to.
+</p><!-- l. 27 --><p class='indent'>   Let <span class='cmmi-10'>X </span>and <span class='cmmi-10'>Y </span>be independent hypotheses for Solomonoff induction.
+</p><!-- l. 29 --><p class='indent'>   According to the prior, the non-normalized probability of <span class='cmmi-10'>X </span>(and similarly for <span class='cmmi-10'>Y </span>)
+is:
+</p>
+   <table class='equation'><tr><td> <a id='x1-2r1'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction2x.png' alt='P(X ) =--1--
+       2l(X )
+' /></center></td><td class='equation-label'>(1)</td></tr></table>
+<!-- l. 37 --><p class='nopar'>
+</p><!-- l. 39 --><p class='indent'>   what is the probability of <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction3x.png' alt='X ∪ Y  ' />?
+</p>
+   <table class='equation'><tr><td> <a id='x1-3r2'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction4x.png' alt='P (X  ∪Y ) = P (X )+ P (Y )− P(X ∩ Y )
+           --1--  --1-   --1-- -1--
+         = 2l(X ) + 2l(Y) − 2l(X) ⋅2l(Y)
+           --1--  --1-   ----1-----
+         = 2l(X ) + 2l(Y) − 2l(X) ⋅2l(Y )
+           --1--  --1-   ----1----
+         = 2l(X ) + 2l(Y) − 2l(X)+l(Y)
+' /></center></td><td class='equation-label'>(2)</td></tr></table>
+<!-- l. 48 --><p class='nopar'>
+</p><!-- l. 50 --><p class='indent'>   However, by <a href='#x1-2r1'>Equation (1)</a> we have:
+</p>
+   <table class='equation'><tr><td> <a id='x1-4r3'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction5x.png' alt='              1
+P(X ∪ Y) = -l(X∪Y-)
+           2
+' /></center></td><td class='equation-label'>(3)</td></tr></table>
+<!-- l. 54 --><p class='nopar'>
+</p><!-- l. 56 --><p class='indent'>   thus
+</p>
+   <table class='equation'><tr><td> <a id='x1-5r4'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction6x.png' alt='   1       1      1        1
+2l(X∪Y-) = 2l(X-) + 2l(Y-) − 2l(X)+l(Y)
+' /></center></td><td class='equation-label'>(4)</td></tr></table>
+                                                                  
+
+                                                                  
+<!-- l. 60 --><p class='nopar'>
+</p><!-- l. 62 --><p class='indent'>   This must hold for <span class='cmti-10'>any and all </span><span class='cmmi-10'>X </span>and <span class='cmmi-10'>Y </span>.
+</p><!-- l. 64 --><p class='indent'>   curi considers the case where <span class='cmmi-10'>X </span>and <span class='cmmi-10'>Y </span>are the same length, starting with
+<a href='#x1-5r4'>Equation (4)</a>
+</p>
+   <table class='equation'><tr><td> <a id='x1-6r5'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction7x.png' alt='---1---= --1--+ --1- − ---1-----
+2l(X∪Y )  2l(X )  2l(Y)   2l(X)+l(Y)
+       = --1--+ --1--− ----1----
+         2l(X )  2l(X )  2l(X)+l(X )
+       = --2--− --1--
+         2l(X )  22l(X)
+       = ---1---− --1--
+         2l(X )−1   22l(X)
+' /></center></td><td class='equation-label'>(5)</td></tr></table>
+<!-- l. 73 --><p class='nopar'>
+</p><!-- l. 75 --><p class='indent'>   but
+</p>
+   <table class='equation'><tr><td> <a id='x1-7r6'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction8x.png' alt='---1---   --1--
+2l(X)− 1 ≫ 22l(X)
+' /></center></td><td class='equation-label'>(6)</td></tr></table>
+<!-- l. 79 --><p class='nopar'>
+                                                                  
+
+                                                                  
+</p><!-- l. 81 --><p class='indent'>   and
+</p>
+   <table class='equation'><tr><td> <a id='x1-8r7'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction9x.png' alt='0 ≈ --1--
+    22l(X)
+' /></center></td><td class='equation-label'>(7)</td></tr></table>
+<!-- l. 85 --><p class='nopar'>
+</p><!-- l. 87 --><p class='indent'>   so
+</p>
+   <table class='equation'><tr><td> <a id='x1-9r8'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction10x.png' alt='   ---1---≃ ---1---
+   2l(X∪Y )  2l(X )−1
+∴ l(X ∪ Y ) ≃ l(X )− 1
+         □
+' /></center></td><td class='equation-label'>(8)</td></tr></table>
+<!-- l. 95 --><p class='nopar'>
+</p><!-- l. 97 --><p class='indent'>   curi has slightly different logic and argues <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction11x.png' alt='l(X ∪ Y) ≃ 2l(X )  ' /> which I think is
+reasonable. His argument means we get <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction12x.png' alt='l(X ) ≃ 2l(X )  ' />. I don’t think those steps are
+necessary but they are worth mentioning as a difference. I think <a href='#x1-9r8'>Equation (8)</a> is
+enough.
+</p><!-- l. 99 --><p class='indent'>   I was curious about what happens when <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction13x.png' alt='l(X ) ⁄= l(Y )  ' />. Let’s assume the
+following:
+</p>
+   <table class='equation'><tr><td> <a id='x1-10r9'></a>
+                                                                  
+
+                                                                  
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction14x.png' alt='  l(X) &lt; l(Y )
+
+∴ -1l(X)-≫ -l1(Y-)
+  2      2
+' /></center></td><td class='equation-label'>(9)</td></tr></table>
+<!-- l. 106 --><p class='nopar'>
+</p><!-- l. 108 --><p class='indent'>   so, from <a href='#x1-3r2'>Equation (2)</a>
+</p>
+   <table class='equation'><tr><td> <a id='x1-11r10'></a>
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction15x.png' alt='      P (X  ∪Y ) =--1--+ --1- − ----1----
+                 2l(X )  2l(Y)   2l(X)+l(Y)
+                             0        // 0
+  lim  P (X  ∪Y ) =--1--+ --/1/ − ---/1/---
+l(Y)→∞            2l(X )  /2l(Y)   /2/l(X)+l(Y)
+    ∴ P (X  ∪Y ) ≃--1--
+                 2l(X )
+' /></center></td><td class='equation-label'>(10)</td></tr></table>
+<!-- l. 116 --><p class='nopar'>
+</p><!-- l. 118 --><p class='indent'>   by <a href='#x1-4r3'>Equation (3)</a> and <a href='#x1-11r10'>Equation (10)</a>
+</p>
+   <table class='equation'><tr><td> <a id='x1-12r11'></a>
+                                                                  
+
+                                                                  
+   <center class='math-display'>
+<img class='math-display' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction16x.png' alt='      1       1
+   2l(X-∪Y) ≃ 2l(X)
+∴ l(X ∪Y ) ≃ l(X)
+
+    ⇒ l(Y ) ≃ 0
+' /></center></td><td class='equation-label'>(11)</td></tr></table>
+<!-- l. 126 --><p class='nopar'>
+</p><!-- l. 128 --><p class='indent'>   but <a href='#x1-10r9'>Equation (9)</a> says <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction17x.png' alt='l(X) &lt; l(Y )  ' /> – this contradicts <a href='#x1-12r11'>Equation (11)</a>.
+<img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction18x.png' alt='■ ' />
+</p><!-- l. 130 --><p class='indent'>   So there’s an inconsistency regardless of whether <img class='math' src='../../imgs/2020-09-04-reply-to-math-contradiction-in-solomonoff-induction19x.png' alt='l(X ) = l(Y )  ' /> or not.
+</p>
+    
+
+<style>
+ 
+/* start css.sty */
+.cmr-7{font-size:70%;}
+.cmmi-7{font-size:70%;font-style: italic;}
+.cmmi-10{font-style: italic;}
+.cmsy-7{font-size:70%;}
+.cmti-10{ font-style: italic;}
+p{margin-top:0;margin-bottom:0}
+p.indent{text-indent:0;}
+p + p{margin-top:1em;}
+p + div, p + pre {margin-top:1em;}
+div + p, pre + p {margin-top:1em;}
+@media print {div.crosslinks {visibility:hidden;}}
+a img { border-top: 0; border-left: 0; border-right: 0; }
+center { margin-top:1em; margin-bottom:1em; }
+td center { margin-top:0em; margin-bottom:0em; }
+.Canvas { position:relative; }
+img.math{vertical-align:middle;}
+li p.indent { text-indent: 0em }
+li p:first-child{ margin-top:0em; }
+li p:last-child, li div:last-child { margin-bottom:0.5em; }
+li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+.enumerate1 {list-style-type:decimal;}
+.enumerate2 {list-style-type:lower-alpha;}
+.enumerate3 {list-style-type:lower-roman;}
+.enumerate4 {list-style-type:upper-alpha;}
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+.obeylines-h,.obeylines-v {white-space: nowrap; }
+div.obeylines-v p { margin-top:0; margin-bottom:0; }
+.overline{ text-decoration:overline; }
+.overline img{ border-top: 1px solid black; }
+td.displaylines {text-align:center; white-space:nowrap;}
+.centerline {text-align:center;}
+.rightline {text-align:right;}
+div.verbatim {font-family: monospace,monospace; white-space: nowrap; text-align:left; clear:both; }
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.fbox {display:table}
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.minipage{width:100%;}
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center div {text-align: left;}
+div.flushright, div.flushright div.flushright {text-align: right;}
+div.flushright div {text-align: left;}
+div.flushleft {text-align: left;}
+.underline{ text-decoration:underline; }
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+.framebox-c {text-align:center;}
+.framebox-l {text-align:left;}
+.framebox-r {text-align:right;}
+span.thank-mark{ vertical-align: super }
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+div.footnotes{border-top:solid 1px black; border-bottom:solid 1px black; padding-bottom:1ex; padding-top:0.5ex; margin-right:15%; margin-top:2ex; font-style:italic; font-size:85%;}
+div.footnotes p{margin-top:0; margin-bottom:0; text-indent:0;}
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 0px; margin:0px; }
+.hline td, .cline td{ padding: 0; }
+.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.tabbing-right {text-align:right;}
+div.float, div.figure {margin-left: auto; margin-right: auto;}
+div.float img {text-align:center;}
+div.figure img {text-align:center;}
+.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+.reversemarginpar{float:left;}
+table.equation {width:100%;}
+.equation td{text-align:center; }
+td.equation { margin-top:1em; margin-bottom:1em; } 
+td.equation-label { width:5%; text-align:center; }
+td.eqnarray4 { width:5%; white-space: normal; }
+td.eqnarray2 { width:5%; }
+table.eqnarray-star, table.eqnarray {width:100%;}
+div.eqnarray{text-align:center;}
+div.array {text-align:center;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.pmatrix img{vertical-align:middle;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.bar-css {text-decoration:overline;}
+table.tabular{border-collapse: collapse; border-spacing: 0;}
+img.cdots{vertical-align:middle;}
+.partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
+.index-item, .index-subitem, .index-subsubitem {display:block}
+div.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:left;}
+div.caption span.id{font-weight: bold; white-space: nowrap; }
+h1.partHead{text-align: center}
+p.bibitem { text-indent: -2em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+p.bibitem-p { text-indent: 0em; margin-left: 2em; margin-top:0.6em; margin-bottom:0.6em; }
+.paragraphHead, .likeparagraphHead { margin-top:2em; font-weight: bold;}
+.subparagraphHead, .likesubparagraphHead { font-weight: bold;}
+.quote {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; margin-right:1em; text-align:justify;}
+.verse{white-space:nowrap; margin-left:2em}
+div.maketitle {text-align:center;}
+h2.titleHead{text-align:center;}
+div.maketitle{ margin-bottom: 2em; }
+div.author, div.date {text-align:center;}
+div.thanks{text-align:left; margin-left:10%; font-size:85%; font-style:italic; }
+.quotation {margin-bottom:0.25em; margin-top:0.25em; margin-left:1em; }
+.abstract p {margin-left:5%; margin-right:5%;}
+div.abstract {width:100%;}
+figure.float, div.figure {margin-left: auto; margin-right: auto;}
+figure.float img {text-align:center;}
+figure.figure img {text-align:center;}
+figure.figure > p {text-align:center;}
+figcaption.caption {text-indent:-2em; margin-left:3em; margin-right:1em; text-align:center;}
+figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
+.equation td{text-align:center; }
+.equation-star td{text-align:center; }
+table.equation-star { width:100%; }
+table.equation { width:100%; }
+table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+td.align-label { width:5%; text-align:center; }
+td.align-odd { text-align:right; padding-right:0.3em;}
+td.align-even { text-align:left; padding-right:0.6em;}
+table.multline, table.multline-star {width:100%;}
+td.gather {text-align:center; }
+table.gather {width:100%;}
+div.gather-star {text-align:center;}
+dt.enumerate-enumitem{float:left; clear:left; margin-left:1em; margin-right:1em;}
+/* end css.sty */
+
+</style>

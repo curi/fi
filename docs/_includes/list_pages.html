@@ -1,0 +1,34 @@
+{% unless include.pages %}
+<h1>WARNING: you've included list_pages.html but have not provided a `pages` parameter! You sorta need to.</h1>
+{% endunless %}
+
+
+{% if include.sort_by_date %}
+  {% assign pages = include.pages | where_exp: "p", "p.date != nil" | sort: date | reverse %}
+  {% assign pages_no_date = include.pages | where_exp: "p", "p.date == nil" | reverse %}
+  {% assign pages = pages | concat: pages_no_date %}
+{% else %}
+  {% assign pages = include.pages %}
+{% endif %}
+
+{% if include.limit %}
+  {% assign t = "" | split: "," %}
+  {% for p in pages limit: includes.limit %}
+    {% assign t_size = t | size %}
+    {% unless t_size >= include.limit %}
+      {% assign t = t | push: p %}
+    {% endunless %}
+  {% endfor %}
+  {% assign pages = t %}
+{% endif %}
+  
+<!--list_pages has {{ pages | size }} pages-->
+<ul>
+    {% for page in pages %}
+    <li>
+        <a href="{{ page.url | relative_url }}">
+            {% unless page.date == nil %} <em> {{ page.date | date: "%Y-%m-%d" }} </em> &mdash; {% endunless %} {{ page.title }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

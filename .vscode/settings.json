@@ -1,0 +1,21 @@
+{
+    "purescript.sourcePath": "proj/idea-trees/src",
+    "git.ignoreLimitWarning": true,
+    "markdown-preview-enhanced.scrollSync": false,
+    "markdown.preview.scrollEditorWithPreview": false,
+    "html.preview.scrollEditorWithPreview": false,
+    "cSpell.words": [
+        "Landauer",
+        "Lulie",
+        "Lulie's",
+        "Pfft",
+        "abramdemski",
+        "hodler",
+        "justificationists",
+        "simpliciter"
+    ],
+    "cSpell.language": "en,en-GB",
+    "[tex]": {
+        "editor.wordWrap": "on"
+    }
+}

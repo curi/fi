@@ -1,0 +1,137 @@
+---
+date: 2020-08-14
+nav_exclude: true
+permalink: 2020-08-14-log-fi-discord-tutoring-self-analysis-for-dishonesty.txt
+title: (Discord Log) Self-Analysis for Dishonesty
+---
+
+#Context:
+
+JustinCEO used "contractability" in a sentence; a word he made up to talk about how easy it is to add a contraction to a sentence, e.g. `can not` -> `can't`.
+Some brief discussion around alternative words happens, and Max starts joking about silly alternatives, like "contractionicity factor".
+
+Source: https://discordapp.com/channels/304082867384745994/724819412502446091/743488044434456678
+
+# Chat Log:
+
+[1:16 AM] Max: oh! even better: `contractionation potential`
+
+[1:18 AM] Max: we can write papers like `on the preponderance of contractionation potential among enduring patterns and the metaphiscal consequences for communication and meta-communication into the 22nd centaury`
+
+[1:18 AM] Max: someone call steven pinker, he's a linguist right??
+
+[1:20 AM] Max: oh wow, I just found a neat discord feature
+
+[1:20 AM] Max: I was going to post: 
+> s/enduring patterns/enduring patterns of language
+to indicate "search for 'enduring patterns' and replace with 'enduring patterns of language' in the thing I just said"
+
+[1:21 AM] Max: anyway, i pressed send and nothing happened. tried again to confirm. then I tried s/right?/right?? and it edited my last msg!
+
+[1:22 AM] Max: in this case I don't want the feature on by default because I generally try not to edit posts unless it's immediate and important for ambiguity or something, but in general (outside FI) that's really cool
+
+[1:22 AM] JustinCEO: yeah i've used the edit feature multiple times even in this conversation
+
+[1:22 AM] JustinCEO: for minor formatting/typo stuff
+
+[1:22 AM] Max: the little pencil icon?
+
+[1:22 AM] Max: or the s/A/B thing?
+
+[1:22 AM] JustinCEO: sorry the s/x/y
+
+[1:22 AM] Max: oh man now I feel out of the loop :stuck_out_tongue:
+
+[1:23 AM] Max: but super neat to find
+
+[1:23 AM] Max:
+> oh man now I feel out of the loop :stuck_out_tongue:
+I notice saying things like this sometimes and am unsure if there are bad social dynamics involved. I am thinking of collecting them for later analysis.
+
+[1:24 AM] Max: in this case thinking about qs like: "what was the point of saying that?", "should I feel OOTL?", "what am i saying by using that as my response to JM's msg?", etc
+
+[1:26 AM] Max: I don't feel bad or guilty just unsure. There are also questions like "how would that make JM feel?" but they're harder to answer and i'm not convinced they're good to ask or i'm asking for the right reasons (I would start reading objectivist stuff, particularly virtual of selfishness, if I was going to prioritise finding out more)
+
+[1:33 AM] JustinCEO: i think it's good to examine the meaning of stuff you say
+
+[1:34 AM] JustinCEO: i didn't take any particular bad meaning out of the out of the loop thing though i didn't take it as being particularly substantive either. kinda like chit-chatty. and you can question the value of that in general though particular instances can be pretty harmless. curi is much better at analyzing this sort of thing than i am though so he may have a different take, this is very much just IMHO
+
+[1:37 AM] Max:
+> kinda like chit-chatty
+this seems like the most dangerous sort of thing (like hardest to spot), particularly b/c it is often isn't significant. But i feel like it points to something, and it bothers me that i don't know what it points to or if it's good.
+
+[1:37 AM] Max: i know the reason I say most of the stuff I say
+
+[1:37 AM] JustinCEO: you may be trying to convey a happy/friendly/cheerful type demeanor
+
+[1:38 AM] JustinCEO: that is just my guess
+
+[1:38 AM] Max: like the jokes about contractionation potential and writing a stupid paper with steven pinker; if they're bad I know where to start with those things. FTR I'm also not sure about this, but I am not nearly as worried.
+
+[1:38 AM] Max: one thing that occurs to me is that it must be relative to have meaning
+
+[1:39 AM] Max: like [you did X,] now I do/feel Y
+
+[1:39 AM] Max: so it's sort of saying you did something to me, which is sort-of true in that you told me a thing, more like you gave something to me.
+
+[1:40 AM] Max: then I reacted with the implication that you sharing knowledge made me feel bad, but that I'm sort of joking about it. the joke is a hedge I think.
+
+[1:42 AM] Max: but ultimately if i'm saying that sharing/propagating knowledge, or like:
+
+learning someone knew something that was useful to them - which I now know and am glad about because it's useful to me - is somehow a bad thing, or a thing not to be happy about.
+
+like that the application and use of knowledge is not okay if i'm not the one to share it; "it should have been me" sort of thing.
+
+[1:42 AM] Max: I think that might be where it's coming from
+
+[1:45 AM] Max: so the hedging means I know it's not robust, but i still expressed the orig idea. plus: i did so in a socially acceptable manner and expressed an idea that's anti-knowledge / anti-reason (presumably related to the similar anti-reason sentiments kids are heavily exposed to)
+
+[1:46 AM] Max: to be clear, when I say 'not robust' I don't mean now in hindsight, I mean what was going through my head at the time. It refers to me doubting something about the idea but expressing it anyway.
+
+[1:46 AM] JustinCEO: analysis seems overall reasonable
+
+[1:46 AM] JustinCEO: btw one thing u didn't do is ask me e.g. how i found out about discord feature
+
+[1:47 AM] JustinCEO: IIRC it was cuz at some point i explicitly went and researched formatting and other Discord options
+
+[1:47 AM] JustinCEO: so you talked about feeling out of the loop but didn't try to address the out of the loopness
+
+[1:47 AM] JustinCEO: which is interesting
+
+[1:48 AM] Max: oh yeah good point!
+
+(finishing comments on that little collection of msgs: I'm happy that I managed to find like one feature of what I said (then spotted hedging) and it lead to something reasonable, or at least criticisable (maybe it has high criticisimatory potential))
+
+[1:48 AM] Max: oh the other thing about out of hte loop is re social norms and common knowledge!
+
+[1:48 AM] Max: this feels more substantial
+
+[1:49 AM] Max: I'm saying "bad JM for knowing about something important that I care about and not telling me, because now I feel like an outsider"
+
+[1:49 AM] Max: and that's a bad thing to think
+
+[1:50 AM] Max: it's to do with relative social status i recon
+
+[1:50 AM] Max: so theres some 'humorous self-deprecation' bad ideas in there too
+
+[1:51 AM] Max: I don't think we should be surprised when multiple bad ideas (static memes in this case?) are expressed in small things like the 9 words + 1 emoji I said
+
+[1:51 AM] Max: oh man, analysing lies already coming in handy. Can't believe I'm this excited to find dishonesty in a thing I said like 5 min ago
+
+
+[1:55 AM] Max: so to start with, "oh man" I'm expressing regret, sadness, remorse, that sort of thing. it introduces that i'm not feeling good and that it happened recently
+"now" pointer; indicates blame
+"I feel" this has affected my internal state, it's changed me, but also regular casual language. but what if I said "I am out of the loop" instead? "feel" -> you did something to me; "am" -> i realised something about myself; so "feel" is anti-personal responsibility
+"out of the loop" -- indicates relative social status dropped, but particularly because of "feel", it has a different sense with "I am out of the loop", like that I can do something about it by getting back in the loop (my choice)
+
+[1:55 AM] Max: the "oh man" has a lot of tone in it
+
+[2:01 AM] Max:
+> someone call steven pinker, he's a linguist right??
+One reason this might be bad (different to the silly paper title) is that it might be mean. I'm implying Pinker would be happy or interested or whatever with my silly paper title, mocking him, but I've also analysed some of his writing and it wasn't very good. So I'm unsure if it actually is mean or more like fair satire.
+
+[2:10 AM] Max:
+> One reason this might be bad (different to the silly paper title) is that it might be mean. I'm implying Pinker would be happy or interested or whatever with my silly paper title, mocking him, but I've also analysed some of his writing and it wasn't very good. So I'm unsure if it actually is mean or more like fair satire.
+Do I think this is okay (even if it is mean) because I think he deserves it?
+
+(btw: not sure if I should say something more neutral, like about the ideas i have rather than about me, but i guess it'd be longer and i'm not sure I doubt it'd be valuable or clearer)

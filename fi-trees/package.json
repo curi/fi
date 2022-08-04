@@ -1,0 +1,22 @@
+{
+  "name": "fi-trees",
+  "version": "0.2.0",
+  "description": "",
+  "main": "fi-conv-trees.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mermaid-cli": "github:xertrov/mermaid-cli#max-fi",
+    "mermaid": "github:xertrov/mermaid#max-fi",
+    "winston": "^3.3.3"
+  },
+  "bin": {
+    "fi-convert-trees": "fi-conv-trees.js",
+    "fi-sfi-to-mmd": "fi-sfi-to-mmd.js",
+    "fi-compile-mmd": "fi-compile-mmd.js"
+  }
+}

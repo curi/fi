@@ -1,0 +1,132 @@
+% ---
+% title: "Reply to 'Mathematical Inconsistency in Solomonoff Induction?'"
+% date: 2020-09-04
+% parent: Posts
+% layout: post
+% published: true
+% ---
+
+
+\documentclass{article}
+\usepackage{footnote}
+% \usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+\usepackage[capitalise,nameinlink,noabbrev]{cleveref}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\begin{document}
+
+This is a reply to \href{https://www.lesswrong.com/posts/hD4boFF6K782grtqX/mathematical-inconsistency-in-solomonoff-induction}{this LessWrong post}.
+
+I went through the maths in OP and it seems to check out. I think the core inconsistency is that SI implies \(l(X \cup Y) = l(X)\). I'm going to redo the maths below (breaking it down step-by-step more). curi has \(2l(X) = l(X)\) which is the same inconsistency given his substitution. I'm not sure we can make that substitution but I also don't think we need to.
+
+Let $X$ and $Y$ be independent hypotheses for Solomonoff induction.
+
+According to the prior, the non-normalized probability of $X$ (and similarly for $Y$) is:
+
+% \newcommand{\SiP}[1]{
+%     \frac{1}{2^{l(#1)}}
+% }
+
+\begin{equation} \label{eq_prior}
+P(X) = \frac{1}{2^{l(X)}}
+\end{equation}
+
+what is the probability of \(X\cup Y\)?
+
+\begin{equation} \label{eq_std_prob}
+\begin{split}
+P(X\cup Y) & = P(X) + P(Y) - P(X\cap Y) \\
+& = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X)}} \cdot \frac{1}{2^{l(Y)}} \\
+& = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X)} \cdot 2^{l(Y)}} \\
+& = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X) + l(Y)}}
+\end{split}
+\end{equation}
+
+However, by \cref{eq_prior} we have:
+
+\begin{equation} \label{eq_or}
+P(X\cup Y) = \frac{1}{2^{l(X\cup Y)}}
+\end{equation}
+
+thus
+
+\begin{equation} \label{eq_both}
+\frac{1}{2^{l(X\cup Y)}} = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X) + l(Y)}}
+\end{equation}
+
+This must hold for \emph{any and all} $X$ and $Y$.
+
+curi considers the case where $X$ and $Y$ are the same length, starting with \cref{eq_both}
+
+\begin{equation}
+    \begin{split}
+        \frac{1}{2^{l(X\cup Y)}} & = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X) + l(Y)}} \\
+        & = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(X)}} - \frac{1}{2^{l(X) + l(X)}} \\
+        & = \frac{2}{2^{l(X)}} - \frac{1}{2^{2l(X)}} \\
+        & = \frac{1}{2^{l(X)-1}} - \frac{1}{2^{2l(X)}}
+    \end{split}
+\end{equation}
+
+but
+
+\begin{equation}
+\frac{1}{2^{l(X)-1}} \gg \frac{1}{2^{2l(X)}}
+\end{equation}
+
+and
+
+\begin{equation}
+0 \approx \frac{1}{2^{2l(X)}}
+\end{equation}
+
+so
+
+\begin{equation} \label{eq_cont_1}
+\begin{split}
+\frac{1}{2^{l(X\cup Y)}} & \simeq \frac{1}{2^{l(X)-1}} \\
+\therefore l(X\cup Y) & \simeq l(X)-1 \\
+& \square
+\end{split}
+\end{equation}
+
+curi has slightly different logic and argues \(l(X\cup Y) \simeq 2l(X)\) which I think is reasonable. His argument means we get \(l(X) \simeq 2l(X)\). I don't think those steps are necessary but they are worth mentioning as a difference. I think \cref{eq_cont_1} is enough.
+
+I was curious about what happens when \(l(X) \neq l(Y)\). Let's assume the following:
+
+\begin{equation} \label{eq_len_ineq}
+\begin{split}
+l(X) & < l(Y) \\
+\therefore \frac{1}{2^{l(X)}} & \gg \frac{1}{2^{l(Y)}}
+\end{split}
+\end{equation}
+
+so, from \cref{eq_std_prob}
+
+\begin{equation} \label{eq_or_ineq}
+    \begin{split}
+P(X\cup Y) & = \frac{1}{2^{l(X)}} + \frac{1}{2^{l(Y)}} - \frac{1}{2^{l(X) + l(Y)}} \\
+\lim_{l(Y) \to \infty} P(X\cup Y) & = \frac{1}{2^{l(X)}} + \cancelto{0}{\frac{1}{2^{l(Y)}}} - \cancelto{0}{\frac{1}{2^{l(X) + l(Y)}}} \\
+\therefore P(X\cup Y) & \simeq \frac{1}{2^{l(X)}}
+    \end{split}
+\end{equation}
+
+by \cref{eq_or} and \cref{eq_or_ineq}
+
+\begin{equation} \label{eq_cont_2}
+    \begin{split}
+\frac{1}{2^{l(X\cup Y)}} & \simeq \frac{1}{2^{l(X)}} \\
+\therefore l(X\cup Y) & \simeq l(X) \\
+\Rightarrow l(Y) & \simeq 0
+    \end{split}
+\end{equation}
+
+but \cref{eq_len_ineq} says \(l(X) < l(Y)\) -- this contradicts \cref{eq_cont_2}. \(\blacksquare\)
+
+So there's an inconsistency regardless of whether \(l(X) = l(Y)\) or not.
+
+\end{document}
